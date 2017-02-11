@@ -61,6 +61,9 @@ p {
 		<p>A página que você procurou não existe.</p>
 		<h1><?php echo $heading; ?></h1>
 		<?php echo $message; ?>
+		<p><?php $actual_link = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
+			echo $actual_link;
+		?></p>
 	</div>
 </body>
 </html>
