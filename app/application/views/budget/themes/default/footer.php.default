@@ -1,0 +1,56 @@
+</div>
+<!-- /#wrapper -->
+
+<!-- jQuery -->
+<script src="<?= base_url() ?>assets/admin/js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="<?= base_url() ?>assets/admin/js/bootstrap.min.js"></script>
+
+<!-- Metis Menu Plugin JavaScript -->
+<script src="<?= base_url() ?>assets/admin/js/metisMenu.min.js"></script>
+
+<!-- DataTables JavaScript -->
+<script src="<?= base_url() ?>assets/admin/js/dataTables.min.js"></script>
+<script src="<?= base_url() ?>assets/admin/js/jquery.dataTables.min.js"></script>
+<script src="<?= base_url() ?>assets/admin/js/dataTables.bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="<?= base_url() ?>assets/admin/js/sb-admin-2.js"></script>
+
+<!-- Alertas modais -->
+<script src="<?= base_url() ?>assets/admin/js/eModal.min.js"></script>
+
+<!-- Script para Datepicker -->
+<script src="<?= base_url() ?>assets/budget/js/bootstrap-datepicker.min.js"></script>
+<script src="<?= base_url() ?>assets/budget/locales/bootstrap-datepicker.pt-BR.min.js"></script>
+
+<!-- Script para Select -->
+<script src="<?= base_url() ?>assets/budget/js/select2.min.js"></script>
+
+<!-- Script do APP -->
+<script src="<?= base_url() ?>assets/budget/js/account_lists.js"></script>
+
+<script>
+    $('.dropdown-toggle').dropdown();
+	$('#dataTables-example').DataTable({
+		responsive: true,
+		select:true
+	});
+	
+	$('#listaContasOrcamento').on('shown.bs.collapse', function () {
+		$('#agrupador').removeClass("fa-caret-right").addClass("fa-caret-down");
+	});
+
+	$('#listaContasOrcamento').on('hidden.bs.collapse', function () {
+		$('#agrupador').removeClass("fa-caret-down").addClass("fa-caret-right");
+	});
+	
+	$.fn.datepicker.defaults.format = "dd/mm/yyyy";
+	$.fn.datepicker.defaults.language = "pt-BR";
+	$.fn.datepicker.defaults.todayHighlight= true;
+</script>
+
+</body>
+
+</html>

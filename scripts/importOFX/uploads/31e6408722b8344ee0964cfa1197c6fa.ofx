@@ -1,0 +1,141 @@
+OFXHEADER:100
+DATA:OFXSGML
+VERSION:102
+SECURITY:NONE
+ENCODING:USASCII
+CHARSET:1252
+COMPRESSION:NONE
+OLDFILEUID:NONE
+NEWFILEUID:NONE
+
+<OFX>
+    <SIGNONMSGSRSV1>
+        <SONRS>
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <DTSERVER>20161128181347[-3:GMT]
+            <LANGUAGE>ENG
+            <FI>
+                <ORG>SANTANDER
+                <FID>SANTANDER
+            </FI>
+        </SONRS>
+    </SIGNONMSGSRSV1>
+    <BANKMSGSRSV1>
+        <STMTTRNRS>
+            <TRNUID>1
+            <STATUS>
+                <CODE>0
+                <SEVERITY>INFO
+            </STATUS>
+            <STMTRS>
+                <CURDEF>BRL
+                <BANKACCTFROM>
+                    <BANKID>033
+                    <ACCTID>0024010271142
+                    <ACCTTYPE>CHECKING
+                </BANKACCTFROM>
+                <BANKTRANLIST>
+                    <DTSTART>20161128181347[-3:GMT]
+                    <DTEND>20161128181347[-3:GMT]
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20161101000000[-3:GMT]
+                        <TRNAMT>            130,00
+                        <FITID>00074401
+                        <CHECKNUM>00074401
+                        <PAYEEID>0
+                        <MEMO>DEPOSITO EM DINHEIRO NO ATM                                 
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20161110000000[-3:GMT]
+                        <TRNAMT>            -19.90
+                        <FITID>00032811
+                        <CHECKNUM>00032811
+                        <PAYEEID>0
+                        <MEMO>TARIFA MENSALIDADE PACOTE SERVICOS  OUTUBRO / 2016          
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20161110000000[-3:GMT]
+                        <TRNAMT>              0.07
+                        <FITID>00042811
+                        <CHECKNUM>00042811
+                        <PAYEEID>0
+                        <MEMO>REMUNERACAO CONTAMAX CDB DI                                 
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20161114000000[-3:GMT]
+                        <TRNAMT>           2992,00
+                        <FITID>00011114
+                        <CHECKNUM>00011114
+                        <PAYEEID>0
+                        <MEMO>LIQUIDO DE VENCIMENTO              CNPJ 061074829000123     
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20161114000000[-3:GMT]
+                        <TRNAMT>            -60,00
+                        <FITID>00510628
+                        <CHECKNUM>00510628
+                        <PAYEEID>0
+                        <MEMO>SAQUE NO ATM INTERAGENCIA                                   
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20161124000000[-3:GMT]
+                        <TRNAMT>            -20,00
+                        <FITID>00072811
+                        <CHECKNUM>00072811
+                        <PAYEEID>0
+                        <MEMO>DEBITO AUT.  FATURA CARTAO VISA    FINAL 4706               
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20161124000000[-3:GMT]
+                        <TRNAMT>              0.09
+                        <FITID>00082811
+                        <CHECKNUM>00082811
+                        <PAYEEID>0
+                        <MEMO>REMUNERACAO CONTAMAX CDB DI                                 
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20161125000000[-3:GMT]
+                        <TRNAMT>           8449.17
+                        <FITID>00011125
+                        <CHECKNUM>00011125
+                        <PAYEEID>0
+                        <MEMO>LIQUIDO DE VENCIMENTO              CNPJ 061074829000123     
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20161128000000[-3:GMT]
+                        <TRNAMT>          -9500,00
+                        <FITID>00102811
+                        <CHECKNUM>00102811
+                        <PAYEEID>0
+                        <MEMO>TED MESMA TITULARIDADE STR         102-0001-000000401261    
+                    </STMTTRN>
+                    <STMTTRN>
+                        <TRNTYPE>OTHER
+                        <DTPOSTED>20161128000000[-3:GMT]
+                        <TRNAMT>           1187.72
+                        <FITID>00112811
+                        <CHECKNUM>00112811
+                        <PAYEEID>0
+                        <MEMO>TED RECEBIDA DIF TITULARIDADE STR  ABB LTDA                 
+                    </STMTTRN>
+                </BANKTRANLIST>
+                <LEDGERBAL>
+                    <BALAMT>           3347.22
+                    <DTASOF>20161128181347[-3:GMT]
+                </LEDGERBAL>
+            </STMTRS>
+        </STMTTRNRS>
+    </BANKMSGSRSV1>
+</OFX>
