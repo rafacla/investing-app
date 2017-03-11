@@ -7,8 +7,8 @@
 
 			$this->load->database();
 
-			$this->tbItens = "transacoesitens";
-			$this->tbTransacoes = "transacoes";
+			$this->tbItens = "bud_transacoesitens";
+			$this->tbTransacoes = "bud_transacoes";
 			$this->vwAccounts = "vw_accounts";
 		}
 
@@ -68,7 +68,7 @@
 			$data['modified'] = date('Y-m-d H:i:s');
 
 			$this->db->where($this->primary_key, $id);
-			return $this->db->update('transacoes', $data);
+			return $this->db->update('bud_transacoes', $data);
 		}
 
 		public function delete($id) {

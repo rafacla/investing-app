@@ -102,7 +102,7 @@ class Budgets extends Admin_Controller {
 			$data['ordem']=$query->row(0)->max_ordem+1;
 			$data['created'] =  date("Y-m-d H:i:s");
 			$data['modified'] =  date("Y-m-d H:i:s");
-			$this->db->insert('categorias', $data);
+			$this->db->insert('bud_categorias', $data);
 		}
 		header("Location: ".$this->input->post('url'));
 		die();
@@ -122,7 +122,7 @@ class Budgets extends Admin_Controller {
 			$data['nome']=$this->input->post('categoria');
 			$data['modified'] =  date("Y-m-d H:i:s");
 			$this->db->where('id',$this->input->post('categoriagrupo_id'));
-			$this->db->update('categorias', $data); 
+			$this->db->update('bud_categorias', $data); 
 		}
 		header("Location: ".$this->input->post('url'));
 		die();
@@ -133,17 +133,17 @@ class Budgets extends Admin_Controller {
 			if ($this->input->post('categoriaitem_id')==0) {
 				$data['nome']=$this->input->post('categoria');
 				$data['catmaster_id']=$this->input->post('categoriagrupo_id');
-				$sql1 = "SELECT max(ordem) as max_ordem FROM `categoriasitens` WHERE catmaster_id='" . $data['catmaster_id'] . "'";
+				$sql1 = "SELECT max(ordem) as max_ordem FROM `bud_categoriasitens` WHERE catmaster_id='" . $data['catmaster_id'] . "'";
 				$query = $this->db->query($sql1);
 				$data['ordem']=$query->row(0)->max_ordem+1;
 				$data['created'] =  date("Y-m-d H:i:s");
 				$data['modified'] =  date("Y-m-d H:i:s");
-				$this->db->insert('categoriasitens', $data);
+				$this->db->insert('bud_categoriasitens', $data);
 			} else {
 				$data['nome']=$this->input->post('categoria');
 				$data['modified'] =  date("Y-m-d H:i:s");
 				$this->db->where('id',$this->input->post('categoriaitem_id'));
-				$this->db->update('categoriasitens', $data); 
+				$this->db->update('bud_categoriasitens', $data); 
 			}
 		}
 		header("Location: ".$this->input->post('url'));
@@ -171,16 +171,16 @@ class Budgets extends Admin_Controller {
 			else 
 				$data['valor'] = 0;
 			
-			$sql1 = "SELECT `id` FROM `budgets` WHERE (`date`='" . $data['date'] . "' AND `categoriaitem_id`='". $data['categoriaitem_id'] . "')";
+			$sql1 = "SELECT `id` FROM `bud_budgets` WHERE (`date`='" . $data['date'] . "' AND `categoriaitem_id`='". $data['categoriaitem_id'] . "')";
 			$query = $this->db->query($sql1);
 			
 			
 			if ($query->num_rows() > 0) {
 				$where = array('id' => $query->row(0)->id);
-				$this->db->update('budgets', $data, $where);
+				$this->db->update('bud_budgets', $data, $where);
 				
 			} else {
-				$this->db->insert('budgets', $data);
+				$this->db->insert('bud_budgets', $data);
 			}			
 			var_dump($query);
 			var_dump($data);

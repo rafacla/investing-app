@@ -4,7 +4,7 @@
 
 			public function __construct() {
 				parent::__construct();
-				$this->table_name = 'categoriasitens';
+				$this->table_name = 'bud_categoriasitens';
 			}
 		}
 		

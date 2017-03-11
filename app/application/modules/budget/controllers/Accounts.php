@@ -73,7 +73,7 @@ class Accounts extends Admin_Controller {
 	public function editaConciliado() {
 		$data['conciliado'] = $this->input->post('conciliado');
 		$where = "id = " .  $this->input->post('transacaoID');
-		$sql = $this->db->update_string('transacoes', $data, $where);
+		$sql = $this->db->update_string('bud_transacoes', $data, $where);
 		$this->db->query($sql);
 	}
 	
@@ -96,14 +96,14 @@ class Accounts extends Admin_Controller {
 			$resposta = array();
 			if ($this->input->post('transacaoID')) {
 				$where = "id = " .  $this->input->post('transacaoID');
-				$sql = $this->db->update_string('transacoes', $data, $where);
+				$sql = $this->db->update_string('bud_transacoes', $data, $where);
 				$transacaoID = $this->input->post('transacaoID');
 				$this->db->query($sql);
 				$id = $transacaoID;
 				array_push($resposta,$transacaoID);
 			} else {
 				$data['created'] =  date("Y-m-d H:i:s");
-				$sql = $this->db->insert_string('transacoes', $data);
+				$sql = $this->db->insert_string('bud_transacoes', $data);
 				$this->db->query($sql);
 				$id = $this->db->insert_id();
 				$transacaoID = $id;
@@ -123,13 +123,13 @@ class Accounts extends Admin_Controller {
 				if ($this->input->post('tritem_id')) {
 					$subwhere = "id = " . $this->input->post('tritem_id');
 					$subData['modified'] = date("Y-m-d H:i:s");
-					$subsql = $this->db->update_string('transacoesitens',$subData,$subwhere);
+					$subsql = $this->db->update_string('bud_transacoesitens',$subData,$subwhere);
 					$this->db->query($subsql);
 					array_push($aTritem_ID,$this->input->post('tritem_id'));
 				} else {
 					$subData['created'] = date("Y-m-d H:i:s");
 					$subData['modified'] = date("Y-m-d H:i:s");
-					$subsql = $this->db->insert_string('transacoesitens',$subData);
+					$subsql = $this->db->insert_string('bud_transacoesitens',$subData);
 					$this->db->query($subsql);
 					array_push($aTritem_ID,$this->db->insert_id());
 				}
@@ -156,13 +156,13 @@ class Accounts extends Admin_Controller {
 					if ($this->input->post('tritem_id_' . $i)) {
 						$subwhere = "id = " . $this->input->post('tritem_id_' . $i);
 						$subData['modified'] = date("Y-m-d H:i:s");
-						$subsql = $this->db->update_string('transacoesitens',$subData,$subwhere);
+						$subsql = $this->db->update_string('bud_transacoesitens',$subData,$subwhere);
 						$this->db->query($subsql);
 						array_push($aTritem_ID,$this->input->post('tritem_id_' . $i));
 					} else {
 						$subData['created'] = date("Y-m-d H:i:s");
 						$subData['modified'] = date("Y-m-d H:i:s");
-						$subsql = $this->db->insert_string('transacoesitens',$subData);
+						$subsql = $this->db->insert_string('bud_transacoesitens',$subData);
 						$this->db->query($subsql);
 						array_push($aTritem_ID,$this->db->insert_id());
 					}
@@ -177,7 +177,7 @@ class Accounts extends Admin_Controller {
 			if (count($tritens)) {
 				foreach ($tritens as $key => $list) {
 					if (!in_array($list['tritem_id'],$aTritem_ID)) {
-						$this->db->delete('transacoesitens', array('id' => $list['tritem_id']));
+						$this->db->delete('bud_transacoesitens', array('id' => $list['tritem_id']));
 					}
 				}
 			}
@@ -189,8 +189,8 @@ class Accounts extends Admin_Controller {
 	
 	public function deletaTransacao() {
 		if (intval($this->input->post('trid'))!=0) {
-			$this->db->delete('transacoesitens', array('transacao_id' => intval($this->input->post('trid'))));
-			$this->db->delete('transacoes', array('id' => intval($this->input->post('trid'))));
+			$this->db->delete('bud_transacoesitens', array('transacao_id' => intval($this->input->post('trid'))));
+			$this->db->delete('bud_transacoes', array('id' => intval($this->input->post('trid'))));
 		}
 	}
 	
@@ -232,16 +232,18 @@ class Accounts extends Admin_Controller {
 					$data['created'] =  date("Y-m-d H:i:s");
 					$data['modified'] =  date("Y-m-d H:i:s");
 					$data['tranNum'] =  $list['uniqueId'] . $data['sacado_nome'] . $this->profile->id;
-					$sql = $this->db->insert_string('transacoes',$data) . " ON DUPLICATE KEY UPDATE tranNum=tranNum";
+					$sql = $this->db->insert_string('bud_transacoes',$data) . " ON DUPLICATE KEY UPDATE tranNum=tranNum";
 					$this->db->query($sql);
 					if ($this->db->insert_id())
 						$countInserido++;
 				}
 			}
 			header("refresh:3; url=" . $this->input->post('old_url'));
-			echo "<p>Inseridas: " . $countInserido . " transações de um total de" . count($ofx["statement"]["transactions"]) . ".</p>";
+			echo "<html><body>";
+			echo "<p>Inseridas: " . $countInserido . " transações de um total de " . count($ofx["statement"]["transactions"]) . ".</p>";
 			echo "<p>Transações repetidas foram ignoradas.</p>";
 			echo "<p>Redirecionando em 2s.</p>";
+			echo "</html></body>";
 			die();
 		}
 	}
