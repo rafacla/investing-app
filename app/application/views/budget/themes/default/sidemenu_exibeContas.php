@@ -1,4 +1,4 @@
-	<div width="100%">
+	<div>
 		<table class="listaContas">
 			<tr>
 				<td class="listaContas nome" style="padding:0px;">
