@@ -34,7 +34,7 @@ class Contas extends Admin_Controller {
 			$data['created'] = date("Y-m-d H:i:s");
 			$data['modified'] = $data['created'];
 			$data['budget']=1;
-			$this->db->insert('contas', $data);
+			$this->db->insert('bud_contas', $data);
 			//agora vamos criar a transação inicial:
 			$dataTr['conta_id'] = $this->db->insert_id();
 			$dataTr['data'] = date("Y-m-d H:i:s");
@@ -44,14 +44,14 @@ class Contas extends Admin_Controller {
 			$dataTr['aprovado'] = 1;
 			$dataTr['created'] = $data['created']; 
 			$dataTr['modified'] = $data['created'];
-			$this->db->insert('transacoes', $dataTr);
+			$this->db->insert('bud_transacoes', $dataTr);
 			//item inicial
 			$dataTrItem['categoria_id'] = 1;
 			$dataTrItem['transacao_id'] = $this->db->insert_id();
 			$dataTrItem['valor'] = $dataTr['valor'];
 			$dataTrItem['created'] = $data['created'];
 			$dataTrItem['modified'] = $data['created'];
-			$this->db->insert('transacoesitens', $dataTrItem);
+			$this->db->insert('bud_transacoesitens', $dataTrItem);
 		}
 		header("Location: ".$this->input->post('url'));
 		die();

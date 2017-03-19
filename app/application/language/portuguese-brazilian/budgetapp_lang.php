@@ -1,22 +1,24 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 //Sidemenu
-$lang['sidemenu_profile_change'] 	= 'Trocar Livro';
+$lang['sidemenu_profile_change'] 	= 'Trocar perfil';
 $lang['sidemenu_profile_newbegin'] 	= 'Novo começo';
 $lang['sidemenu_profile_edit'] 		= 'Idioma/senha';
 $lang['sidemenu_profile_logout'] 	= 'Logout';
 
-$lang['sidemenu_links_accounts'] 	= 'Todas as contas';
-$lang['sidemenu_links_budgets'] 	= 'Orçamento';
+$lang['sidemenu_links_accounts'] 	= 'Ver todas as contas';
+$lang['sidemenu_links_budgets'] 	= 'Orçamento e gastos';
 
-$lang['sidemenu_accounts_summary'] 	= 'Contas:';
+$lang['sidemenu_accounts_summary'] 	= 'Contas correntes:';
 $lang['sidemenu_accounts_add'] 		= 'Adicionar';
 
 //Profiles open
-$lang['profiles_select_heading'] 		= 'Selecione um livro de orçamentos para continuar:';
-$lang['profiles_select_noresults'] 		= 'Nenhum livro de orçamentos criados!';
-$lang['profiles_create_heading'] 		= 'Ou crie um novo:';
-$lang['profiles_create_placeholder'] 	= 'Nome do livro';
+$lang['profiles_select_heading'] 		= 'Seja bem vindo ao MIMV - Meus Investimentos';
+$lang['profiles_select_heading2'] 		= 'Selecione um perfil para continuar';
+$lang['profiles_select_description'] 	= 'Uma única conta permite você criar vários perfis para cada conjunto de contas ou investimentos diferentes você desejar.';
+$lang['profiles_select_noresults'] 		= 'Nenhum perfil de orçamentos criados!';
+$lang['profiles_create_heading'] 		= 'Ou crie um perfil:';
+$lang['profiles_create_placeholder'] 	= 'Nome do perfil';
 $lang['profiles_create_submit']		 	= 'Criar novo!';
 
 //Accounts controller

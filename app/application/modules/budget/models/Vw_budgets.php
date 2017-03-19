@@ -33,6 +33,31 @@
 			$Q->next_result();
 			return $data;
 		}
+		
+		public function get_receitas($profile_id,$mesano='') {
+			$data = array();
+			if ($mesano=='') {
+				$mes = date("m");
+				$ano = date("Y");
+			} else {
+				$mes = substr($mesano,4,2);
+				$ano = substr($mesano,0,4);
+			}
+			
+			$sql = "call GetReceitaAjustada('".$mes."','".$ano."','".$profile_id."')";
+			//var_dump($sql);
+			$Q = $this->db->query($sql);
+			
+
+			if ($Q->num_rows() > 0) {
+				foreach ($Q->result_array() as $row) {
+					$data[] = $row;
+				}
+			}
+			$Q->free_result();
+			$Q->next_result();
+			return $data;
+		}
 
 		public function get_all($fields = '', $where = array(), $table ='vw_budgets',$limit = '', $order_by = '', $group_by = '', $or_where='') {
 			$data = array();

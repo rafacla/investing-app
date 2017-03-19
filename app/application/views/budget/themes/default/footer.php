@@ -62,6 +62,8 @@
   	jQuery(function($) {
       	$('input.valor').autoNumeric('init',{aSep: '', aSign: '', vMin: '-999999999.99'});    
   	});
+	
+	$('#side-menu').metisMenu({ toggle: false });
 
 </script>
 <!-- Modal -->

@@ -97,7 +97,7 @@
 							<td class="orcado"><input type="text" class="valor" name="orcado" id="orcado" data-budgetID="<?=$list['categoriaitem_id']?>" value="<?=($list['budgetMes']=="") ? 0 : $list['budgetMes'] ?>"></td>
 							<td class="gasto"><?=number_format(($list['gastoMes']=="" ? 0 : -$list['gastoMes']), 2, '.', ''); ?></td>
 							<?php
-								$valDisp=floatval($list['Disponivel']-$list['DespForaOrc']);
+								$valDisp=floatval($list['Disponivel']);
 							?>
 							<td class="disponivel"><span class="<?=( $valDisp < 0 ? "menorZero" : ($valDisp  > 0 ? "maiorZero" : "zero"))?>" id="disp_<?=$list['categoriaitem_id']?>"><?=number_format($valDisp, 2, '.', '')?></span></td>
 						</tr>

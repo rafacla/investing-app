@@ -13,7 +13,9 @@ $lang['sidemenu_accounts_summary'] = 'Accounts:';
 $lang['sidemenu_accounts_add'] = 'Add';
 
 //Profiles open
-$lang['profiles_select_heading'] 		= 'Select a profile to continue:';
+$lang['profiles_select_heading'] 		= 'Welcome to MIMV - My finances APP';
+$lang['profiles_select_heading2'] 		= 'Select a profile to continue:';
+$lang['profiles_select_description'] 	= 'One account allows you to create profiles to different sets of accounts or scenarios you desire.';
 $lang['profiles_select_noresults'] 		= 'No profile has been found.';
 $lang['profiles_create_heading'] 		= 'Or create a new one:';
 $lang['profiles_create_placeholder'] 	= 'Profile name';

@@ -22,8 +22,8 @@
 			<?php endif; ?>
 			</table>
 		</div>
-		<div width="100%" align="right" style="padding:5px">
-			<a data-toggle="modal" href="#adicionaConta" id="btImport" class="btn btn-primary btn-xs" style="align:right"><i class="fa fa-plus-circle"></i> <?=lang('sidemenu_accounts_add');?></a>
+		<div width="100%" style="padding:5px" align="right">
+			<a data-toggle="modal" href="#adicionaConta" id="btImport" class="btn btn-primary btn-xs" style="color:#fff"><i class="fa fa-plus-circle"></i> <?=lang('sidemenu_accounts_add');?></a>
 		</div>
 	</div>
 	

@@ -33,7 +33,7 @@
 	</div>
 	<!-- /.navbar-header -->
 
-	<ul class="nav navbar-top-links fundoNavBar-vertical" style="margin-left:260px">
+	<ul class="nav navbar-top-links fundoNavBar-vertical">
 		<div class="tipDireita">
 			<span><?php echo $contaNome; ?></span>
 		</div>

@@ -67,6 +67,7 @@ $route['change_language'] = 'auth/change_language';
 $route['profiles'] = 'budget/profiles';	
 $route['profiles/create'] = 'budget/profiles/create';	
 $route['profiles/abreProfile/(:any)'] = 'budget/profiles/abreprofile/$1';
+$route['profiles/deletaProfile/(:any)'] = 'budget/profiles/deletaprofile/$1';
 //criaConta
 $route['criaConta'] = 'budget/contas/criaConta/$1';
 //classe accounts

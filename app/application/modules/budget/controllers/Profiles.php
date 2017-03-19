@@ -47,6 +47,18 @@ class Profiles extends MY_Controller {
 		redirect($profile_uid.'/accounts', 'refresh');
 	}
 	
+	public function deletaprofile($profile_uid) {
+		$user = $this->ion_auth->user()->row();
+		$thisprofile = $this->profile->get_all('',array('uniqueid' => intval($profile_uid)));
+		if($thisprofile[0]['user_id'] == $user->id) {
+			$this->profile->delete($thisprofile[0]['id']);
+			redirect('/profiles', 'refresh');
+			die();
+		}
+		die("Uusário inválido.");
+		redirect($profile_uid.'/profiles', 'refresh');
+	}
+	
 	public function create() {
 		$user = $this->ion_auth->user()->row();
 		$data['user_id'] = $user->id;
@@ -72,7 +84,7 @@ class Profiles extends MY_Controller {
 					$datagrupo['ordem'] = $k;
 					$datagrupo['created'] =  date("Y-m-d H:i:s");
 					$datagrupo['modified'] =  date("Y-m-d H:i:s");
-					$this->db->insert('categorias',$datagrupo);
+					$this->db->insert('bud_categorias',$datagrupo);
 					$categoriagrupo_id = $this->db->insert_id();
 					$categoriagrupo = $list['grupo'];
 					$k++;
@@ -82,7 +94,7 @@ class Profiles extends MY_Controller {
 				$datacategoria['ordem'] = $i;
 				$datacategoria['created'] =  date("Y-m-d H:i:s");
 				$datacategoria['modified'] =  date("Y-m-d H:i:s");
-				$this->db->insert('categoriasitens',$datacategoria);
+				$this->db->insert('bud_categoriasitens',$datacategoria);
 				$i++;
 			}
 		}

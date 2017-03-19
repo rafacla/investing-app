@@ -1,5 +1,5 @@
 html, body {
-    background-color: #f8f8f8;
+    background-color: #fcfcfc;
 	height: 100vh;
 	position:fixed;
 	padding-top: 25px;
@@ -11,17 +11,17 @@ html, body {
 
 #page-wrapper {
     padding: 0 0px;
-    background-color: #fff;
 	margin: 0 0 0 270px;
 	padding: 0 0px;
 	border-left: 1px solid #e7e7e7;
-	height: calc(100vh - 67px);
+	height: calc(100vh - 140px);
 	position:relative;
 }
 
 .fixed-table-container {
     border:0px !important;
 }
+
 
 .navbar-top-links {
     margin-right: 0;
@@ -76,6 +76,10 @@ html, body {
     margin-left: -123px;
 }
 
+.navbar-inverse .nav-divider {
+	background-color: #474b57;
+}
+
 /*
 Menu lateral
 */
@@ -84,18 +88,30 @@ Menu lateral
 	position: absolute;
 	width: 270px;
 	margin-top: 50px;
-	height: 100vh;
+	height: calc(100vh - 50px);
 	overflow-y:auto;
-	background-color: rgb(34, 34, 34);
+	background-color: rgb(54, 54, 54);
 }
 
 .sidebar tr a,
 .sidebar li a {
-	color: rgb(157, 157, 157)!important;
+	color: rgb(187, 187, 187);
 }
 
+.sidebar li a.active {
+	border-left-color: rgb(20, 78, 116);
+	border-left-width: 3px;
+	border-left-style: solid;
+}
+
+.sidebar li.active {
+	background-color: rgb(20, 78, 116);
+	color: #fff!important;
+}
+
+.sidebar a:focus,
 .sidebar a:hover {
-	background-color: #000!important;
+	background-color: rgb(34, 34, 34)!important;
 	color: #fff!important;
 }
 
@@ -104,8 +120,8 @@ Menu lateral
     padding-left: 0;
 } 
 
-.sidebar ul li a.active {
-    background-color: #eee;
+.sidebar ul li a:active {
+    background-color: #000;
 }
 
 .sidebar .arrow {
@@ -126,7 +142,11 @@ Menu lateral
 }
 
 .sidebar .nav-second-level li a {
-    padding-left: 37px;
+	padding: 2px!important;
+}
+
+.sidebar .nav-second-level li {
+    margin-left: 37px;
 }
 
 .sidebar .nav-third-level li a {
@@ -367,18 +387,14 @@ Menu lateral
 }
 
 .fundoNavBar {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#606c88+0,3f4c6b+100;Grey+3D+%232 */
-	background: rgb(96,108,136); /* Old browsers */
-	background: -moz-linear-gradient(top,  rgba(96,108,136,1) 0%, rgba(63,76,107,1) 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
-	height: 67px;
+	background-color: rgb(38, 92, 136);
+	height: 67px; 
 }
 
 .fundoNavBar .fundoNavBar-vertical {
 	position: absolute;
 	top: -10%;
+	margin-left: 275px;
 }
 
 .input_account {
@@ -396,7 +412,7 @@ Menu lateral
 }
 
 .tabela {
-	height:(100vh-67px);
+	height:(100vh-140px)!important;
 	position:relative;
 }
 
@@ -658,7 +674,7 @@ Menu lateral
 }
 
 .fixed-table-container {
-	height: calc(100vh - 120px)!important;
+	height: calc(100vh - 170px)!important;
 }
 
 #tbTransacoes tr td {
@@ -898,7 +914,7 @@ overflow-y: hidden;
 
 .budgetMenuDireito {
 	width: calc(40vw - 270px);
-	height: calc(100vh - 67px - 30px);
+	height: calc(100vh - 120px - 30px);
 	position:absolute;
 	right:0;
 	top:0;
@@ -913,7 +929,7 @@ overflow-y: hidden;
 }
 
 .budgetMenuDireito #panelGastos {
-	height: calc(100vh - 67px - 30px - 230px);
+	height: calc(100vh - 120px - 30px - 230px);
 }
 
 #panelGastos #resultados {

@@ -22,7 +22,8 @@ class Budgets extends Admin_Controller {
 			} else {
 				$anoant = substr($mes,0,4);
 			}
-			$mesano_ant = $anoant.$mesant;
+			
+			$mesano_ant = sprintf('%04d',$anoant).sprintf('%02d',$mesant);
 			return $mesano_ant;
 		}
 		
@@ -77,8 +78,9 @@ class Budgets extends Admin_Controller {
 			
 			//$data['SaldoMesAnterior'] = $receitaAnterior-$budgetAnterior;
 			
-			$budgets_ant = $this->vw_budgets->get_all_bymes($profile_uid,$mesano_ant);
-			$data['sobreGastoMesAnterior'] = array_sum(array_column($budgets_ant,'DespForaOrc'));
+			$budgets_ant = $this->vw_budgets->get_receitas($profile_uid,$mesano);
+			
+			$data['sobreGastoMesAnterior'] = (-1)*array_sum(array_column($budgets_ant,'Sobregasto'));
 			
 			$budgets = $this->vw_budgets->get_all_bymes($profile_uid,$mesano);
 			$data['budgetMes'] = array_sum(array_column($budgets,'budgetMes'));

@@ -1,5 +1,7 @@
 <div class="container">
-   <h3><?=lang('profiles_select_heading');?></h3> 
+	<h2><?=lang('profiles_select_heading');?></h2> 
+	<p><?=lang('profiles_select_description');?></p> 
+   <h3><?=lang('profiles_select_heading2');?></h3> 
 	<?php if (count($profiles)): ?>
 		<div class="row">
 		<?php foreach ($profiles as $key => $list): ?>
