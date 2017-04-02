@@ -70,7 +70,6 @@ class MY_Model extends CI_Model {
     public function insert($data) {
         $data['date_created'] = $data['date_updated'] = date('Y-m-d H:i:s');
         $data['created_from_ip'] = $data['updated_from_ip'] = $this->input->ip_address();
-
         $success = $this->db->insert($this->table_name, $data);
         if ($success) {
             return $this->db->insert_id();

@@ -88,7 +88,7 @@
 								<li>
 									<a href="#"><i class="fa fa-university fa-fw"></i> Contas e cartões<span class="fa arrow"></span></a>
 									<ul class="nav nav-second-level collapse in">
-										<li><a href="<?= base_url($this->profile->uniqueid.'/accounts') ?>"><?=lang('sidemenu_links_accounts');?></a></li>
+										<!--<li><a href="<?= base_url($this->profile->uniqueid.'/accounts') ?>"><?=lang('sidemenu_links_accounts');?></a></li>-->
 										<li>
 											<?php $this->load->view($this->config->item('ci_budget_template_dir_admin') . 'sidemenu_exibeContas'); ?>
 										</li>
@@ -100,7 +100,7 @@
 									<a href="#"><i class="fa fa-pie-chart fa-fw"></i> Orçamentos e Gastos<span class="fa arrow"></span></a>
 									<ul class="nav nav-second-level collapse in">
 										<li><a href="<?= base_url($this->profile->uniqueid.'/budget') ?>"><?=lang('sidemenu_links_budgets');?></a></li>
-										<li><a href="<?= base_url($this->profile->uniqueid.'/budget') ?>">Gráfico: orçado vs gasto (mês)</a></li>
+										<li><a href="<?= base_url($this->profile->uniqueid.'/budget/chartMonth') ?>">Gráfico: orçado vs gasto (mês)</a></li>
 									</ul>
 									<!-- /.nav-second-level -->
 								</li>
@@ -108,8 +108,16 @@
 								<li>
 									<a href="#"><i class="fa fa-line-chart fa-fw"></i> Investimentos<span class="fa arrow"></span></a>
 									<ul class="nav nav-second-level collapse in">
+										<li><a href="<?=base_url($this->profile->uniqueid.'/corretoras') ?>">Corretoras</a></li>
 										<li><a href="<?=base_url($this->profile->uniqueid.'/desenvolvimento') ?>">Tesouro direto</a></li>
-										<li><a href="<?=base_url($this->profile->uniqueid.'/desenvolvimento') ?>">Ações</a></li>
+										<li>
+											<a href="#">Ações<span class="fa arrow"></span></a>
+											<ul class="nav nav-third-level collapse in">
+												<li><a href="<?=base_url($this->profile->uniqueid.'/acoes/notas') ?>">Notas</a></li>
+												<li><a href="<?=base_url($this->profile->uniqueid.'/acoes/custodia') ?>">Custódia</a></li>
+												<li><a href="<?=base_url($this->profile->uniqueid.'/acoes/resultados') ?>">Res. Pos. Encerradas</a></li>
+											</ul>											
+										</li>
 										<li><a href="<?=base_url($this->profile->uniqueid.'/desenvolvimento') ?>">Opções</a></li>
 										<li><a href="<?=base_url($this->profile->uniqueid.'/desenvolvimento') ?>">Fundos de investimentos</a></li>
 										<li><a href="<?=base_url($this->profile->uniqueid.'/desenvolvimento') ?>">Poupança</a></li>

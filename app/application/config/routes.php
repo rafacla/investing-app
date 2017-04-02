@@ -82,9 +82,20 @@ $route['(:any)/budget/editaCategoriaGrupo'] = 'budget/budgets/editaCategoriaGrup
 $route['(:any)/budget/adicionaCategoriaGrupo'] = 'budget/budgets/adicionaCategoriaGrupo';
 $route['(:any)/budget/adicionaCategoriaItem'] = 'budget/budgets/adicionaCategoriaItem';
 $route['alteraBudget'] = 'budget/budgets/alteraBudget';
+$route['(:any)/budget/chartMonth'] = 'budget/budgets/chartMonth/$1';
 $route['(:any)/budget'] = 'budget/budgets/index/$1';
 $route['(:any)/budget/(:any)'] = 'budget/budgets/index/$1/$2';
 $route['listaGastos'] = 'budget/budgets/listaGastos';
+//corretoras:
+$route['(:any)/corretoras'] = 'acoes/Corretoras/index/$1';
+$route['(:any)/corretoras/add'] = 'acoes/Corretoras/add/$1';
+$route['(:any)/corretoras/edit/(:any)'] = 'acoes/Corretoras/edit/$1/$2';
+$route['(:any)/corretoras/delete/(:any)'] = 'acoes/Corretoras/delete/$1/$2';
+//acoes:
+$route['(:any)/acoes/resultados'] = 'acoes/AcoesResultados/index/$1';
+  //notas
+  $route['(:any)/acoes/notas/(:any)'] = 'acoes/AcoesNotas/index/$1/$2';
+  $route['(:any)/acoes/notas'] = 'acoes/AcoesNotas/index/$1';
 /*
 $route['budget'] = 'budget/admin';
 $route['budget/dashboard'] = 'budget/admin';

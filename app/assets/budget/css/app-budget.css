@@ -161,6 +161,7 @@ Menu lateral
 
 .listaContas {
 	width: 100%;
+	font-size: 0.98em;
 }
 
 .listaContas tr:hover {
@@ -902,6 +903,15 @@ overflow-y: hidden;
 	padding: 5px 5px 5px 15px;
 	border-bottom:1px;
 	height:30px
+}
+
+.conteudo {
+	padding-left: 25px;
+	padding-right:20px;
+	width: calc(100vw - 270px);
+	height: calc(100vh - 50px);
+	overflow-y:auto;
+	overflow-x:hidden;
 }
 
 .budgetConteudo {

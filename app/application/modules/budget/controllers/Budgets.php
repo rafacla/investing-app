@@ -189,4 +189,27 @@ class Budgets extends Admin_Controller {
 			var_dump($where);
 		}
 	}
+	
+	public function chartMonth($profile_uid) {
+		for ($i=0;$i<6;$i++) {
+			$datas[$i] = date("Y-m-d",strtotime("-".(5-$i)." month"));
+			$categorias[$i] = date_format(date_create($datas[$i]),'ym');
+			$getReceita = $this->vw_budgets->get_receitas($profile_uid,date_format(date_create($datas[$i]),'Ym'));
+			$receitas[$i] = array_sum(array_column($getReceita,'Receita'));
+			$despesas[$i] = (-1)*array_sum(array_column($getReceita,'DespMes'));
+			$patrimonio[$i] = array_sum(array_column($getReceita,'Patrimonio'));
+		}
+		//$receitas = array("2000", "3000","2500","1701","1702","1703");
+		//$despesas = array("1610", "1611","1612","1701","1702","1703");
+		//$patrimonio = array("1610", "1611","1612","1701","1702","1703");
+		
+		$data['categorias'] = $categorias;
+		$data['receitas'] = $receitas;
+		$data['despesas'] = $despesas;
+		$data['patrimonio'] = $patrimonio;
+		
+		$data['page'] = $this->config->item('ci_budget_template_dir_admin') . "budgets_chart_month";
+			
+		$this->load->view($this->_container, $data);
+	}
 }

@@ -6,7 +6,7 @@ $lang['sidemenu_profile_newbegin'] 	= 'Novo começo';
 $lang['sidemenu_profile_edit'] 		= 'Idioma/senha';
 $lang['sidemenu_profile_logout'] 	= 'Logout';
 
-$lang['sidemenu_links_accounts'] 	= 'Ver todas as contas';
+$lang['sidemenu_links_accounts'] 	= 'Todas contas';
 $lang['sidemenu_links_budgets'] 	= 'Orçamento e gastos';
 
 $lang['sidemenu_accounts_summary'] 	= 'Contas correntes:';

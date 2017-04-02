@@ -12,7 +12,7 @@ class Database
 		self::$servername = "localhost";
 		self::$username = "root";
 		self::$password = "";
-		self::$database = "app-investing_r0";
+		self::$database = "app-inv_r0";
 		//self::$username = "dbrafacla";
 		//self::$password = "HGK_SP\$FBLg#";
 		//self::$database = "app-database";
