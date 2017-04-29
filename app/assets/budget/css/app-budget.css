@@ -1013,3 +1013,40 @@ overflow-y: hidden;
 .valores {
 	text-align: right;
 }
+
+.select2-container {
+  width:100%;   
+  height:38px;
+}
+ 
+.select2-container a.select2-choice {
+  font-size: 14px;
+  height: 38px;
+  padding: 8px 12px;
+  line-height: 1.42857;
+}
+ 
+.select2-container .select2-choice .select2-arrow {
+  padding-top:6px;
+}
+
+.select2-selection {
+	height:33px!important;
+	border-color: rgb(204, 204, 204)!important;
+}
+
+FIELDSET {
+    margin: 8px;
+    border: 1px solid silver;
+    padding: 8px;    
+    border-radius: 4px;
+}
+FIELDSET > LEGEND{
+    padding-left: 2px;  
+	padding-right: 2px;
+	width: inherit;
+	font-size: inherit;
+	border-bottom: 0;
+	margin:0;
+	font-weight:bold;
+}

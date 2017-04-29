@@ -5,6 +5,7 @@ class Admin_Controller extends MY_Controller {
     public $logged_in_name;
 	public $logged_in_user_id;
 	public $logged_in_email;
+	public $acesso_negado;
 	
 	public $aContas;
 	public $profile;
@@ -12,7 +13,7 @@ class Admin_Controller extends MY_Controller {
     function __construct() {
         parent::__construct();
 
-		
+		$this->acesso_negado = "<link href=\"" . base_url() . "assets/admin/css/bootstrap.min.css\" rel=\"stylesheet\"><div class=\"alert alert-danger\" role=\"alert\">Parece que você está tentando acessar informações que não te pertencem ;)</div>";
         // Set container variable
         $this->_container = $this->config->item('ci_budget_template_dir_admin') . "layout.php";
         $this->_modules = $this->config->item('modules_locations');

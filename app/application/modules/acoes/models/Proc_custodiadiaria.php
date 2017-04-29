@@ -1,14 +1,14 @@
 <?php (defined('BASEPATH')) OR exit('No direct script access allowed');
 
-	class Acoesresultado extends MY_Model {
+	class Proc_custodiadiaria extends MY_Model {
 
 		public function __construct() {
 			parent::__construct();
-			$this->table_name = 'appinv_vw_ordens_resultados';
+			$this->table_name = 'appinv_vw_acoes_custodia';
 		}
-		
+
 		public function get_all_byprofile($profile_id) {
-			$sql = "call appinv_get_acoes_resultados('".$profile_id."')";
+			$sql = "call appinv_get_acoes_custodia_diaria('".$profile_id."')";
 			
 			$Q = $this->db->query($sql);
 			

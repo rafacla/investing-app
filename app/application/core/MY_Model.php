@@ -68,8 +68,8 @@ class MY_Model extends CI_Model {
     }
 
     public function insert($data) {
-        $data['date_created'] = $data['date_updated'] = date('Y-m-d H:i:s');
-        $data['created_from_ip'] = $data['updated_from_ip'] = $this->input->ip_address();
+        //$data['date_created'] = $data['date_updated'] = date('Y-m-d H:i:s');
+        //$data['created_from_ip'] = $data['updated_from_ip'] = $this->input->ip_address();
         $success = $this->db->insert($this->table_name, $data);
         if ($success) {
             return $this->db->insert_id();
@@ -79,8 +79,8 @@ class MY_Model extends CI_Model {
     }
 
     public function update($data, $id) {
-        $data['date_updated'] = date('Y-m-d H:i:s');
-        $data['updated_from_ip'] = $this->input->ip_address();
+        //$data['date_updated'] = date('Y-m-d H:i:s');
+        //$data['updated_from_ip'] = $this->input->ip_address();
 
         $this->db->where($this->primary_key, $id);
         return $this->db->update($this->table_name, $data);

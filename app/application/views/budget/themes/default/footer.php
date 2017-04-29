@@ -1,7 +1,5 @@
 </div>
 <!-- /#wrapper -->
-<!-- jQuery -->
-<script src="<?= base_url() ?>assets/admin/js/jquery.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="<?= base_url() ?>assets/admin/js/bootstrap.min.js"></script>
@@ -64,6 +62,10 @@
   	});
 	
 	$('#side-menu').metisMenu({ toggle: false });
+	
+	$('#corretora').select2({
+		placeholder: "Corretora"
+	});
 
 </script>
 <!-- Modal -->

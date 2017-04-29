@@ -23,9 +23,11 @@
 		<?php endif; ?>
 		<div class="row">
 			<div class="page-header users-header">
-				<h2>Notas de corretagem de <?=$corretora_nome?>
-					<a href="<?=base_url($this->profile->uniqueid.'/acoes/notas/edit/new') ?>" class="btn btn-success">Adicionar Nota de Corretagem</a>
+				<h2>Notas de Ajustes de <?=$corretora_nome?>
+					<a href="<?=base_url($this->profile->uniqueid.'/acoes/ajustes/edit/new') ?>" class="btn btn-success">Adicionar Nota de Ajustes</a>
 				</h2>
+				<p>Aqui você deve inserir notas para ajustes ocasionados nas ações, tais como: Grupamentos, Desdobramentos e Conversões de Ações.<br>
+				Primeiro cadastre as notas de corretagem anteriores ao evento para que o cálculo seja feito corretamente!</p>
 			</div>
 		</div>
 		<!-- /.row -->
@@ -56,8 +58,8 @@
 							<td><?=$item["taxas_corretagem"]?></td>
 							<td><?=$item["taxas_cblc"]+$item["taxas_bovespa"]?></td>
 							<td>
-								<a href="<?= base_url($this->profile->uniqueid.'/acoes/notas/edit/'.$item["nota_id"])?>" class="btn btn-info btn-xs">ver nota</a>  
-								<a href="<?= base_url($this->profile->uniqueid.'/acoes/nota/delete/'.$item["nota_id"]) ?>" class="btn btn-danger btn-xs">deletar</a>
+								<a href="<?= base_url($this->profile->uniqueid.'/acoes/ajustes/edit/'.$item["nota_id"])?>" class="btn btn-info btn-xs">ver nota</a>  
+								<a href="<?= base_url($this->profile->uniqueid.'/acoes/ajustes/delete/'.$item["nota_id"]) ?>" class="btn btn-danger btn-xs">deletar</a>
 							</td>
 						</tr>
 					<?php endforeach; ?>

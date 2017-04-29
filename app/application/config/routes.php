@@ -92,10 +92,23 @@ $route['(:any)/corretoras/add'] = 'acoes/Corretoras/add/$1';
 $route['(:any)/corretoras/edit/(:any)'] = 'acoes/Corretoras/edit/$1/$2';
 $route['(:any)/corretoras/delete/(:any)'] = 'acoes/Corretoras/delete/$1/$2';
 //acoes:
+$route['(:any)/acoes/custodia'] = 'acoes/AcoesCustodia/index/$1';
 $route['(:any)/acoes/resultados'] = 'acoes/AcoesResultados/index/$1';
+$route['(:any)/acoes/cotas'] = 'acoes/AcoesCotas/index/$1';
   //notas
   $route['(:any)/acoes/notas/(:any)'] = 'acoes/AcoesNotas/index/$1/$2';
   $route['(:any)/acoes/notas'] = 'acoes/AcoesNotas/index/$1';
+  $route['(:any)/acoes/nota/delete/(:any)'] = 'acoes/AcoesNotas/delete/$2';
+  $route['(:any)/acoes/notas/edit/(:any)'] = 'acoes/AcoesNotas/edit/$1/$2';
+  //ajustes
+  $route['(:any)/acoes/ajustes/(:any)'] = 'acoes/AcoesAjustes/index/$1/$2';
+  $route['(:any)/acoes/ajustes'] = 'acoes/AcoesAjustes/index/$1';
+  $route['(:any)/acoes/ajustes/delete/(:any)'] = 'acoes/AcoesAjustes/delete/$2';
+  $route['(:any)/acoes/ajustes/edit/(:any)'] = 'acoes/AcoesAjustes/edit/$1/$2';
+  $route['acoes/ajustes/getPosicao'] = 'acoes/AcoesAjustes/getPosicao';
+  
+  //ordens
+  $route['(:any)/acoes/notas/deletaOrdem/(:any)'] = 'acoes/AcoesNotas/deletaOrdem/$2';
 /*
 $route['budget'] = 'budget/admin';
 $route['budget/dashboard'] = 'budget/admin';

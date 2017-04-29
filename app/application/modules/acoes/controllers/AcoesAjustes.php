@@ -1,6 +1,6 @@
 <?php
 
-class AcoesNotas extends Admin_Controller {
+class AcoesAjustes extends Admin_Controller {
     function __construct() {
         parent::__construct();
 
@@ -23,13 +23,13 @@ class AcoesNotas extends Admin_Controller {
 			die ("<link href=\"" . base_url() . "assets/admin/css/bootstrap.min.css\" rel=\"stylesheet\"><div class=\"alert alert-danger\" role=\"alert\">Parece que você está tentando acessar informações que não te pertencem ;)</div>");
 		} else {	
 			if ($corretora_id == '') {
-				$where = array('profile_id'=>$this->profile->id,'ajuste'=>'0');
+				$where = array('profile_id'=>$this->profile->id,'ajuste'=>'1');
 			} else {
-				$where = array('profile_id'=>$this->profile->id,'corretora_id'=>$corretora_id,'ajuste'=>'0');
+				$where = array('profile_id'=>$this->profile->id,'corretora_id'=>$corretora_id,'ajuste'=>'1');
 			}
-			$query = $this->Vw_acoesnota->get_all('',$where,'','','nota_data');
+			$query = $this->Vw_acoesnota->get_all('',$where);
 			$data['notas'] = $query;
-			$data['page'] = $this->config->item('ci_acoes_template_dir') . "notas_list";
+			$data['page'] = $this->config->item('ci_acoes_template_dir') . "ajustes_list";
 			$data['lista']=$query;
 			if ($corretora_id!=='') {
 				$data['corretora_nome'] = $this->Corretora->get($corretora_id)->nome;
@@ -46,7 +46,28 @@ class AcoesNotas extends Admin_Controller {
 				die ($this->acesso_negado);//Encerra com a msg de erro padrão.
 		}
 		$this->Acoesordens->delete($ordem_id);
-		redirect(base_url($this->profile->uniqueid.'/acoes/notas/edit/'.$ordem->nota_id), 'refresh');
+		redirect(base_url($this->profile->uniqueid.'/acoes/ajustes/edit/'.$ordem->nota_id), 'refresh');
+		die();
+	}
+	
+	public function getPosicao() {
+		if ($this->profile->user_id!==$this->logged_in_user_id) {
+			die ("<link href=\"" . base_url() . "assets/admin/css/bootstrap.min.css\" rel=\"stylesheet\"><div class=\"alert alert-danger\" role=\"alert\">Parece que você está tentando acessar informações que não te pertencem ;)</div>");
+		}
+		$data = $this->input->post('data');
+		$ativo = $this->input->post('ativo');
+		$corretora_id = $this->input->post('corretora_id');
+		
+		$sql = "SELECT ativo_nome, CMC FROM `appinv_vw_acoes_ordens_customedio` WHERE corretora_id = '".$corretora_id."' AND ativo_nome = '".$ativo."' AND data < '".$data."' ORDER BY data DESC, ordem_id DESC LIMIT 1";
+		$sql1 = "SELECT sum(qt_exc) AS qt_final FROM `appinv_vw_acoes_ordens_customedio` WHERE corretora_id = '".$corretora_id."' AND ativo_nome = '".$ativo."' AND data < '".$data."'";
+		if ($this->input->post('data') and $this->input->post('ativo') and $this->input->post('corretora_id')) {
+			$dados = $this->db->query($sql,false)->row();
+			$dados1 = $this->db->query($sql1,false)->row();
+			$dados->qt_final = $dados1->qt_final;
+			echo json_encode($dados);
+		} else {
+			echo json_encode("-1");
+		}
 		die();
 	}
 	
@@ -57,7 +78,12 @@ class AcoesNotas extends Admin_Controller {
 			die ("<link href=\"" . base_url() . "assets/admin/css/bootstrap.min.css\" rel=\"stylesheet\"><div class=\"alert alert-danger\" role=\"alert\">Parece que você está tentando acessar informações que não te pertencem ;)</div>");
 		} elseif ($nota_id !== 'new' and $this->Vw_acoesnota->get_index($nota_id,'nota_id')->profile_id !== $this->profile->id) {
 			die ("<link href=\"" . base_url() . "assets/admin/css/bootstrap.min.css\" rel=\"stylesheet\"><div class=\"alert alert-danger\" role=\"alert\">Parece que você está tentando acessar informações que não te pertencem ;)</div>");
-		} elseif ($this->input->post('salvaNota')=="0") {
+		}	elseif ($this->input->post('salvaNota')=="0") {
+			if ($this->input->post('ordem_de_id')!== '' and $this->Vw_acoesordens->get_index($this->input->post('ordem_de_id'),'ordem_id')->profile_id !== $this->profile->id) {
+				die ("<link href=\"" . base_url() . "assets/admin/css/bootstrap.min.css\" rel=\"stylesheet\"><div class=\"alert alert-danger\" role=\"alert\">Parece que você está tentando acessar informações que não te pertencem ;)</div>");
+			}	elseif ($this->input->post('ordem_para_id')!== '' and $this->Vw_acoesordens->get_index($this->input->post('ordem_para_id'),'ordem_id')->profile_id !== $this->profile->id) {
+				die ("<link href=\"" . base_url() . "assets/admin/css/bootstrap.min.css\" rel=\"stylesheet\"><div class=\"alert alert-danger\" role=\"alert\">Parece que você está tentando acessar informações que não te pertencem ;)</div>");
+			}
 			$dataNota['corretora_id'] = $this->input->post('corretora_id');
 			$dataNota['nota_data'] = $this->input->post('data');
 			$dataNota['nota_numero'] = $this->input->post('nota_numero');
@@ -71,40 +97,46 @@ class AcoesNotas extends Admin_Controller {
 			} else {
 				$this->Acoesnota->update($dataNota,$nota_id);
 			}
-			redirect(base_url($this->profile->uniqueid.'/acoes/notas/edit/'.$nota_id), 'refresh');
-		} elseif ($this->input->post('editaOrdem')=="0"){
-			//o formulário de edição de ordem foi enviada, hora de verificar:
-			//Primeiro de tudo, vamos verificar se o usuário não está dando migué, tentando editar a ordem de outra pessoa:
-			if ($this->input->post('ordem_id')!== "" AND $this->Vw_acoesordens->get_index($this->input->post('ordem_id'),'ordem_id')->profile_id !== $this->profile->id) {
-				die ($this->acesso_negado);//Encerra com a msg de erro padrão.
+			$ordemDe['nota_id'] = $nota_id;
+			$ordemDe['ativo_nome'] = $this->input->post('ativo_de');
+			$ordemDe['operacao'] = "v";
+			$ordemDe['tipo_operacao'] = "n";
+			$ordemDe['ativo_quantidade'] = $this->input->post('qtde_de');
+			if ($this->input->post('ativo_de')!=$this->input->post('ativo_para')) { 
+				$ordemDe['ativo_valor'] = $this->input->post('cmc_de');
+			} else {
+				$ordemDe['ativo_valor'] = $this->input->post('cmc_para');
 			}
-			$data['nota_id'] = $nota_id;
-			$data['ativo_nome'] = strtoupper($this->input->post('ativo_nome'));
-			$data['ativo_quantidade'] = $this->input->post('ativo_quantidade');
-			$data['ativo_valor'] = $this->input->post('ativo_valor');
-			$data['operacao'] = $this->input->post('operacao');
-			$data['tipo_operacao'] = $this->input->post('tipo_operacao');
-			if ($this->input->post('ordem_id') == "") { //sem nota_id definida, é uma ordem nova:
-				$this->Acoesordens->insert($data);
+			$ordemPara['nota_id'] = $nota_id;
+			$ordemPara['ativo_nome'] = $this->input->post('ativo_para');
+			$ordemPara['operacao'] = "c";
+			$ordemPara['tipo_operacao'] = "n";
+			$ordemPara['ativo_quantidade'] = $this->input->post('qtde_para');
+			$ordemPara['ativo_valor'] = $this->input->post('cmc_para');
+			if ($this->input->post('ordem_de_id')== '') {
+				$nota_id = $this->Acoesordens->insert($ordemDe);
+			} else {
+				$this->Acoesordens->update($ordemDe,$this->input->post('ordem_de_id'));
 			}
-			else {
-				$this->Acoesordens->update($data,$this->input->post('ordem_id'));
+			if ($this->input->post('ordem_para_id')== '') {
+				$nota_id = $this->Acoesordens->insert($ordemPara);
+			} else {
+				$this->Acoesordens->update($ordemPara,$this->input->post('ordem_para_id'));
 			}
-			redirect(base_url($this->profile->uniqueid.'/acoes/notas/edit/'.$nota_id), 'refresh');
-			die();
+			redirect(base_url($this->profile->uniqueid.'/acoes/ajustes/edit/'.$nota_id), 'refresh');
 		} else {	
 			if ($nota_id == 'new') {
-				$data['titulo'] = "Nova nota de corretagem";
+				$data['titulo'] = "Nova nota de Ajustes";
 			} else {
 				$nota = $this->Vw_acoesnota->get_index($nota_id,'nota_id');
 				$ordens = $this->Vw_acoesordens->get_all('',array('nota_id'=>$nota_id));
-				$data['titulo'] = "Editando a nota de corretagem ".$nota->nota_numero." (".$nota->nome.")";
+				$data['titulo'] = "Editando a nota de ajustes".$nota->id." (".$nota->nome.")";
 				$data['nota'] = $nota;
 				$data['ordens'] = $ordens;
 			}
 			$data['nota_id'] = $nota_id;
 			$data['corretoras'] = $this->Corretora->get_all('',array('profile_id' => $this->profile->id));
-			$data['page'] = $this->config->item('ci_acoes_template_dir') . "notas_edit";
+			$data['page'] = $this->config->item('ci_acoes_template_dir') . "ajustes_edit";
 			$this->load->view($this->_container, $data);
 		}
 	}
@@ -116,7 +148,7 @@ class AcoesNotas extends Admin_Controller {
 		}
 		else {
 			$this->Acoesnota->delete($nota_id);
-			redirect(base_url($this->profile->uniqueid.'/acoes/notas/'), 'refresh');
+			redirect(base_url($this->profile->uniqueid.'/acoes/ajustes/'), 'refresh');
 			die();
 		}
     }

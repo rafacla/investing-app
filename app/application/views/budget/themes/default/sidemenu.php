@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
     <head>
         <meta charset="iso-8859-1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,6 +31,8 @@
 		
 		<!-- jquery-filer -->
 		<link href="<?= base_url() ?>assets/budget/css/jquery.filer.css" rel="stylesheet">
+		<!-- jQuery -->
+		<script src="<?= base_url() ?>assets/admin/js/jquery.min.js"></script>
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -108,20 +109,17 @@
 								<li>
 									<a href="#"><i class="fa fa-line-chart fa-fw"></i> Investimentos<span class="fa arrow"></span></a>
 									<ul class="nav nav-second-level collapse in">
-										<li><a href="<?=base_url($this->profile->uniqueid.'/corretoras') ?>">Corretoras</a></li>
-										<li><a href="<?=base_url($this->profile->uniqueid.'/desenvolvimento') ?>">Tesouro direto</a></li>
+										<li><a href="<?=base_url($this->profile->uniqueid.'/corretoras') ?>">Corretoras de Valores</a></li>
 										<li>
 											<a href="#">Ações<span class="fa arrow"></span></a>
 											<ul class="nav nav-third-level collapse in">
-												<li><a href="<?=base_url($this->profile->uniqueid.'/acoes/notas') ?>">Notas</a></li>
+												<li><a href="<?=base_url($this->profile->uniqueid.'/acoes/cotas') ?>">Gráfico Performance</a></li>
+												<li><a href="<?=base_url($this->profile->uniqueid.'/acoes/notas') ?>">Notas de Corretagem</a></li>
+												<li><a href="<?=base_url($this->profile->uniqueid.'/acoes/ajustes') ?>">Notas de Ajuste</a></li>
 												<li><a href="<?=base_url($this->profile->uniqueid.'/acoes/custodia') ?>">Custódia</a></li>
-												<li><a href="<?=base_url($this->profile->uniqueid.'/acoes/resultados') ?>">Res. Pos. Encerradas</a></li>
+												<li><a href="<?=base_url($this->profile->uniqueid.'/acoes/resultados') ?>">Posições Encerradas</a></li>
 											</ul>											
 										</li>
-										<li><a href="<?=base_url($this->profile->uniqueid.'/desenvolvimento') ?>">Opções</a></li>
-										<li><a href="<?=base_url($this->profile->uniqueid.'/desenvolvimento') ?>">Fundos de investimentos</a></li>
-										<li><a href="<?=base_url($this->profile->uniqueid.'/desenvolvimento') ?>">Poupança</a></li>
-										<li><a href="<?=base_url($this->profile->uniqueid.'/desenvolvimento') ?>">Outros investimentos</a></li>
 									</ul>
 								</li>
 								<?php if ($this->is_admin): ?>
