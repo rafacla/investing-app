@@ -1,6 +1,6 @@
 <?php
 
-include_once('YahooFinanceAPI.php');
+include_once('YahooFinanceAPI2.php');
 include_once('Database.php');
 
 class AtualizaAcoes 
@@ -53,7 +53,7 @@ class AtualizaAcoes
 		}
 	}
 	
-	public function AtualizaAcaoYahoo($acaoYahoo,$dataInicio='',$dataFinal='') {
+	public function AtualizaAcaoYahoo($acaoYahoo,$dataInicio='',$dataFinal='',$acaoNome='') {
 		if ($dataInicio=='') {
 			$dataInicio = strtotime("2010-01-01");
 		}
@@ -63,12 +63,18 @@ class AtualizaAcoes
 		}
 		
 		$cotacoes = new YahooFinanceAPI();
-		$acao = substr($acaoYahoo,0,5);
-		
+		if ($acaoNome=="") {
+			$acao = substr($acaoYahoo,0,5);
+		} else {
+			$acao = $acaoNome;
+		} 
+			
 		$historico = $cotacoes->Historico($acaoYahoo,$dataInicio,$dataFinal);
 		$sql1=array();
 		for ($i=1;$i<=$historico[0]['nrPregoes'];$i++) {
-			$sql1[$i] = "INSERT INTO `appinv_acoes_historico` (`id`, `ativo`, `data`, `abertura`, `alta`, `baixa`, `fechamento`, `fechamento_ajustado`, `volume`, `ultima_atualizacao`) VALUES (NULL, '".$acao."', '".$historico[$i]['Data']."', '".$historico[$i]['Abertura']."', '".$historico[$i]['Alta']."', '".$historico[$i]['Baixa']."', '".$historico[$i]['Fechamento']."', '".$historico[$i]['Fechamento_Ajustado']."', '".$historico[$i]['Volume']."', CURDATE()) ON DUPLICATE KEY UPDATE `abertura` = '".$historico[$i]['Abertura']."',`alta`='".$historico[$i]['Alta']."', `baixa` = '".$historico[$i]['Baixa']."', `fechamento` = '".$historico[$i]['Fechamento']."', `fechamento_ajustado` = '".$historico[$i]['Fechamento_Ajustado']."', `volume` = '".$historico[$i]['Volume']."', `ultima_atualizacao` = CURDATE();";
+			if (is_numeric($historico[$i]['Abertura'])) {
+				$sql1[$i] = "INSERT INTO `appinv_acoes_historico` (`id`, `ativo`, `data`, `abertura`, `alta`, `baixa`, `fechamento`, `fechamento_ajustado`, `volume`, `ultima_atualizacao`) VALUES (NULL, '".$acao."', '".$historico[$i]['Data']."', '".$historico[$i]['Abertura']."', '".$historico[$i]['Alta']."', '".$historico[$i]['Baixa']."', '".$historico[$i]['Fechamento']."', '".$historico[$i]['Fechamento_Ajustado']."', '".$historico[$i]['Volume']."', CURDATE()) ON DUPLICATE KEY UPDATE `abertura` = '".$historico[$i]['Abertura']."',`alta`='".$historico[$i]['Alta']."', `baixa` = '".$historico[$i]['Baixa']."', `fechamento` = '".$historico[$i]['Fechamento']."', `fechamento_ajustado` = '".$historico[$i]['Fechamento_Ajustado']."', `volume` = '".$historico[$i]['Volume']."', `ultima_atualizacao` = CURDATE();";
+			}
 		}
 		sleep(4);
 		$ajustes = $cotacoes->Ajustes($acaoYahoo,$dataInicio,$dataFinal);
@@ -92,6 +98,7 @@ class AtualizaAcoes
 		}
 		
 		if (sizeof($sql)) {
+			//var_dump($sql);
 			$db = new Database();
 			$db->query($sql);
 			return true;

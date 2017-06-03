@@ -64,6 +64,7 @@ EOT;
 							$venda_d = 0;
 							$resultado_d = 0;
 							$ibov_d = 0;
+							$ibov_u = 0;
 							$cdi_d = 0;
 							if ($compras) {
 								$compras_datas = array_column($compras,"nota_data");
@@ -75,7 +76,7 @@ EOT;
 							}
 							if ($ibovespa) {
 								$ibov_datas = array_column($ibovespa,"data");
-								$ibov_valores = array_column($ibovespa,"fechamento_ajustado");
+								$ibov_valores = array_column($ibovespa,"fechamento");
 								$ibov_zero = $ibov_valores[0];
 							}
 							if ($cdi) {
@@ -114,8 +115,9 @@ EOT;
 								if (is_array($ibov_datas)) {
 									if (is_numeric(array_search($item["data"],$ibov_datas))) {
 										$ibov_d = $ibov_valores[array_search($item["data"],$ibov_datas)];
+										$ibov_u = $ibov_d;
 									} else {
-										$ibov_d = 0;
+										$ibov_d = $ibov_u;
 									}
 								}
 								if (is_array($cdi_datas)) {

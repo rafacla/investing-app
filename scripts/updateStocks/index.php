@@ -25,7 +25,7 @@ function Atualizar() {
 			file_put_contents (__DIR__ ."/log.txt","[" . $date."] ".$acao . " foi atualizado.\r\n",FILE_APPEND);
 			array_push($blacklist,$acao);
 		} else {
-			file_put_contents (__DIR__ ."/log.txt","[" . $date."] ".$acao . " não foi encontrada no Yahoo...\r\n",FILE_APPEND);
+			file_put_contents (__DIR__ ."/log.txt","[" . $date."] ".$acao . " nao foi encontrada no Yahoo...\r\n",FILE_APPEND);
 			array_push($blacklist,$acao);
 		}
 		sleep(10);
@@ -35,15 +35,15 @@ function Atualizar() {
 		$date = $date->format("Y-m-d h:i:s");
 		
 		if (sizeof($blacklist)>0) {
-			file_put_contents (__DIR__ ."/log.txt","[" . $date."] ". "Não há ações a atualizar. Encerrando.\r\n",FILE_APPEND);
+			file_put_contents (__DIR__ ."/log.txt","[" . $date."] ". "Nao ha acoes a atualizar. Encerrando.\r\n",FILE_APPEND);
 			die();
 		} else {
-			file_put_contents (__DIR__ ."/log.txt","[" . $date."] ". "Não há ações a atualizar. Encerrando.\r\n",FILE_APPEND);
+			file_put_contents (__DIR__ ."/log.txt","[" . $date."] ". "Nao ha acoes a atualizar. Encerrando.\r\n",FILE_APPEND);
 			die();
 		}
 	}
 }
-file_put_contents(__DIR__ ."/log.txt","Iniciando atualização.\r\n");
+file_put_contents(__DIR__ ."/log.txt","[" . date("Y-m-d h:i:s")."] ". "Iniciando atualizacao.\r\n");
 
 Atualizar();
 ?>
