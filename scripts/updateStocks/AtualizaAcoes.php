@@ -1,7 +1,7 @@
 <?php
 
 include_once('YahooFinanceAPI2.php');
-include_once('Database.php');
+include_once('../Database.php');
 
 class AtualizaAcoes 
 {

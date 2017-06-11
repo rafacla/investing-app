@@ -13,9 +13,6 @@ class Database
 		self::$username = "root";
 		self::$password = "";
 		self::$database = "app-inv_r1";
-		//self::$username = "dbrafacla";
-		//self::$password = "HGK_SP\$FBLg#";
-		//self::$database = "app-database";
 		
 		if(!isset($connection)) {
 			self::$connection = new mysqli(self::$servername,self::$username,self::$password,self::$database);

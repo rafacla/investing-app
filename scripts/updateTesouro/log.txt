@@ -1,0 +1,3316 @@
+Log reiniciado.
+[2017-06-11 04:16:15] Iniciando... Abrindo conexao com o banco de dados
+[2017-06-11 04:16:15] Atualizando a lista de arquivos disponiveis no site do tesouro
+[2017-06-11 04:16:16] Foram encontrados 90 no site do Tesouro!
+[2017-06-11 04:16:16] Atualizando o arquivo numero 1:
+[2017-06-11 04:16:16] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=341:80066
+[2017-06-11 04:16:16] Arquivo carregado
+[2017-06-11 04:16:16] Identificado 3 guias
+[2017-06-11 04:16:16] Lendo a guia LFT 070317
+[2017-06-11 04:16:16]  - Tipo Titulo: LFT
+[2017-06-11 04:16:16]  - Vencimento do Titulo: 2017-03-07
+[2017-06-11 04:16:16]  - Linhas do documento: 45
+[2017-06-11 04:16:16]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:18]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:18] Lendo a guia LFT 010321
+[2017-06-11 04:16:18]  - Tipo Titulo: LFT
+[2017-06-11 04:16:18]  - Vencimento do Titulo: 2021-03-01
+[2017-06-11 04:16:18]  - Linhas do documento: 111
+[2017-06-11 04:16:18]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:21]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:21] Lendo a guia LFT 010323
+[2017-06-11 04:16:21]  - Tipo Titulo: LFT
+[2017-06-11 04:16:21]  - Vencimento do Titulo: 2023-03-01
+[2017-06-11 04:16:21]  - Linhas do documento: 85
+[2017-06-11 04:16:21]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:23]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:23] Atualizando o arquivo numero 2:
+[2017-06-11 04:16:23] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=342:97136
+[2017-06-11 04:16:23] Arquivo carregado
+[2017-06-11 04:16:23] Identificado 5 guias
+[2017-06-11 04:16:23] Lendo a guia LTN 010118
+[2017-06-11 04:16:23]  - Tipo Titulo: LTN
+[2017-06-11 04:16:23]  - Vencimento do Titulo: 2018-01-01
+[2017-06-11 04:16:23]  - Linhas do documento: 111
+[2017-06-11 04:16:23]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:26]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:26] Lendo a guia LTN 010119
+[2017-06-11 04:16:26]  - Tipo Titulo: LTN
+[2017-06-11 04:16:26]  - Vencimento do Titulo: 2019-01-01
+[2017-06-11 04:16:26]  - Linhas do documento: 111
+[2017-06-11 04:16:26]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:28]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:28] Lendo a guia LTN 010120
+[2017-06-11 04:16:28]  - Tipo Titulo: LTN
+[2017-06-11 04:16:28]  - Vencimento do Titulo: 2020-01-01
+[2017-06-11 04:16:28]  - Linhas do documento: 85
+[2017-06-11 04:16:28]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:30]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:30] Lendo a guia LTN 010121
+[2017-06-11 04:16:30]  - Tipo Titulo: LTN
+[2017-06-11 04:16:30]  - Vencimento do Titulo: 2021-01-01
+[2017-06-11 04:16:30]  - Linhas do documento: 111
+[2017-06-11 04:16:30]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:32]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:32] Lendo a guia LTN 010123
+[2017-06-11 04:16:32]  - Tipo Titulo: LTN
+[2017-06-11 04:16:32]  - Vencimento do Titulo: 2023-01-01
+[2017-06-11 04:16:32]  - Linhas do documento: 111
+[2017-06-11 04:16:32]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:34]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:34] Atualizando o arquivo numero 3:
+[2017-06-11 04:16:34] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=343:37638
+[2017-06-11 04:16:35] Arquivo carregado
+[2017-06-11 04:16:35] Identificado 3 guias
+[2017-06-11 04:16:35] Lendo a guia NTN-C 010717
+[2017-06-11 04:16:35]  - Tipo Titulo: NTN-C
+[2017-06-11 04:16:35]  - Vencimento do Titulo: 2017-07-01
+[2017-06-11 04:16:35]  - Linhas do documento: 111
+[2017-06-11 04:16:35]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:37]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:37] Lendo a guia NTN-C 010421
+[2017-06-11 04:16:37]  - Tipo Titulo: NTN-C
+[2017-06-11 04:16:37]  - Vencimento do Titulo: 2021-04-01
+[2017-06-11 04:16:37]  - Linhas do documento: 111
+[2017-06-11 04:16:37]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:39]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:39] Lendo a guia NTN-C 010131
+[2017-06-11 04:16:39]  - Tipo Titulo: NTN-C
+[2017-06-11 04:16:39]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:16:39]  - Linhas do documento: 111
+[2017-06-11 04:16:39]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:41]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:41] Atualizando o arquivo numero 4:
+[2017-06-11 04:16:41] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=344:14723
+[2017-06-11 04:16:42] Arquivo carregado
+[2017-06-11 04:16:42] Identificado 7 guias
+[2017-06-11 04:16:42] Lendo a guia NTN-B 150517
+[2017-06-11 04:16:42]  - Tipo Titulo: NTN-B
+[2017-06-11 04:16:42]  - Vencimento do Titulo: 2017-05-15
+[2017-06-11 04:16:42]  - Linhas do documento: 91
+[2017-06-11 04:16:42]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:44]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:44] Lendo a guia NTN-B 150820
+[2017-06-11 04:16:44]  - Tipo Titulo: NTN-B
+[2017-06-11 04:16:44]  - Vencimento do Titulo: 2020-08-15
+[2017-06-11 04:16:44]  - Linhas do documento: 111
+[2017-06-11 04:16:44]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:46]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:46] Lendo a guia NTN-B 150824
+[2017-06-11 04:16:46]  - Tipo Titulo: NTN-B
+[2017-06-11 04:16:46]  - Vencimento do Titulo: 2024-08-15
+[2017-06-11 04:16:46]  - Linhas do documento: 111
+[2017-06-11 04:16:46]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:48]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:48] Lendo a guia NTN-B 150826
+[2017-06-11 04:16:48]  - Tipo Titulo: NTN-B
+[2017-06-11 04:16:48]  - Vencimento do Titulo: 2026-08-15
+[2017-06-11 04:16:48]  - Linhas do documento: 111
+[2017-06-11 04:16:48]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:51]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:51] Lendo a guia NTN-B 150535
+[2017-06-11 04:16:51]  - Tipo Titulo: NTN-B
+[2017-06-11 04:16:51]  - Vencimento do Titulo: 2035-05-15
+[2017-06-11 04:16:51]  - Linhas do documento: 111
+[2017-06-11 04:16:51]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:53]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:53] Lendo a guia NTN-B 150545
+[2017-06-11 04:16:53]  - Tipo Titulo: NTN-B
+[2017-06-11 04:16:53]  - Vencimento do Titulo: 2045-05-15
+[2017-06-11 04:16:53]  - Linhas do documento: 111
+[2017-06-11 04:16:53]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:55]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:55] Lendo a guia NTN-B 150850
+[2017-06-11 04:16:55]  - Tipo Titulo: NTN-B
+[2017-06-11 04:16:55]  - Vencimento do Titulo: 2050-08-15
+[2017-06-11 04:16:55]  - Linhas do documento: 111
+[2017-06-11 04:16:55]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:16:57]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:16:57] Atualizando o arquivo numero 5:
+[2017-06-11 04:16:57] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=345:862552
+[2017-06-11 04:16:57] Arquivo carregado
+[2017-06-11 04:16:57] Identificado 4 guias
+[2017-06-11 04:16:57] Lendo a guia NTN-B Principal 150519
+[2017-06-11 04:16:57]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:16:57]  - Vencimento do Titulo: 2019-05-15
+[2017-06-11 04:16:57]  - Linhas do documento: 111
+[2017-06-11 04:16:57]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:00]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:00] Lendo a guia NTN-B Principal 150824
+[2017-06-11 04:17:00]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:17:00]  - Vencimento do Titulo: 2024-08-15
+[2017-06-11 04:17:00]  - Linhas do documento: 111
+[2017-06-11 04:17:00]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:02]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:02] Lendo a guia NTN-B Principal 150535
+[2017-06-11 04:17:02]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:17:02]  - Vencimento do Titulo: 2035-05-15
+[2017-06-11 04:17:02]  - Linhas do documento: 111
+[2017-06-11 04:17:02]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:04]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:04] Lendo a guia NTN-B Principal 150545
+[2017-06-11 04:17:04]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:17:04]  - Vencimento do Titulo: 2045-05-15
+[2017-06-11 04:17:04]  - Linhas do documento: 85
+[2017-06-11 04:17:04]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:06]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:06] Atualizando o arquivo numero 6:
+[2017-06-11 04:17:06] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=346:71469
+[2017-06-11 04:17:06] Arquivo carregado
+[2017-06-11 04:17:06] Identificado 4 guias
+[2017-06-11 04:17:06] Lendo a guia NTN-F 010121
+[2017-06-11 04:17:06]  - Tipo Titulo: NTN-F
+[2017-06-11 04:17:06]  - Vencimento do Titulo: 2021-01-01
+[2017-06-11 04:17:06]  - Linhas do documento: 111
+[2017-06-11 04:17:06]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:09]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:09] Lendo a guia NTN-F 010123
+[2017-06-11 04:17:09]  - Tipo Titulo: NTN-F
+[2017-06-11 04:17:09]  - Vencimento do Titulo: 2023-01-01
+[2017-06-11 04:17:09]  - Linhas do documento: 111
+[2017-06-11 04:17:09]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:11]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:11] Lendo a guia NTN-F 010125
+[2017-06-11 04:17:11]  - Tipo Titulo: NTN-F
+[2017-06-11 04:17:11]  - Vencimento do Titulo: 2025-01-01
+[2017-06-11 04:17:11]  - Linhas do documento: 111
+[2017-06-11 04:17:11]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:13]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:13] Lendo a guia NTN-F 010127
+[2017-06-11 04:17:13]  - Tipo Titulo: NTN-F
+[2017-06-11 04:17:13]  - Vencimento do Titulo: 2027-01-01
+[2017-06-11 04:17:13]  - Linhas do documento: 111
+[2017-06-11 04:17:13]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:15]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:15] Atualizando o arquivo numero 7:
+[2017-06-11 04:17:15] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=361:80800
+[2017-06-11 04:17:16] Arquivo carregado
+[2017-06-11 04:17:16] Identificado 2 guias
+[2017-06-11 04:17:16] Lendo a guia LFT 070317
+[2017-06-11 04:17:16]  - Tipo Titulo: LFT
+[2017-06-11 04:17:16]  - Vencimento do Titulo: 2017-03-07
+[2017-06-11 04:17:16]  - Linhas do documento: 252
+[2017-06-11 04:17:16]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:18]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:18] Lendo a guia LFT 010321
+[2017-06-11 04:17:18]  - Tipo Titulo: LFT
+[2017-06-11 04:17:18]  - Vencimento do Titulo: 2021-03-01
+[2017-06-11 04:17:18]  - Linhas do documento: 252
+[2017-06-11 04:17:18]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:20]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:20] Atualizando o arquivo numero 8:
+[2017-06-11 04:17:20] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=362:35672
+[2017-06-11 04:17:21] Arquivo carregado
+[2017-06-11 04:17:21] Identificado 5 guias
+[2017-06-11 04:17:21] Lendo a guia LTN 010117
+[2017-06-11 04:17:21]  - Tipo Titulo: LTN
+[2017-06-11 04:17:21]  - Vencimento do Titulo: 2017-01-01
+[2017-06-11 04:17:21]  - Linhas do documento: 252
+[2017-06-11 04:17:21]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:23]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:23] Lendo a guia LTN 010118
+[2017-06-11 04:17:23]  - Tipo Titulo: LTN
+[2017-06-11 04:17:23]  - Vencimento do Titulo: 2018-01-01
+[2017-06-11 04:17:23]  - Linhas do documento: 252
+[2017-06-11 04:17:23]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:25]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:25] Lendo a guia LTN 010119
+[2017-06-11 04:17:25]  - Tipo Titulo: LTN
+[2017-06-11 04:17:25]  - Vencimento do Titulo: 2019-01-01
+[2017-06-11 04:17:25]  - Linhas do documento: 236
+[2017-06-11 04:17:25]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:27]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:27] Lendo a guia LTN 010121
+[2017-06-11 04:17:27]  - Tipo Titulo: LTN
+[2017-06-11 04:17:27]  - Vencimento do Titulo: 2021-01-01
+[2017-06-11 04:17:27]  - Linhas do documento: 252
+[2017-06-11 04:17:27]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:29]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:29] Lendo a guia LTN 010123
+[2017-06-11 04:17:29]  - Tipo Titulo: LTN
+[2017-06-11 04:17:29]  - Vencimento do Titulo: 2023-01-01
+[2017-06-11 04:17:29]  - Linhas do documento: 236
+[2017-06-11 04:17:29]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:31]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:31] Atualizando o arquivo numero 9:
+[2017-06-11 04:17:31] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=363:100228
+[2017-06-11 04:17:32] Arquivo carregado
+[2017-06-11 04:17:32] Identificado 3 guias
+[2017-06-11 04:17:32] Lendo a guia NTN-C 010717
+[2017-06-11 04:17:32]  - Tipo Titulo: NTN-C
+[2017-06-11 04:17:32]  - Vencimento do Titulo: 2017-07-01
+[2017-06-11 04:17:32]  - Linhas do documento: 252
+[2017-06-11 04:17:32]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:34]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:34] Lendo a guia NTN-C 010421
+[2017-06-11 04:17:34]  - Tipo Titulo: NTN-C
+[2017-06-11 04:17:34]  - Vencimento do Titulo: 2021-04-01
+[2017-06-11 04:17:34]  - Linhas do documento: 252
+[2017-06-11 04:17:34]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:36]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:36] Lendo a guia NTN-C 010131
+[2017-06-11 04:17:36]  - Tipo Titulo: NTN-C
+[2017-06-11 04:17:36]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:17:36]  - Linhas do documento: 252
+[2017-06-11 04:17:36]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:39]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:39] Atualizando o arquivo numero 10:
+[2017-06-11 04:17:39] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=364:15457
+[2017-06-11 04:17:40] Arquivo carregado
+[2017-06-11 04:17:40] Identificado 7 guias
+[2017-06-11 04:17:40] Lendo a guia NTN-B 150517
+[2017-06-11 04:17:40]  - Tipo Titulo: NTN-B
+[2017-06-11 04:17:40]  - Vencimento do Titulo: 2017-05-15
+[2017-06-11 04:17:40]  - Linhas do documento: 252
+[2017-06-11 04:17:40]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:42]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:42] Lendo a guia NTN-B 150820
+[2017-06-11 04:17:42]  - Tipo Titulo: NTN-B
+[2017-06-11 04:17:42]  - Vencimento do Titulo: 2020-08-15
+[2017-06-11 04:17:42]  - Linhas do documento: 252
+[2017-06-11 04:17:42]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:44]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:44] Lendo a guia NTN-B 150824
+[2017-06-11 04:17:44]  - Tipo Titulo: NTN-B
+[2017-06-11 04:17:44]  - Vencimento do Titulo: 2024-08-15
+[2017-06-11 04:17:44]  - Linhas do documento: 252
+[2017-06-11 04:17:44]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:46]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:46] Lendo a guia NTN-B 150826
+[2017-06-11 04:17:46]  - Tipo Titulo: NTN-B
+[2017-06-11 04:17:46]  - Vencimento do Titulo: 2026-08-15
+[2017-06-11 04:17:46]  - Linhas do documento: 236
+[2017-06-11 04:17:46]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:49]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:49] Lendo a guia NTN-B 150535
+[2017-06-11 04:17:49]  - Tipo Titulo: NTN-B
+[2017-06-11 04:17:49]  - Vencimento do Titulo: 2035-05-15
+[2017-06-11 04:17:49]  - Linhas do documento: 252
+[2017-06-11 04:17:49]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:51]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:51] Lendo a guia NTN-B 150545
+[2017-06-11 04:17:51]  - Tipo Titulo: NTN-B
+[2017-06-11 04:17:51]  - Vencimento do Titulo: 2045-05-15
+[2017-06-11 04:17:51]  - Linhas do documento: 252
+[2017-06-11 04:17:51]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:53]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:53] Lendo a guia NTN-B 150850
+[2017-06-11 04:17:53]  - Tipo Titulo: NTN-B
+[2017-06-11 04:17:53]  - Vencimento do Titulo: 2050-08-15
+[2017-06-11 04:17:53]  - Linhas do documento: 252
+[2017-06-11 04:17:53]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:56]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:56] Atualizando o arquivo numero 11:
+[2017-06-11 04:17:56] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=365:801088
+[2017-06-11 04:17:57] Arquivo carregado
+[2017-06-11 04:17:57] Identificado 3 guias
+[2017-06-11 04:17:57] Lendo a guia NTN-B Principal 150519
+[2017-06-11 04:17:57]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:17:57]  - Vencimento do Titulo: 2019-05-15
+[2017-06-11 04:17:57]  - Linhas do documento: 252
+[2017-06-11 04:17:57]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:17:59]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:17:59] Lendo a guia NTN-B Principal 150824
+[2017-06-11 04:17:59]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:17:59]  - Vencimento do Titulo: 2024-08-15
+[2017-06-11 04:17:59]  - Linhas do documento: 252
+[2017-06-11 04:17:59]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:01]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:01] Lendo a guia NTN-B Principal 150535
+[2017-06-11 04:18:01]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:18:01]  - Vencimento do Titulo: 2035-05-15
+[2017-06-11 04:18:01]  - Linhas do documento: 252
+[2017-06-11 04:18:01]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:03]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:03] Atualizando o arquivo numero 12:
+[2017-06-11 04:18:03] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=366:134059
+[2017-06-11 04:18:04] Arquivo carregado
+[2017-06-11 04:18:04] Identificado 5 guias
+[2017-06-11 04:18:04] Lendo a guia NTN-F 010117
+[2017-06-11 04:18:04]  - Tipo Titulo: NTN-F
+[2017-06-11 04:18:04]  - Vencimento do Titulo: 2017-01-01
+[2017-06-11 04:18:04]  - Linhas do documento: 252
+[2017-06-11 04:18:04]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:06]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:06] Lendo a guia NTN-F 010121
+[2017-06-11 04:18:06]  - Tipo Titulo: NTN-F
+[2017-06-11 04:18:06]  - Vencimento do Titulo: 2021-01-01
+[2017-06-11 04:18:06]  - Linhas do documento: 252
+[2017-06-11 04:18:06]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:08]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:08] Lendo a guia NTN-F 010123
+[2017-06-11 04:18:08]  - Tipo Titulo: NTN-F
+[2017-06-11 04:18:08]  - Vencimento do Titulo: 2023-01-01
+[2017-06-11 04:18:08]  - Linhas do documento: 252
+[2017-06-11 04:18:08]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:10]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:10] Lendo a guia NTN-F 010125
+[2017-06-11 04:18:10]  - Tipo Titulo: NTN-F
+[2017-06-11 04:18:10]  - Vencimento do Titulo: 2025-01-01
+[2017-06-11 04:18:10]  - Linhas do documento: 252
+[2017-06-11 04:18:10]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:13]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:13] Lendo a guia NTN-F 010127
+[2017-06-11 04:18:13]  - Tipo Titulo: NTN-F
+[2017-06-11 04:18:13]  - Vencimento do Titulo: 2027-01-01
+[2017-06-11 04:18:13]  - Linhas do documento: 236
+[2017-06-11 04:18:13]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:15]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:15] Atualizando o arquivo numero 13:
+[2017-06-11 04:18:15] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=318:84706
+[2017-06-11 04:18:16] Arquivo carregado
+[2017-06-11 04:18:16] Identificado 3 guias
+[2017-06-11 04:18:16] Lendo a guia LFT 070315
+[2017-06-11 04:18:16]  - Tipo Titulo: LFT
+[2017-06-11 04:18:16]  - Vencimento do Titulo: 2015-03-07
+[2017-06-11 04:18:16]  - Linhas do documento: 46
+[2017-06-11 04:18:16]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:18]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:18] Lendo a guia LFT 070317
+[2017-06-11 04:18:18]  - Tipo Titulo: LFT
+[2017-06-11 04:18:18]  - Vencimento do Titulo: 2017-03-07
+[2017-06-11 04:18:18]  - Linhas do documento: 252
+[2017-06-11 04:18:18]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:20]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:20] Lendo a guia LFT 010321
+[2017-06-11 04:18:20]  - Tipo Titulo: LFT
+[2017-06-11 04:18:20]  - Vencimento do Titulo: 2021-03-01
+[2017-06-11 04:18:20]  - Linhas do documento: 207
+[2017-06-11 04:18:20]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:22]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:22] Atualizando o arquivo numero 14:
+[2017-06-11 04:18:22] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=319:39322
+[2017-06-11 04:18:23] Arquivo carregado
+[2017-06-11 04:18:23] Identificado 4 guias
+[2017-06-11 04:18:23] Lendo a guia LTN 010116
+[2017-06-11 04:18:23]  - Tipo Titulo: LTN
+[2017-06-11 04:18:23]  - Vencimento do Titulo: 2016-01-01
+[2017-06-11 04:18:23]  - Linhas do documento: 252
+[2017-06-11 04:18:23]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:25]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:25] Lendo a guia LTN 010117
+[2017-06-11 04:18:25]  - Tipo Titulo: LTN
+[2017-06-11 04:18:25]  - Vencimento do Titulo: 2017-01-01
+[2017-06-11 04:18:25]  - Linhas do documento: 252
+[2017-06-11 04:18:25]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:27]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:27] Lendo a guia LTN 010118
+[2017-06-11 04:18:27]  - Tipo Titulo: LTN
+[2017-06-11 04:18:27]  - Vencimento do Titulo: 2018-01-01
+[2017-06-11 04:18:27]  - Linhas do documento: 252
+[2017-06-11 04:18:27]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:29]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:29] Lendo a guia LTN 010121
+[2017-06-11 04:18:29]  - Tipo Titulo: LTN
+[2017-06-11 04:18:29]  - Vencimento do Titulo: 2021-01-01
+[2017-06-11 04:18:29]  - Linhas do documento: 207
+[2017-06-11 04:18:29]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:31]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:31] Atualizando o arquivo numero 15:
+[2017-06-11 04:18:31] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=320:779694
+[2017-06-11 04:18:32] Arquivo carregado
+[2017-06-11 04:18:32] Identificado 3 guias
+[2017-06-11 04:18:32] Lendo a guia NTN-C 010717
+[2017-06-11 04:18:32]  - Tipo Titulo: NTN-C
+[2017-06-11 04:18:32]  - Vencimento do Titulo: 2017-07-01
+[2017-06-11 04:18:32]  - Linhas do documento: 252
+[2017-06-11 04:18:32]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:34]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:34] Lendo a guia NTN-C 010421
+[2017-06-11 04:18:34]  - Tipo Titulo: NTN-C
+[2017-06-11 04:18:34]  - Vencimento do Titulo: 2021-04-01
+[2017-06-11 04:18:34]  - Linhas do documento: 252
+[2017-06-11 04:18:34]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:36]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:36] Lendo a guia NTN-C 010131
+[2017-06-11 04:18:36]  - Tipo Titulo: NTN-C
+[2017-06-11 04:18:36]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:18:36]  - Linhas do documento: 252
+[2017-06-11 04:18:36]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:38]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:38] Atualizando o arquivo numero 16:
+[2017-06-11 04:18:38] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=321:141530
+[2017-06-11 04:18:39] Arquivo carregado
+[2017-06-11 04:18:39] Identificado 7 guias
+[2017-06-11 04:18:39] Lendo a guia NTN-B 150515
+[2017-06-11 04:18:39]  - Tipo Titulo: NTN-B
+[2017-06-11 04:18:39]  - Vencimento do Titulo: 2015-05-15
+[2017-06-11 04:18:39]  - Linhas do documento: 92
+[2017-06-11 04:18:39]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:41]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:41] Lendo a guia NTN-B 150517
+[2017-06-11 04:18:41]  - Tipo Titulo: NTN-B
+[2017-06-11 04:18:41]  - Vencimento do Titulo: 2017-05-15
+[2017-06-11 04:18:41]  - Linhas do documento: 252
+[2017-06-11 04:18:41]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:44]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:44] Lendo a guia NTN-B 150820
+[2017-06-11 04:18:44]  - Tipo Titulo: NTN-B
+[2017-06-11 04:18:44]  - Vencimento do Titulo: 2020-08-15
+[2017-06-11 04:18:44]  - Linhas do documento: 252
+[2017-06-11 04:18:44]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:46]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:46] Lendo a guia NTN-B 150824
+[2017-06-11 04:18:46]  - Tipo Titulo: NTN-B
+[2017-06-11 04:18:46]  - Vencimento do Titulo: 2024-08-15
+[2017-06-11 04:18:46]  - Linhas do documento: 252
+[2017-06-11 04:18:46]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:48]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:48] Lendo a guia NTN-B 150535
+[2017-06-11 04:18:48]  - Tipo Titulo: NTN-B
+[2017-06-11 04:18:48]  - Vencimento do Titulo: 2035-05-15
+[2017-06-11 04:18:48]  - Linhas do documento: 252
+[2017-06-11 04:18:48]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:50]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:50] Lendo a guia NTN-B 150545
+[2017-06-11 04:18:50]  - Tipo Titulo: NTN-B
+[2017-06-11 04:18:50]  - Vencimento do Titulo: 2045-05-15
+[2017-06-11 04:18:50]  - Linhas do documento: 252
+[2017-06-11 04:18:50]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:52]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:52] Lendo a guia NTN-B 150850
+[2017-06-11 04:18:52]  - Tipo Titulo: NTN-B
+[2017-06-11 04:18:52]  - Vencimento do Titulo: 2050-08-15
+[2017-06-11 04:18:52]  - Linhas do documento: 252
+[2017-06-11 04:18:52]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:54]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:54] Atualizando o arquivo numero 17:
+[2017-06-11 04:18:54] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=322:34546
+[2017-06-11 04:18:55] Arquivo carregado
+[2017-06-11 04:18:55] Identificado 4 guias
+[2017-06-11 04:18:55] Lendo a guia NTN-B Principal 150515
+[2017-06-11 04:18:55]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:18:55]  - Vencimento do Titulo: 2015-05-15
+[2017-06-11 04:18:55]  - Linhas do documento: 92
+[2017-06-11 04:18:55]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:57]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:57] Lendo a guia NTN-B Principal 150519
+[2017-06-11 04:18:57]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:18:57]  - Vencimento do Titulo: 2019-05-15
+[2017-06-11 04:18:57]  - Linhas do documento: 252
+[2017-06-11 04:18:57]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:18:59]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:18:59] Lendo a guia NTN-B Principal 150824
+[2017-06-11 04:18:59]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:18:59]  - Vencimento do Titulo: 2024-08-15
+[2017-06-11 04:18:59]  - Linhas do documento: 252
+[2017-06-11 04:18:59]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:02]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:02] Lendo a guia NTN-B Principal 150535
+[2017-06-11 04:19:02]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:19:02]  - Vencimento do Titulo: 2035-05-15
+[2017-06-11 04:19:02]  - Linhas do documento: 252
+[2017-06-11 04:19:02]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:04]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:04] Atualizando o arquivo numero 18:
+[2017-06-11 04:19:04] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=323:36904
+[2017-06-11 04:19:04] Arquivo carregado
+[2017-06-11 04:19:04] Identificado 4 guias
+[2017-06-11 04:19:04] Lendo a guia NTN-F 010117
+[2017-06-11 04:19:04]  - Tipo Titulo: NTN-F
+[2017-06-11 04:19:04]  - Vencimento do Titulo: 2017-01-01
+[2017-06-11 04:19:04]  - Linhas do documento: 252
+[2017-06-11 04:19:04]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:07]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:07] Lendo a guia NTN-F 010121
+[2017-06-11 04:19:07]  - Tipo Titulo: NTN-F
+[2017-06-11 04:19:07]  - Vencimento do Titulo: 2021-01-01
+[2017-06-11 04:19:07]  - Linhas do documento: 252
+[2017-06-11 04:19:07]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:09]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:09] Lendo a guia NTN-F 010123
+[2017-06-11 04:19:09]  - Tipo Titulo: NTN-F
+[2017-06-11 04:19:09]  - Vencimento do Titulo: 2023-01-01
+[2017-06-11 04:19:09]  - Linhas do documento: 252
+[2017-06-11 04:19:09]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:11]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:11] Lendo a guia NTN-F 010125
+[2017-06-11 04:19:11]  - Tipo Titulo: NTN-F
+[2017-06-11 04:19:11]  - Vencimento do Titulo: 2025-01-01
+[2017-06-11 04:19:11]  - Linhas do documento: 252
+[2017-06-11 04:19:11]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:13]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:13] Atualizando o arquivo numero 19:
+[2017-06-11 04:19:13] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=312:85073
+[2017-06-11 04:19:14] Arquivo carregado
+[2017-06-11 04:19:14] Identificado 3 guias
+[2017-06-11 04:19:14] Lendo a guia LFT 070314
+[2017-06-11 04:19:14]  - Tipo Titulo: LFT
+[2017-06-11 04:19:14]  - Vencimento do Titulo: 2014-03-07
+[2017-06-11 04:19:14]  - Linhas do documento: 46
+[2017-06-11 04:19:14]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:16]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:16] Lendo a guia LFT 070315
+[2017-06-11 04:19:16]  - Tipo Titulo: LFT
+[2017-06-11 04:19:16]  - Vencimento do Titulo: 2015-03-07
+[2017-06-11 04:19:16]  - Linhas do documento: 255
+[2017-06-11 04:19:16]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:18]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:18] Lendo a guia LFT 070317
+[2017-06-11 04:19:18]  - Tipo Titulo: LFT
+[2017-06-11 04:19:18]  - Vencimento do Titulo: 2017-03-07
+[2017-06-11 04:19:18]  - Linhas do documento: 255
+[2017-06-11 04:19:18]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:20]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:20] Atualizando o arquivo numero 20:
+[2017-06-11 04:19:20] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=313:31447
+[2017-06-11 04:19:21] Arquivo carregado
+[2017-06-11 04:19:21] Identificado 4 guias
+[2017-06-11 04:19:21] Lendo a guia LTN 010115
+[2017-06-11 04:19:21]  - Tipo Titulo: LTN
+[2017-06-11 04:19:21]  - Vencimento do Titulo: 2015-01-01
+[2017-06-11 04:19:21]  - Linhas do documento: 255
+[2017-06-11 04:19:21]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:23]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:23] Lendo a guia LTN 010116
+[2017-06-11 04:19:23]  - Tipo Titulo: LTN
+[2017-06-11 04:19:23]  - Vencimento do Titulo: 2016-01-01
+[2017-06-11 04:19:23]  - Linhas do documento: 255
+[2017-06-11 04:19:23]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:25]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:25] Lendo a guia LTN 010117
+[2017-06-11 04:19:25]  - Tipo Titulo: LTN
+[2017-06-11 04:19:25]  - Vencimento do Titulo: 2017-01-01
+[2017-06-11 04:19:25]  - Linhas do documento: 255
+[2017-06-11 04:19:25]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:27]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:27] Lendo a guia LTN 010118
+[2017-06-11 04:19:27]  - Tipo Titulo: LTN
+[2017-06-11 04:19:27]  - Vencimento do Titulo: 2018-01-01
+[2017-06-11 04:19:27]  - Linhas do documento: 238
+[2017-06-11 04:19:27]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:29]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:29] Atualizando o arquivo numero 21:
+[2017-06-11 04:19:29] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=314:24926
+[2017-06-11 04:19:30] Arquivo carregado
+[2017-06-11 04:19:30] Identificado 3 guias
+[2017-06-11 04:19:30] Lendo a guia NTN-C 010717
+[2017-06-11 04:19:30]  - Tipo Titulo: NTN-C
+[2017-06-11 04:19:30]  - Vencimento do Titulo: 2017-07-01
+[2017-06-11 04:19:30]  - Linhas do documento: 255
+[2017-06-11 04:19:30]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:32]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:32] Lendo a guia NTN-C 010421
+[2017-06-11 04:19:32]  - Tipo Titulo: NTN-C
+[2017-06-11 04:19:32]  - Vencimento do Titulo: 2021-04-01
+[2017-06-11 04:19:32]  - Linhas do documento: 255
+[2017-06-11 04:19:32]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:34]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:34] Lendo a guia NTN-C 010131
+[2017-06-11 04:19:34]  - Tipo Titulo: NTN-C
+[2017-06-11 04:19:34]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:19:34]  - Linhas do documento: 255
+[2017-06-11 04:19:34]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:36]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:36] Atualizando o arquivo numero 22:
+[2017-06-11 04:19:36] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=315:866883
+[2017-06-11 04:19:37] Arquivo carregado
+[2017-06-11 04:19:37] Identificado 7 guias
+[2017-06-11 04:19:37] Lendo a guia NTN-B 150515
+[2017-06-11 04:19:37]  - Tipo Titulo: NTN-B
+[2017-06-11 04:19:37]  - Vencimento do Titulo: 2015-05-15
+[2017-06-11 04:19:37]  - Linhas do documento: 255
+[2017-06-11 04:19:37]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:40]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:40] Lendo a guia NTN-B 150517
+[2017-06-11 04:19:40]  - Tipo Titulo: NTN-B
+[2017-06-11 04:19:40]  - Vencimento do Titulo: 2017-05-15
+[2017-06-11 04:19:40]  - Linhas do documento: 255
+[2017-06-11 04:19:40]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:42]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:42] Lendo a guia NTN-B 150820
+[2017-06-11 04:19:42]  - Tipo Titulo: NTN-B
+[2017-06-11 04:19:42]  - Vencimento do Titulo: 2020-08-15
+[2017-06-11 04:19:42]  - Linhas do documento: 255
+[2017-06-11 04:19:42]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:44]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:44] Lendo a guia NTN-B 150824
+[2017-06-11 04:19:44]  - Tipo Titulo: NTN-B
+[2017-06-11 04:19:44]  - Vencimento do Titulo: 2024-08-15
+[2017-06-11 04:19:44]  - Linhas do documento: 255
+[2017-06-11 04:19:44]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:46]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:46] Lendo a guia NTN-B 150535
+[2017-06-11 04:19:46]  - Tipo Titulo: NTN-B
+[2017-06-11 04:19:46]  - Vencimento do Titulo: 2035-05-15
+[2017-06-11 04:19:46]  - Linhas do documento: 255
+[2017-06-11 04:19:46]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:48]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:48] Lendo a guia NTN-B 150545
+[2017-06-11 04:19:48]  - Tipo Titulo: NTN-B
+[2017-06-11 04:19:48]  - Vencimento do Titulo: 2045-05-15
+[2017-06-11 04:19:48]  - Linhas do documento: 255
+[2017-06-11 04:19:48]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:50]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:50] Lendo a guia NTN-B 150850
+[2017-06-11 04:19:50]  - Tipo Titulo: NTN-B
+[2017-06-11 04:19:50]  - Vencimento do Titulo: 2050-08-15
+[2017-06-11 04:19:50]  - Linhas do documento: 255
+[2017-06-11 04:19:50]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:53]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:53] Atualizando o arquivo numero 23:
+[2017-06-11 04:19:53] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=316:59406
+[2017-06-11 04:19:53] Arquivo carregado
+[2017-06-11 04:19:53] Identificado 4 guias
+[2017-06-11 04:19:54] Lendo a guia NTN-B Principal 150515
+[2017-06-11 04:19:54]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:19:54]  - Vencimento do Titulo: 2015-05-15
+[2017-06-11 04:19:54]  - Linhas do documento: 255
+[2017-06-11 04:19:54]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:56]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:56] Lendo a guia NTN-B Principal 150519
+[2017-06-11 04:19:56]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:19:56]  - Vencimento do Titulo: 2019-05-15
+[2017-06-11 04:19:56]  - Linhas do documento: 255
+[2017-06-11 04:19:56]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:19:58]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:19:58] Lendo a guia NTN-B Principal 150824
+[2017-06-11 04:19:58]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:19:58]  - Vencimento do Titulo: 2024-08-15
+[2017-06-11 04:19:58]  - Linhas do documento: 255
+[2017-06-11 04:19:58]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:00]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:00] Lendo a guia NTN-B Principal 150535
+[2017-06-11 04:20:00]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:20:00]  - Vencimento do Titulo: 2035-05-15
+[2017-06-11 04:20:00]  - Linhas do documento: 255
+[2017-06-11 04:20:00]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:02]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:02] Atualizando o arquivo numero 24:
+[2017-06-11 04:20:02] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=317:43143
+[2017-06-11 04:20:03] Arquivo carregado
+[2017-06-11 04:20:03] Identificado 4 guias
+[2017-06-11 04:20:03] Lendo a guia NTN-F 010117
+[2017-06-11 04:20:03]  - Tipo Titulo: NTN-F
+[2017-06-11 04:20:03]  - Vencimento do Titulo: 2017-01-01
+[2017-06-11 04:20:03]  - Linhas do documento: 255
+[2017-06-11 04:20:03]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:05]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:05] Lendo a guia NTN-F 010121
+[2017-06-11 04:20:05]  - Tipo Titulo: NTN-F
+[2017-06-11 04:20:05]  - Vencimento do Titulo: 2021-01-01
+[2017-06-11 04:20:05]  - Linhas do documento: 255
+[2017-06-11 04:20:05]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:07]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:07] Lendo a guia NTN-F 010123
+[2017-06-11 04:20:07]  - Tipo Titulo: NTN-F
+[2017-06-11 04:20:07]  - Vencimento do Titulo: 2023-01-01
+[2017-06-11 04:20:07]  - Linhas do documento: 255
+[2017-06-11 04:20:07]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:09]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:09] Lendo a guia NTN-F 010125
+[2017-06-11 04:20:09]  - Tipo Titulo: NTN-F
+[2017-06-11 04:20:09]  - Vencimento do Titulo: 2025-01-01
+[2017-06-11 04:20:09]  - Linhas do documento: 238
+[2017-06-11 04:20:09]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:12]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:12] Atualizando o arquivo numero 25:
+[2017-06-11 04:20:12] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=306:132199
+[2017-06-11 04:20:12] Arquivo carregado
+[2017-06-11 04:20:12] Identificado 4 guias
+[2017-06-11 04:20:12] Lendo a guia LFT 070313
+[2017-06-11 04:20:12]  - Tipo Titulo: LFT
+[2017-06-11 04:20:12]  - Vencimento do Titulo: 2013-03-07
+[2017-06-11 04:20:12]  - Linhas do documento: 45
+[2017-06-11 04:20:12]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:14]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:14] Lendo a guia LFT 070314
+[2017-06-11 04:20:14]  - Tipo Titulo: LFT
+[2017-06-11 04:20:14]  - Vencimento do Titulo: 2014-03-07
+[2017-06-11 04:20:14]  - Linhas do documento: 253
+[2017-06-11 04:20:14]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:17]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:17] Lendo a guia LFT 070315
+[2017-06-11 04:20:17]  - Tipo Titulo: LFT
+[2017-06-11 04:20:17]  - Vencimento do Titulo: 2015-03-07
+[2017-06-11 04:20:17]  - Linhas do documento: 253
+[2017-06-11 04:20:17]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:19]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:19] Lendo a guia LFT 070317
+[2017-06-11 04:20:19]  - Tipo Titulo: LFT
+[2017-06-11 04:20:19]  - Vencimento do Titulo: 2017-03-07
+[2017-06-11 04:20:19]  - Linhas do documento: 253
+[2017-06-11 04:20:19]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:21]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:21] Atualizando o arquivo numero 26:
+[2017-06-11 04:20:21] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=307:48208
+[2017-06-11 04:20:21] Arquivo carregado
+[2017-06-11 04:20:21] Identificado 4 guias
+[2017-06-11 04:20:21] Lendo a guia LTN 010114
+[2017-06-11 04:20:21]  - Tipo Titulo: LTN
+[2017-06-11 04:20:21]  - Vencimento do Titulo: 2014-01-01
+[2017-06-11 04:20:21]  - Linhas do documento: 251
+[2017-06-11 04:20:21]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:24]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:24] Lendo a guia LTN 010115
+[2017-06-11 04:20:24]  - Tipo Titulo: LTN
+[2017-06-11 04:20:24]  - Vencimento do Titulo: 2015-01-01
+[2017-06-11 04:20:24]  - Linhas do documento: 253
+[2017-06-11 04:20:24]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:26]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:26] Lendo a guia LTN 010116
+[2017-06-11 04:20:26]  - Tipo Titulo: LTN
+[2017-06-11 04:20:26]  - Vencimento do Titulo: 2016-01-01
+[2017-06-11 04:20:26]  - Linhas do documento: 253
+[2017-06-11 04:20:26]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:28]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:28] Lendo a guia LTN 010117
+[2017-06-11 04:20:28]  - Tipo Titulo: LTN
+[2017-06-11 04:20:28]  - Vencimento do Titulo: 2017-01-01
+[2017-06-11 04:20:28]  - Linhas do documento: 245
+[2017-06-11 04:20:28]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:30]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:30] Atualizando o arquivo numero 27:
+[2017-06-11 04:20:30] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=308:11179
+[2017-06-11 04:20:31] Arquivo carregado
+[2017-06-11 04:20:31] Identificado 3 guias
+[2017-06-11 04:20:31] Lendo a guia NTN-C 010717
+[2017-06-11 04:20:31]  - Tipo Titulo: NTN-C
+[2017-06-11 04:20:31]  - Vencimento do Titulo: 2017-07-01
+[2017-06-11 04:20:31]  - Linhas do documento: 253
+[2017-06-11 04:20:31]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:33]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:33] Lendo a guia NTN-C 010421
+[2017-06-11 04:20:33]  - Tipo Titulo: NTN-C
+[2017-06-11 04:20:33]  - Vencimento do Titulo: 2021-04-01
+[2017-06-11 04:20:33]  - Linhas do documento: 253
+[2017-06-11 04:20:33]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:35]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:35] Lendo a guia NTN-C 010131
+[2017-06-11 04:20:35]  - Tipo Titulo: NTN-C
+[2017-06-11 04:20:35]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:20:35]  - Linhas do documento: 253
+[2017-06-11 04:20:35]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:37]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:37] Atualizando o arquivo numero 28:
+[2017-06-11 04:20:37] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=309:95721
+[2017-06-11 04:20:38] Arquivo carregado
+[2017-06-11 04:20:38] Identificado 8 guias
+[2017-06-11 04:20:38] Lendo a guia NTN-B 150513
+[2017-06-11 04:20:38]  - Tipo Titulo: NTN-B
+[2017-06-11 04:20:38]  - Vencimento do Titulo: 2013-05-15
+[2017-06-11 04:20:38]  - Linhas do documento: 92
+[2017-06-11 04:20:38]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:40]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:40] Lendo a guia NTN-B 150515
+[2017-06-11 04:20:40]  - Tipo Titulo: NTN-B
+[2017-06-11 04:20:40]  - Vencimento do Titulo: 2015-05-15
+[2017-06-11 04:20:40]  - Linhas do documento: 253
+[2017-06-11 04:20:40]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:42]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:42] Lendo a guia NTN-B 150517
+[2017-06-11 04:20:42]  - Tipo Titulo: NTN-B
+[2017-06-11 04:20:42]  - Vencimento do Titulo: 2017-05-15
+[2017-06-11 04:20:42]  - Linhas do documento: 253
+[2017-06-11 04:20:42]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:45]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:45] Lendo a guia NTN-B 150820
+[2017-06-11 04:20:45]  - Tipo Titulo: NTN-B
+[2017-06-11 04:20:45]  - Vencimento do Titulo: 2020-08-15
+[2017-06-11 04:20:45]  - Linhas do documento: 253
+[2017-06-11 04:20:45]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:47]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:47] Lendo a guia NTN-B 150824
+[2017-06-11 04:20:47]  - Tipo Titulo: NTN-B
+[2017-06-11 04:20:47]  - Vencimento do Titulo: 2024-08-15
+[2017-06-11 04:20:47]  - Linhas do documento: 253
+[2017-06-11 04:20:47]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:49]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:49] Lendo a guia NTN-B 150535
+[2017-06-11 04:20:49]  - Tipo Titulo: NTN-B
+[2017-06-11 04:20:49]  - Vencimento do Titulo: 2035-05-15
+[2017-06-11 04:20:49]  - Linhas do documento: 253
+[2017-06-11 04:20:49]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:51]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:51] Lendo a guia NTN-B 150545
+[2017-06-11 04:20:51]  - Tipo Titulo: NTN-B
+[2017-06-11 04:20:51]  - Vencimento do Titulo: 2045-05-15
+[2017-06-11 04:20:51]  - Linhas do documento: 253
+[2017-06-11 04:20:51]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:53]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:53] Lendo a guia NTN-B 150850
+[2017-06-11 04:20:53]  - Tipo Titulo: NTN-B
+[2017-06-11 04:20:53]  - Vencimento do Titulo: 2050-08-15
+[2017-06-11 04:20:53]  - Linhas do documento: 253
+[2017-06-11 04:20:53]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:56]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:56] Atualizando o arquivo numero 29:
+[2017-06-11 04:20:56] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=310:790631
+[2017-06-11 04:20:57] Arquivo carregado
+[2017-06-11 04:20:57] Identificado 4 guias
+[2017-06-11 04:20:57] Lendo a guia NTN-B Principal 150515
+[2017-06-11 04:20:57]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:20:57]  - Vencimento do Titulo: 2015-05-15
+[2017-06-11 04:20:57]  - Linhas do documento: 253
+[2017-06-11 04:20:57]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:20:59]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:20:59] Lendo a guia NTN-B Principal 150519
+[2017-06-11 04:20:59]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:20:59]  - Vencimento do Titulo: 2019-05-15
+[2017-06-11 04:20:59]  - Linhas do documento: 245
+[2017-06-11 04:20:59]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:01]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:01] Lendo a guia NTN-B Principal 150824
+[2017-06-11 04:21:01]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:21:01]  - Vencimento do Titulo: 2024-08-15
+[2017-06-11 04:21:01]  - Linhas do documento: 253
+[2017-06-11 04:21:01]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:03]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:03] Lendo a guia NTN-B Principal 150535
+[2017-06-11 04:21:03]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:21:03]  - Vencimento do Titulo: 2035-05-15
+[2017-06-11 04:21:03]  - Linhas do documento: 253
+[2017-06-11 04:21:03]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:05]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:05] Atualizando o arquivo numero 30:
+[2017-06-11 04:21:05] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=311:84397
+[2017-06-11 04:21:06] Arquivo carregado
+[2017-06-11 04:21:06] Identificado 4 guias
+[2017-06-11 04:21:06] Lendo a guia NTN-F 010114
+[2017-06-11 04:21:06]  - Tipo Titulo: NTN-F
+[2017-06-11 04:21:06]  - Vencimento do Titulo: 2014-01-01
+[2017-06-11 04:21:06]  - Linhas do documento: 251
+[2017-06-11 04:21:06]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:08]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:08] Lendo a guia NTN-F 010117
+[2017-06-11 04:21:08]  - Tipo Titulo: NTN-F
+[2017-06-11 04:21:08]  - Vencimento do Titulo: 2017-01-01
+[2017-06-11 04:21:08]  - Linhas do documento: 253
+[2017-06-11 04:21:08]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:10]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:10] Lendo a guia NTN-F 010121
+[2017-06-11 04:21:11]  - Tipo Titulo: NTN-F
+[2017-06-11 04:21:11]  - Vencimento do Titulo: 2021-01-01
+[2017-06-11 04:21:11]  - Linhas do documento: 253
+[2017-06-11 04:21:11]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:13]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:13] Lendo a guia NTN-F 010123
+[2017-06-11 04:21:13]  - Tipo Titulo: NTN-F
+[2017-06-11 04:21:13]  - Vencimento do Titulo: 2023-01-01
+[2017-06-11 04:21:13]  - Linhas do documento: 253
+[2017-06-11 04:21:13]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:15]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:15] Atualizando o arquivo numero 31:
+[2017-06-11 04:21:15] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=300:841158
+[2017-06-11 04:21:16] Arquivo carregado
+[2017-06-11 04:21:16] Identificado 5 guias
+[2017-06-11 04:21:16] Lendo a guia LFT 070312
+[2017-06-11 04:21:16]  - Tipo Titulo: LFT
+[2017-06-11 04:21:16]  - Vencimento do Titulo: 2012-03-07
+[2017-06-11 04:21:16]  - Linhas do documento: 47
+[2017-06-11 04:21:16]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:18]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:18] Lendo a guia LFT 070313
+[2017-06-11 04:21:18]  - Tipo Titulo: LFT
+[2017-06-11 04:21:18]  - Vencimento do Titulo: 2013-03-07
+[2017-06-11 04:21:18]  - Linhas do documento: 251
+[2017-06-11 04:21:18]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:20]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:20] Lendo a guia LFT 070314
+[2017-06-11 04:21:20]  - Tipo Titulo: LFT
+[2017-06-11 04:21:21]  - Vencimento do Titulo: 2014-03-07
+[2017-06-11 04:21:21]  - Linhas do documento: 251
+[2017-06-11 04:21:21]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:23]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:23] Lendo a guia LFT 070315
+[2017-06-11 04:21:23]  - Tipo Titulo: LFT
+[2017-06-11 04:21:23]  - Vencimento do Titulo: 2015-03-07
+[2017-06-11 04:21:23]  - Linhas do documento: 251
+[2017-06-11 04:21:23]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:25]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:25] Lendo a guia LFT 070317
+[2017-06-11 04:21:25]  - Tipo Titulo: LFT
+[2017-06-11 04:21:25]  - Vencimento do Titulo: 2017-03-07
+[2017-06-11 04:21:25]  - Linhas do documento: 251
+[2017-06-11 04:21:25]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:27]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:27] Atualizando o arquivo numero 32:
+[2017-06-11 04:21:27] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=301:78940
+[2017-06-11 04:21:28] Arquivo carregado
+[2017-06-11 04:21:28] Identificado 4 guias
+[2017-06-11 04:21:28] Lendo a guia LTN 010113
+[2017-06-11 04:21:28]  - Tipo Titulo: LTN
+[2017-06-11 04:21:28]  - Vencimento do Titulo: 2013-01-01
+[2017-06-11 04:21:28]  - Linhas do documento: 251
+[2017-06-11 04:21:28]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:30]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:30] Lendo a guia LTN 010114
+[2017-06-11 04:21:30]  - Tipo Titulo: LTN
+[2017-06-11 04:21:30]  - Vencimento do Titulo: 2014-01-01
+[2017-06-11 04:21:30]  - Linhas do documento: 251
+[2017-06-11 04:21:30]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:32]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:32] Lendo a guia LTN 010115
+[2017-06-11 04:21:32]  - Tipo Titulo: LTN
+[2017-06-11 04:21:32]  - Vencimento do Titulo: 2015-01-01
+[2017-06-11 04:21:32]  - Linhas do documento: 251
+[2017-06-11 04:21:32]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:34]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:34] Lendo a guia LTN 010116
+[2017-06-11 04:21:34]  - Tipo Titulo: LTN
+[2017-06-11 04:21:34]  - Vencimento do Titulo: 2016-01-01
+[2017-06-11 04:21:34]  - Linhas do documento: 229
+[2017-06-11 04:21:34]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:37]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:37] Atualizando o arquivo numero 33:
+[2017-06-11 04:21:37] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=302:33812
+[2017-06-11 04:21:37] Arquivo carregado
+[2017-06-11 04:21:37] Identificado 3 guias
+[2017-06-11 04:21:37] Lendo a guia NTN-C 010717
+[2017-06-11 04:21:37]  - Tipo Titulo: NTN-C
+[2017-06-11 04:21:37]  - Vencimento do Titulo: 2017-07-01
+[2017-06-11 04:21:37]  - Linhas do documento: 251
+[2017-06-11 04:21:37]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:40]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:40] Lendo a guia NTN-C 010421
+[2017-06-11 04:21:40]  - Tipo Titulo: NTN-C
+[2017-06-11 04:21:40]  - Vencimento do Titulo: 2021-04-01
+[2017-06-11 04:21:40]  - Linhas do documento: 251
+[2017-06-11 04:21:40]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:42]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:42] Lendo a guia NTN-C 010131
+[2017-06-11 04:21:42]  - Tipo Titulo: NTN-C
+[2017-06-11 04:21:42]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:21:42]  - Linhas do documento: 251
+[2017-06-11 04:21:42]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:44]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:44] Atualizando o arquivo numero 34:
+[2017-06-11 04:21:44] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=303:98368
+[2017-06-11 04:21:45] Arquivo carregado
+[2017-06-11 04:21:45] Identificado 9 guias
+[2017-06-11 04:21:45] Lendo a guia NTN-B 150812
+[2017-06-11 04:21:45]  - Tipo Titulo: NTN-B
+[2017-06-11 04:21:45]  - Vencimento do Titulo: 2012-08-15
+[2017-06-11 04:21:45]  - Linhas do documento: 159
+[2017-06-11 04:21:45]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:48]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:48] Lendo a guia NTN-B 150513
+[2017-06-11 04:21:48]  - Tipo Titulo: NTN-B
+[2017-06-11 04:21:48]  - Vencimento do Titulo: 2013-05-15
+[2017-06-11 04:21:48]  - Linhas do documento: 251
+[2017-06-11 04:21:48]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:50]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:50] Lendo a guia NTN-B 150515
+[2017-06-11 04:21:50]  - Tipo Titulo: NTN-B
+[2017-06-11 04:21:50]  - Vencimento do Titulo: 2015-05-15
+[2017-06-11 04:21:50]  - Linhas do documento: 251
+[2017-06-11 04:21:50]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:52]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:52] Lendo a guia NTN-B 150517
+[2017-06-11 04:21:52]  - Tipo Titulo: NTN-B
+[2017-06-11 04:21:52]  - Vencimento do Titulo: 2017-05-15
+[2017-06-11 04:21:52]  - Linhas do documento: 251
+[2017-06-11 04:21:52]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:54]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:54] Lendo a guia NTN-B 150820
+[2017-06-11 04:21:54]  - Tipo Titulo: NTN-B
+[2017-06-11 04:21:54]  - Vencimento do Titulo: 2020-08-15
+[2017-06-11 04:21:54]  - Linhas do documento: 251
+[2017-06-11 04:21:54]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:56]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:56] Lendo a guia NTN-B 150824
+[2017-06-11 04:21:56]  - Tipo Titulo: NTN-B
+[2017-06-11 04:21:56]  - Vencimento do Titulo: 2024-08-15
+[2017-06-11 04:21:56]  - Linhas do documento: 251
+[2017-06-11 04:21:56]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:21:59]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:21:59] Lendo a guia NTN-B 150535
+[2017-06-11 04:21:59]  - Tipo Titulo: NTN-B
+[2017-06-11 04:21:59]  - Vencimento do Titulo: 2035-05-15
+[2017-06-11 04:21:59]  - Linhas do documento: 251
+[2017-06-11 04:21:59]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:01]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:01] Lendo a guia NTN-B 150545
+[2017-06-11 04:22:01]  - Tipo Titulo: NTN-B
+[2017-06-11 04:22:01]  - Vencimento do Titulo: 2045-05-15
+[2017-06-11 04:22:01]  - Linhas do documento: 251
+[2017-06-11 04:22:01]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:03]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:03] Lendo a guia NTN-B 150850
+[2017-06-11 04:22:03]  - Tipo Titulo: NTN-B
+[2017-06-11 04:22:03]  - Vencimento do Titulo: 2050-08-15
+[2017-06-11 04:22:03]  - Linhas do documento: 146
+[2017-06-11 04:22:03]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:05]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:05] Atualizando o arquivo numero 35:
+[2017-06-11 04:22:05] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=304:13597
+[2017-06-11 04:22:06] Arquivo carregado
+[2017-06-11 04:22:06] Identificado 3 guias
+[2017-06-11 04:22:06] Lendo a guia NTN-B Principal 150515
+[2017-06-11 04:22:06]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:22:06]  - Vencimento do Titulo: 2015-05-15
+[2017-06-11 04:22:06]  - Linhas do documento: 251
+[2017-06-11 04:22:06]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:08]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:08] Lendo a guia NTN-B Principal 150824
+[2017-06-11 04:22:08]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:22:08]  - Vencimento do Titulo: 2024-08-15
+[2017-06-11 04:22:08]  - Linhas do documento: 251
+[2017-06-11 04:22:08]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:10]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:10] Lendo a guia NTN-B Principal 150535
+[2017-06-11 04:22:10]  - Tipo Titulo: NTN-B Principal
+[2017-06-11 04:22:10]  - Vencimento do Titulo: 2035-05-15
+[2017-06-11 04:22:10]  - Linhas do documento: 251
+[2017-06-11 04:22:10]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:12]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:12] Atualizando o arquivo numero 36:
+[2017-06-11 04:22:12] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=305:799228
+[2017-06-11 04:22:13] Arquivo carregado
+[2017-06-11 04:22:13] Identificado 5 guias
+[2017-06-11 04:22:13] Lendo a guia NTN-F 010113
+[2017-06-11 04:22:13]  - Tipo Titulo: NTN-F
+[2017-06-11 04:22:13]  - Vencimento do Titulo: 2013-01-01
+[2017-06-11 04:22:13]  - Linhas do documento: 251
+[2017-06-11 04:22:13]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:15]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:15] Lendo a guia NTN-F 010114
+[2017-06-11 04:22:15]  - Tipo Titulo: NTN-F
+[2017-06-11 04:22:15]  - Vencimento do Titulo: 2014-01-01
+[2017-06-11 04:22:15]  - Linhas do documento: 251
+[2017-06-11 04:22:15]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:17]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:17] Lendo a guia NTN-F 010117
+[2017-06-11 04:22:17]  - Tipo Titulo: NTN-F
+[2017-06-11 04:22:17]  - Vencimento do Titulo: 2017-01-01
+[2017-06-11 04:22:17]  - Linhas do documento: 251
+[2017-06-11 04:22:17]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:20]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:20] Lendo a guia NTN-F 010121
+[2017-06-11 04:22:20]  - Tipo Titulo: NTN-F
+[2017-06-11 04:22:20]  - Vencimento do Titulo: 2021-01-01
+[2017-06-11 04:22:20]  - Linhas do documento: 251
+[2017-06-11 04:22:20]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:22]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:22] Lendo a guia NTN-F 010123
+[2017-06-11 04:22:22]  - Tipo Titulo: NTN-F
+[2017-06-11 04:22:22]  - Vencimento do Titulo: 2023-01-01
+[2017-06-11 04:22:22]  - Linhas do documento: 146
+[2017-06-11 04:22:22]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:24]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:24] Atualizando o arquivo numero 37:
+[2017-06-11 04:22:24] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=294:86390
+[2017-06-11 04:22:25] Arquivo carregado
+[2017-06-11 04:22:25] Identificado 6 guias
+[2017-06-11 04:22:25] Lendo a guia LFT 160311
+[2017-06-11 04:22:25]  - Tipo Titulo: LFT
+[2017-06-11 04:22:25]  - Vencimento do Titulo: 2012-04-03
+[2017-06-11 04:22:25]  - Linhas do documento: 265
+[2017-06-11 04:22:25]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:27]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:27] Lendo a guia LFT 070312
+[2017-06-11 04:22:27]  - Tipo Titulo: LFT
+[2017-06-11 04:22:27]  - Vencimento do Titulo: 2012-07-03
+[2017-06-11 04:22:27]  - Linhas do documento: 265
+[2017-06-11 04:22:27]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:30]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:30] Lendo a guia LFT 070313
+[2017-06-11 04:22:30]  - Tipo Titulo: LFT
+[2017-06-11 04:22:30]  - Vencimento do Titulo: 2013-07-03
+[2017-06-11 04:22:30]  - Linhas do documento: 265
+[2017-06-11 04:22:30]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:32]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:32] Lendo a guia LFT 070314
+[2017-06-11 04:22:32]  - Tipo Titulo: LFT
+[2017-06-11 04:22:32]  - Vencimento do Titulo: 2014-07-03
+[2017-06-11 04:22:32]  - Linhas do documento: 265
+[2017-06-11 04:22:32]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:34]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:34] Lendo a guia LFT 070315
+[2017-06-11 04:22:34]  - Tipo Titulo: LFT
+[2017-06-11 04:22:34]  - Vencimento do Titulo: 2015-07-03
+[2017-06-11 04:22:34]  - Linhas do documento: 265
+[2017-06-11 04:22:34]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:36]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:36] Lendo a guia LFT 070317
+[2017-06-11 04:22:36]  - Tipo Titulo: LFT
+[2017-06-11 04:22:36]  - Vencimento do Titulo: 2017-07-03
+[2017-06-11 04:22:36]  - Linhas do documento: 265
+[2017-06-11 04:22:36]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:38]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:38] Atualizando o arquivo numero 38:
+[2017-06-11 04:22:38] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=295:804293
+[2017-06-11 04:22:39] Arquivo carregado
+[2017-06-11 04:22:39] Identificado 5 guias
+[2017-06-11 04:22:39] Lendo a guia LTN 010711
+[2017-06-11 04:22:39]  - Tipo Titulo: LTN
+[2017-06-11 04:22:39]  - Vencimento do Titulo: 2011-01-07
+[2017-06-11 04:22:39]  - Linhas do documento: 253
+[2017-06-11 04:22:39]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:41]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:42] Lendo a guia LTN 010112
+[2017-06-11 04:22:42]  - Tipo Titulo: LTN
+[2017-06-11 04:22:42]  - Vencimento do Titulo: 2012-01-01
+[2017-06-11 04:22:42]  - Linhas do documento: 253
+[2017-06-11 04:22:42]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:44]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:44] Lendo a guia LTN 010113
+[2017-06-11 04:22:44]  - Tipo Titulo: LTN
+[2017-06-11 04:22:44]  - Vencimento do Titulo: 2013-01-01
+[2017-06-11 04:22:44]  - Linhas do documento: 253
+[2017-06-11 04:22:44]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:46]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:46] Lendo a guia LTN 010114
+[2017-06-11 04:22:46]  - Tipo Titulo: LTN
+[2017-06-11 04:22:46]  - Vencimento do Titulo: 2014-01-01
+[2017-06-11 04:22:46]  - Linhas do documento: 253
+[2017-06-11 04:22:46]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:48]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:48] Lendo a guia LTN 010115
+[2017-06-11 04:22:48]  - Tipo Titulo: LTN
+[2017-06-11 04:22:48]  - Vencimento do Titulo: 2015-01-01
+[2017-06-11 04:22:48]  - Linhas do documento: 253
+[2017-06-11 04:22:48]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:50]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:50] Atualizando o arquivo numero 39:
+[2017-06-11 04:22:50] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=296:58672
+[2017-06-11 04:22:51] Arquivo carregado
+[2017-06-11 04:22:51] Identificado 4 guias
+[2017-06-11 04:22:51] Lendo a guia NTNC 010311
+[2017-06-11 04:22:51]  - Tipo Titulo: NTNC
+[2017-06-11 04:22:51]  - Vencimento do Titulo: 2011-01-03
+[2017-06-11 04:22:51]  - Linhas do documento: 269
+[2017-06-11 04:22:51]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:53]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:53] Lendo a guia NTNC 010717
+[2017-06-11 04:22:53]  - Tipo Titulo: NTNC
+[2017-06-11 04:22:53]  - Vencimento do Titulo: 2017-01-07
+[2017-06-11 04:22:53]  - Linhas do documento: 269
+[2017-06-11 04:22:53]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:55]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:55] Lendo a guia NTNC 010421
+[2017-06-11 04:22:55]  - Tipo Titulo: NTNC
+[2017-06-11 04:22:55]  - Vencimento do Titulo: 2021-01-04
+[2017-06-11 04:22:55]  - Linhas do documento: 269
+[2017-06-11 04:22:55]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:22:57]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:22:57] Lendo a guia NTNC 010131
+[2017-06-11 04:22:57]  - Tipo Titulo: NTNC
+[2017-06-11 04:22:57]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:22:57]  - Linhas do documento: 269
+[2017-06-11 04:22:58]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:00]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:00] Atualizando o arquivo numero 40:
+[2017-06-11 04:23:00] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=297:104607
+[2017-06-11 04:23:01] Arquivo carregado
+[2017-06-11 04:23:01] Identificado 9 guias
+[2017-06-11 04:23:01] Lendo a guia NTNB 150511
+[2017-06-11 04:23:01]  - Tipo Titulo: NTNB
+[2017-06-11 04:23:01]  - Vencimento do Titulo: 2012-03-05
+[2017-06-11 04:23:01]  - Linhas do documento: 262
+[2017-06-11 04:23:01]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:03]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:03] Lendo a guia NTNB 150812
+[2017-06-11 04:23:03]  - Tipo Titulo: NTNB
+[2017-06-11 04:23:03]  - Vencimento do Titulo: 2013-03-08
+[2017-06-11 04:23:03]  - Linhas do documento: 262
+[2017-06-11 04:23:03]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:05]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:05] Lendo a guia NTNB 150513
+[2017-06-11 04:23:05]  - Tipo Titulo: NTNB
+[2017-06-11 04:23:05]  - Vencimento do Titulo: 2014-03-05
+[2017-06-11 04:23:05]  - Linhas do documento: 262
+[2017-06-11 04:23:05]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:07]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:07] Lendo a guia NTNB 150515
+[2017-06-11 04:23:07]  - Tipo Titulo: NTNB
+[2017-06-11 04:23:07]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:23:07]  - Linhas do documento: 262
+[2017-06-11 04:23:07]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:10]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:10] Lendo a guia NTNB 150517
+[2017-06-11 04:23:10]  - Tipo Titulo: NTNB
+[2017-06-11 04:23:10]  - Vencimento do Titulo: 2018-03-05
+[2017-06-11 04:23:10]  - Linhas do documento: 262
+[2017-06-11 04:23:10]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:12]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:12] Lendo a guia NTNB 150820
+[2017-06-11 04:23:12]  - Tipo Titulo: NTNB
+[2017-06-11 04:23:12]  - Vencimento do Titulo: 2021-03-08
+[2017-06-11 04:23:12]  - Linhas do documento: 262
+[2017-06-11 04:23:12]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:14]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:14] Lendo a guia NTNB 150824
+[2017-06-11 04:23:14]  - Tipo Titulo: NTNB
+[2017-06-11 04:23:14]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:23:14]  - Linhas do documento: 262
+[2017-06-11 04:23:14]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:17]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:17] Lendo a guia NTNB 150535
+[2017-06-11 04:23:17]  - Tipo Titulo: NTNB
+[2017-06-11 04:23:17]  - Vencimento do Titulo: 2036-03-05
+[2017-06-11 04:23:17]  - Linhas do documento: 262
+[2017-06-11 04:23:17]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:19]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:19] Lendo a guia NTNB 150545
+[2017-06-11 04:23:19]  - Tipo Titulo: NTNB
+[2017-06-11 04:23:19]  - Vencimento do Titulo: 1909-08-04
+[2017-06-11 04:23:19]  - Linhas do documento: 262
+[2017-06-11 04:23:19]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:22]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:22] Atualizando o arquivo numero 41:
+[2017-06-11 04:23:22] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=298:22116
+[2017-06-11 04:23:22] Arquivo carregado
+[2017-06-11 04:23:22] Identificado 3 guias
+[2017-06-11 04:23:22] Lendo a guia NTNBP 150515
+[2017-06-11 04:23:22]  - Tipo Titulo: NTNBP
+[2017-06-11 04:23:22]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:23:22]  - Linhas do documento: 282
+[2017-06-11 04:23:22]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:24]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:24] Lendo a guia NTNBP 150824
+[2017-06-11 04:23:24]  - Tipo Titulo: NTNBP
+[2017-06-11 04:23:24]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:23:24]  - Linhas do documento: 282
+[2017-06-11 04:23:24]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:27]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:27] Lendo a guia NTNBP 150535
+[2017-06-11 04:23:27]  - Tipo Titulo: NTNBP
+[2017-06-11 04:23:27]  - Vencimento do Titulo: 2036-03-05
+[2017-06-11 04:23:27]  - Linhas do documento: 282
+[2017-06-11 04:23:27]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:29]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:29] Atualizando o arquivo numero 42:
+[2017-06-11 04:23:29] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=299:38588
+[2017-06-11 04:23:30] Arquivo carregado
+[2017-06-11 04:23:30] Identificado 5 guias
+[2017-06-11 04:23:30] Lendo a guia NTNF 010112
+[2017-06-11 04:23:30]  - Tipo Titulo: NTNF
+[2017-06-11 04:23:30]  - Vencimento do Titulo: 2012-01-01
+[2017-06-11 04:23:30]  - Linhas do documento: 264
+[2017-06-11 04:23:30]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:32]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:32] Lendo a guia NTNF 010113
+[2017-06-11 04:23:32]  - Tipo Titulo: NTNF
+[2017-06-11 04:23:32]  - Vencimento do Titulo: 2013-01-01
+[2017-06-11 04:23:32]  - Linhas do documento: 264
+[2017-06-11 04:23:32]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:34]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:34] Lendo a guia NTNF 010114
+[2017-06-11 04:23:34]  - Tipo Titulo: NTNF
+[2017-06-11 04:23:34]  - Vencimento do Titulo: 2014-01-01
+[2017-06-11 04:23:34]  - Linhas do documento: 264
+[2017-06-11 04:23:34]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:36]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:36] Lendo a guia NTNF 010117
+[2017-06-11 04:23:36]  - Tipo Titulo: NTNF
+[2017-06-11 04:23:36]  - Vencimento do Titulo: 2017-01-01
+[2017-06-11 04:23:36]  - Linhas do documento: 264
+[2017-06-11 04:23:36]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:38]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:38] Lendo a guia NTNF 010121
+[2017-06-11 04:23:38]  - Tipo Titulo: NTNF
+[2017-06-11 04:23:38]  - Vencimento do Titulo: 2021-01-01
+[2017-06-11 04:23:38]  - Linhas do documento: 264
+[2017-06-11 04:23:38]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:41]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:41] Atualizando o arquivo numero 43:
+[2017-06-11 04:23:41] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=288:72643
+[2017-06-11 04:23:41] Arquivo carregado
+[2017-06-11 04:23:42] Identificado 6 guias
+[2017-06-11 04:23:42] Lendo a guia LFT 170310
+[2017-06-11 04:23:42]  - Tipo Titulo: LFT
+[2017-06-11 04:23:42]  - Vencimento do Titulo: 2011-05-03
+[2017-06-11 04:23:42]  - Linhas do documento: 265
+[2017-06-11 04:23:42]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:44]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:44] Lendo a guia LFT 160311
+[2017-06-11 04:23:44]  - Tipo Titulo: LFT
+[2017-06-11 04:23:44]  - Vencimento do Titulo: 2012-04-03
+[2017-06-11 04:23:44]  - Linhas do documento: 265
+[2017-06-11 04:23:44]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:46]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:46] Lendo a guia LFT 070312
+[2017-06-11 04:23:46]  - Tipo Titulo: LFT
+[2017-06-11 04:23:46]  - Vencimento do Titulo: 2012-07-03
+[2017-06-11 04:23:46]  - Linhas do documento: 265
+[2017-06-11 04:23:46]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:48]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:48] Lendo a guia LFT 070313
+[2017-06-11 04:23:48]  - Tipo Titulo: LFT
+[2017-06-11 04:23:48]  - Vencimento do Titulo: 2013-07-03
+[2017-06-11 04:23:48]  - Linhas do documento: 265
+[2017-06-11 04:23:48]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:50]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:50] Lendo a guia LFT 070314
+[2017-06-11 04:23:50]  - Tipo Titulo: LFT
+[2017-06-11 04:23:50]  - Vencimento do Titulo: 2014-07-03
+[2017-06-11 04:23:50]  - Linhas do documento: 265
+[2017-06-11 04:23:50]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:52]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:52] Lendo a guia LFT 070315
+[2017-06-11 04:23:52]  - Tipo Titulo: LFT
+[2017-06-11 04:23:52]  - Vencimento do Titulo: 2015-07-03
+[2017-06-11 04:23:52]  - Linhas do documento: 265
+[2017-06-11 04:23:52]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:54]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:54] Atualizando o arquivo numero 44:
+[2017-06-11 04:23:55] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=289:33131
+[2017-06-11 04:23:55] Arquivo carregado
+[2017-06-11 04:23:55] Identificado 5 guias
+[2017-06-11 04:23:55] Lendo a guia LTN 010710
+[2017-06-11 04:23:55]  - Tipo Titulo: LTN
+[2017-06-11 04:23:55]  - Vencimento do Titulo: 2010-01-07
+[2017-06-11 04:23:55]  - Linhas do documento: 253
+[2017-06-11 04:23:55]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:23:57]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:23:57] Lendo a guia LTN 010111
+[2017-06-11 04:23:57]  - Tipo Titulo: LTN
+[2017-06-11 04:23:57]  - Vencimento do Titulo: 2011-01-01
+[2017-06-11 04:23:57]  - Linhas do documento: 253
+[2017-06-11 04:23:58]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:00]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:00] Lendo a guia LTN 010711
+[2017-06-11 04:24:00]  - Tipo Titulo: LTN
+[2017-06-11 04:24:00]  - Vencimento do Titulo: 2011-01-07
+[2017-06-11 04:24:00]  - Linhas do documento: 253
+[2017-06-11 04:24:00]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:02]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:02] Lendo a guia LTN 010112
+[2017-06-11 04:24:02]  - Tipo Titulo: LTN
+[2017-06-11 04:24:02]  - Vencimento do Titulo: 2012-01-01
+[2017-06-11 04:24:02]  - Linhas do documento: 253
+[2017-06-11 04:24:02]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:04]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:04] Lendo a guia LTN 010113
+[2017-06-11 04:24:04]  - Tipo Titulo: LTN
+[2017-06-11 04:24:04]  - Vencimento do Titulo: 2013-01-01
+[2017-06-11 04:24:04]  - Linhas do documento: 253
+[2017-06-11 04:24:04]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:06]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:06] Atualizando o arquivo numero 45:
+[2017-06-11 04:24:06] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=290:789897
+[2017-06-11 04:24:07] Arquivo carregado
+[2017-06-11 04:24:07] Identificado 4 guias
+[2017-06-11 04:24:07] Lendo a guia NTNC 010311
+[2017-06-11 04:24:07]  - Tipo Titulo: NTNC
+[2017-06-11 04:24:07]  - Vencimento do Titulo: 2011-01-03
+[2017-06-11 04:24:07]  - Linhas do documento: 269
+[2017-06-11 04:24:07]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:09]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:09] Lendo a guia NTNC 010717
+[2017-06-11 04:24:09]  - Tipo Titulo: NTNC
+[2017-06-11 04:24:09]  - Vencimento do Titulo: 2017-01-07
+[2017-06-11 04:24:09]  - Linhas do documento: 269
+[2017-06-11 04:24:09]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:12]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:12] Lendo a guia NTNC 010421
+[2017-06-11 04:24:12]  - Tipo Titulo: NTNC
+[2017-06-11 04:24:12]  - Vencimento do Titulo: 2021-01-04
+[2017-06-11 04:24:12]  - Linhas do documento: 269
+[2017-06-11 04:24:12]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:14]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:14] Lendo a guia NTNC 010131
+[2017-06-11 04:24:14]  - Tipo Titulo: NTNC
+[2017-06-11 04:24:14]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:24:14]  - Linhas do documento: 269
+[2017-06-11 04:24:14]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:16]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:16] Atualizando o arquivo numero 46:
+[2017-06-11 04:24:16] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=291:145861
+[2017-06-11 04:24:17] Arquivo carregado
+[2017-06-11 04:24:17] Identificado 10 guias
+[2017-06-11 04:24:17] Lendo a guia NTNB 150810
+[2017-06-11 04:24:17]  - Tipo Titulo: NTNB
+[2017-06-11 04:24:17]  - Vencimento do Titulo: 2011-03-08
+[2017-06-11 04:24:17]  - Linhas do documento: 262
+[2017-06-11 04:24:17]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:20]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:20] Lendo a guia NTNB 150511
+[2017-06-11 04:24:20]  - Tipo Titulo: NTNB
+[2017-06-11 04:24:20]  - Vencimento do Titulo: 2012-03-05
+[2017-06-11 04:24:20]  - Linhas do documento: 262
+[2017-06-11 04:24:20]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:23]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:23] Lendo a guia NTNB 150812
+[2017-06-11 04:24:23]  - Tipo Titulo: NTNB
+[2017-06-11 04:24:23]  - Vencimento do Titulo: 2013-03-08
+[2017-06-11 04:24:23]  - Linhas do documento: 262
+[2017-06-11 04:24:23]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:25]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:25] Lendo a guia NTNB 150513
+[2017-06-11 04:24:25]  - Tipo Titulo: NTNB
+[2017-06-11 04:24:25]  - Vencimento do Titulo: 2014-03-05
+[2017-06-11 04:24:25]  - Linhas do documento: 262
+[2017-06-11 04:24:25]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:28]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:28] Lendo a guia NTNB 150515
+[2017-06-11 04:24:28]  - Tipo Titulo: NTNB
+[2017-06-11 04:24:28]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:24:28]  - Linhas do documento: 262
+[2017-06-11 04:24:28]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:30]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:30] Lendo a guia NTNB 150517
+[2017-06-11 04:24:30]  - Tipo Titulo: NTNB
+[2017-06-11 04:24:30]  - Vencimento do Titulo: 2018-03-05
+[2017-06-11 04:24:30]  - Linhas do documento: 262
+[2017-06-11 04:24:30]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:32]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:32] Lendo a guia NTNB 150820
+[2017-06-11 04:24:32]  - Tipo Titulo: NTNB
+[2017-06-11 04:24:32]  - Vencimento do Titulo: 2021-03-08
+[2017-06-11 04:24:32]  - Linhas do documento: 262
+[2017-06-11 04:24:32]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:34]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:35] Lendo a guia NTNB 150824
+[2017-06-11 04:24:35]  - Tipo Titulo: NTNB
+[2017-06-11 04:24:35]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:24:35]  - Linhas do documento: 262
+[2017-06-11 04:24:35]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:37]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:37] Lendo a guia NTNB 150535
+[2017-06-11 04:24:37]  - Tipo Titulo: NTNB
+[2017-06-11 04:24:37]  - Vencimento do Titulo: 2036-03-05
+[2017-06-11 04:24:37]  - Linhas do documento: 262
+[2017-06-11 04:24:37]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:39]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:39] Lendo a guia NTNB 150545
+[2017-06-11 04:24:39]  - Tipo Titulo: NTNB
+[2017-06-11 04:24:39]  - Vencimento do Titulo: 1909-08-04
+[2017-06-11 04:24:39]  - Linhas do documento: 262
+[2017-06-11 04:24:39]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:42]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:42] Atualizando o arquivo numero 47:
+[2017-06-11 04:24:42] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=292:22483
+[2017-06-11 04:24:43] Arquivo carregado
+[2017-06-11 04:24:43] Identificado 3 guias
+[2017-06-11 04:24:43] Lendo a guia NTNBP 150515
+[2017-06-11 04:24:43]  - Tipo Titulo: NTNBP
+[2017-06-11 04:24:43]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:24:43]  - Linhas do documento: 282
+[2017-06-11 04:24:43]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:46]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:46] Lendo a guia NTNBP 150824
+[2017-06-11 04:24:46]  - Tipo Titulo: NTNBP
+[2017-06-11 04:24:46]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:24:46]  - Linhas do documento: 282
+[2017-06-11 04:24:46]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:49]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:49] Lendo a guia NTNBP 150535
+[2017-06-11 04:24:49]  - Tipo Titulo: NTNBP
+[2017-06-11 04:24:49]  - Vencimento do Titulo: 2036-03-05
+[2017-06-11 04:24:49]  - Linhas do documento: 282
+[2017-06-11 04:24:49]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:56]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:56] Atualizando o arquivo numero 48:
+[2017-06-11 04:24:56] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=293:30713
+[2017-06-11 04:24:57] Arquivo carregado
+[2017-06-11 04:24:57] Identificado 7 guias
+[2017-06-11 04:24:57] Lendo a guia NTNF 010710
+[2017-06-11 04:24:57]  - Tipo Titulo: NTNF
+[2017-06-11 04:24:57]  - Vencimento do Titulo: 2010-01-07
+[2017-06-11 04:24:57]  - Linhas do documento: 264
+[2017-06-11 04:24:57]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:24:59]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:24:59] Lendo a guia NTNF 010111
+[2017-06-11 04:24:59]  - Tipo Titulo: NTNF
+[2017-06-11 04:24:59]  - Vencimento do Titulo: 2011-01-01
+[2017-06-11 04:24:59]  - Linhas do documento: 264
+[2017-06-11 04:24:59]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:01]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:01] Lendo a guia NTNF 010112
+[2017-06-11 04:25:01]  - Tipo Titulo: NTNF
+[2017-06-11 04:25:01]  - Vencimento do Titulo: 2012-01-01
+[2017-06-11 04:25:01]  - Linhas do documento: 264
+[2017-06-11 04:25:01]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:04]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:04] Lendo a guia NTNF 010113
+[2017-06-11 04:25:04]  - Tipo Titulo: NTNF
+[2017-06-11 04:25:04]  - Vencimento do Titulo: 2013-01-01
+[2017-06-11 04:25:04]  - Linhas do documento: 264
+[2017-06-11 04:25:04]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:06]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:06] Lendo a guia NTNF 010114
+[2017-06-11 04:25:06]  - Tipo Titulo: NTNF
+[2017-06-11 04:25:06]  - Vencimento do Titulo: 2014-01-01
+[2017-06-11 04:25:06]  - Linhas do documento: 264
+[2017-06-11 04:25:06]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:10]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:10] Lendo a guia NTNF 010117
+[2017-06-11 04:25:10]  - Tipo Titulo: NTNF
+[2017-06-11 04:25:10]  - Vencimento do Titulo: 2017-01-01
+[2017-06-11 04:25:10]  - Linhas do documento: 264
+[2017-06-11 04:25:10]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:13]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:14] Lendo a guia NTNF 010121
+[2017-06-11 04:25:14]  - Tipo Titulo: NTNF
+[2017-06-11 04:25:14]  - Vencimento do Titulo: 2021-01-01
+[2017-06-11 04:25:14]  - Linhas do documento: 264
+[2017-06-11 04:25:14]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:16]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:16] Atualizando o arquivo numero 49:
+[2017-06-11 04:25:16] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=282:95276
+[2017-06-11 04:25:17] Arquivo carregado
+[2017-06-11 04:25:17] Identificado 6 guias
+[2017-06-11 04:25:17] Lendo a guia LFT 180309
+[2017-06-11 04:25:17]  - Tipo Titulo: LFT
+[2017-06-11 04:25:17]  - Vencimento do Titulo: 2010-06-03
+[2017-06-11 04:25:17]  - Linhas do documento: 252
+[2017-06-11 04:25:17]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:21]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:21] Lendo a guia LFT 170310
+[2017-06-11 04:25:21]  - Tipo Titulo: LFT
+[2017-06-11 04:25:21]  - Vencimento do Titulo: 2011-05-03
+[2017-06-11 04:25:21]  - Linhas do documento: 252
+[2017-06-11 04:25:21]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:24]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:24] Lendo a guia LFT 160311
+[2017-06-11 04:25:24]  - Tipo Titulo: LFT
+[2017-06-11 04:25:24]  - Vencimento do Titulo: 2012-04-03
+[2017-06-11 04:25:24]  - Linhas do documento: 252
+[2017-06-11 04:25:24]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:26]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:26] Lendo a guia LFT 070312
+[2017-06-11 04:25:26]  - Tipo Titulo: LFT
+[2017-06-11 04:25:26]  - Vencimento do Titulo: 2012-07-03
+[2017-06-11 04:25:26]  - Linhas do documento: 252
+[2017-06-11 04:25:26]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:28]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:28] Lendo a guia LFT 070313
+[2017-06-11 04:25:28]  - Tipo Titulo: LFT
+[2017-06-11 04:25:28]  - Vencimento do Titulo: 2013-07-03
+[2017-06-11 04:25:28]  - Linhas do documento: 252
+[2017-06-11 04:25:28]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:31]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:31] Lendo a guia LFT 070314
+[2017-06-11 04:25:31]  - Tipo Titulo: LFT
+[2017-06-11 04:25:31]  - Vencimento do Titulo: 2014-07-03
+[2017-06-11 04:25:31]  - Linhas do documento: 252
+[2017-06-11 04:25:31]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:33]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:33] Atualizando o arquivo numero 50:
+[2017-06-11 04:25:33] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=283:35778
+[2017-06-11 04:25:34] Arquivo carregado
+[2017-06-11 04:25:34] Identificado 7 guias
+[2017-06-11 04:25:34] Lendo a guia LTN 010409
+[2017-06-11 04:25:34]  - Tipo Titulo: LTN
+[2017-06-11 04:25:34]  - Vencimento do Titulo: 2009-01-04
+[2017-06-11 04:25:34]  - Linhas do documento: 253
+[2017-06-11 04:25:34]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:42]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:42] Lendo a guia LTN 010709
+[2017-06-11 04:25:42]  - Tipo Titulo: LTN
+[2017-06-11 04:25:42]  - Vencimento do Titulo: 2009-01-07
+[2017-06-11 04:25:42]  - Linhas do documento: 252
+[2017-06-11 04:25:42]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:45]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:45] Lendo a guia LTN 011009
+[2017-06-11 04:25:45]  - Tipo Titulo: LTN
+[2017-06-11 04:25:45]  - Vencimento do Titulo: 2009-01-10
+[2017-06-11 04:25:45]  - Linhas do documento: 252
+[2017-06-11 04:25:45]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:47]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:48] Lendo a guia LTN 010110
+[2017-06-11 04:25:48]  - Tipo Titulo: LTN
+[2017-06-11 04:25:48]  - Vencimento do Titulo: 2010-01-01
+[2017-06-11 04:25:48]  - Linhas do documento: 252
+[2017-06-11 04:25:48]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:50]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:50] Lendo a guia LTN 010710
+[2017-06-11 04:25:50]  - Tipo Titulo: LTN
+[2017-06-11 04:25:50]  - Vencimento do Titulo: 2010-01-07
+[2017-06-11 04:25:50]  - Linhas do documento: 252
+[2017-06-11 04:25:51]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:53]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:53] Lendo a guia LTN 010111
+[2017-06-11 04:25:53]  - Tipo Titulo: LTN
+[2017-06-11 04:25:53]  - Vencimento do Titulo: 2011-01-01
+[2017-06-11 04:25:53]  - Linhas do documento: 252
+[2017-06-11 04:25:53]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:55]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:55] Lendo a guia LTN 010112
+[2017-06-11 04:25:55]  - Tipo Titulo: LTN
+[2017-06-11 04:25:55]  - Vencimento do Titulo: 2012-01-01
+[2017-06-11 04:25:55]  - Linhas do documento: 252
+[2017-06-11 04:25:55]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:25:59]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:25:59] Atualizando o arquivo numero 51:
+[2017-06-11 04:25:59] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=284:12863
+[2017-06-11 04:25:59] Arquivo carregado
+[2017-06-11 04:25:59] Identificado 4 guias
+[2017-06-11 04:25:59] Lendo a guia NTNC 010311
+[2017-06-11 04:25:59]  - Tipo Titulo: NTNC
+[2017-06-11 04:25:59]  - Vencimento do Titulo: 2011-01-03
+[2017-06-11 04:25:59]  - Linhas do documento: 252
+[2017-06-11 04:25:59]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:02]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:02] Lendo a guia NTNC 010717
+[2017-06-11 04:26:02]  - Tipo Titulo: NTNC
+[2017-06-11 04:26:02]  - Vencimento do Titulo: 2017-01-07
+[2017-06-11 04:26:02]  - Linhas do documento: 252
+[2017-06-11 04:26:02]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:06]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:06] Lendo a guia NTNC 010421
+[2017-06-11 04:26:06]  - Tipo Titulo: NTNC
+[2017-06-11 04:26:06]  - Vencimento do Titulo: 2021-01-04
+[2017-06-11 04:26:06]  - Linhas do documento: 252
+[2017-06-11 04:26:06]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:08]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:08] Lendo a guia NTNC 010131
+[2017-06-11 04:26:08]  - Tipo Titulo: NTNC
+[2017-06-11 04:26:08]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:26:09]  - Linhas do documento: 252
+[2017-06-11 04:26:09]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:11]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:11] Atualizando o arquivo numero 52:
+[2017-06-11 04:26:11] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=285:860692
+[2017-06-11 04:26:13] Arquivo carregado
+[2017-06-11 04:26:13] Identificado 11 guias
+[2017-06-11 04:26:13] Lendo a guia NTNB 150509
+[2017-06-11 04:26:13]  - Tipo Titulo: NTNB
+[2017-06-11 04:26:13]  - Vencimento do Titulo: 2010-03-05
+[2017-06-11 04:26:13]  - Linhas do documento: 252
+[2017-06-11 04:26:13]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:15]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:15] Lendo a guia NTNB 150810
+[2017-06-11 04:26:15]  - Tipo Titulo: NTNB
+[2017-06-11 04:26:15]  - Vencimento do Titulo: 2011-03-08
+[2017-06-11 04:26:15]  - Linhas do documento: 252
+[2017-06-11 04:26:15]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:18]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:18] Lendo a guia NTNB 150511
+[2017-06-11 04:26:18]  - Tipo Titulo: NTNB
+[2017-06-11 04:26:18]  - Vencimento do Titulo: 2012-03-05
+[2017-06-11 04:26:18]  - Linhas do documento: 252
+[2017-06-11 04:26:18]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:23]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:23] Lendo a guia NTNB 150812
+[2017-06-11 04:26:23]  - Tipo Titulo: NTNB
+[2017-06-11 04:26:23]  - Vencimento do Titulo: 2013-03-08
+[2017-06-11 04:26:23]  - Linhas do documento: 252
+[2017-06-11 04:26:23]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:25]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:25] Lendo a guia NTNB 150513
+[2017-06-11 04:26:25]  - Tipo Titulo: NTNB
+[2017-06-11 04:26:25]  - Vencimento do Titulo: 2014-03-05
+[2017-06-11 04:26:25]  - Linhas do documento: 252
+[2017-06-11 04:26:25]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:32]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:32] Lendo a guia NTNB 150515
+[2017-06-11 04:26:32]  - Tipo Titulo: NTNB
+[2017-06-11 04:26:32]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:26:32]  - Linhas do documento: 252
+[2017-06-11 04:26:32]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:36]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:36] Lendo a guia NTNB 150517
+[2017-06-11 04:26:36]  - Tipo Titulo: NTNB
+[2017-06-11 04:26:36]  - Vencimento do Titulo: 2018-03-05
+[2017-06-11 04:26:36]  - Linhas do documento: 252
+[2017-06-11 04:26:36]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:40]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:40] Lendo a guia NTNB 150820
+[2017-06-11 04:26:40]  - Tipo Titulo: NTNB
+[2017-06-11 04:26:40]  - Vencimento do Titulo: 2021-03-08
+[2017-06-11 04:26:40]  - Linhas do documento: 252
+[2017-06-11 04:26:40]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:43]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:43] Lendo a guia NTNB 150824
+[2017-06-11 04:26:43]  - Tipo Titulo: NTNB
+[2017-06-11 04:26:43]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:26:43]  - Linhas do documento: 252
+[2017-06-11 04:26:43]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:46]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:46] Lendo a guia NTNB 150535
+[2017-06-11 04:26:46]  - Tipo Titulo: NTNB
+[2017-06-11 04:26:46]  - Vencimento do Titulo: 2036-03-05
+[2017-06-11 04:26:46]  - Linhas do documento: 252
+[2017-06-11 04:26:46]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:52]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:52] Lendo a guia NTNB 150545
+[2017-06-11 04:26:52]  - Tipo Titulo: NTNB
+[2017-06-11 04:26:52]  - Vencimento do Titulo: 1909-08-04
+[2017-06-11 04:26:52]  - Linhas do documento: 252
+[2017-06-11 04:26:52]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:26:57]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:26:57] Atualizando o arquivo numero 53:
+[2017-06-11 04:26:57] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=286:69609
+[2017-06-11 04:26:58] Arquivo carregado
+[2017-06-11 04:26:58] Identificado 2 guias
+[2017-06-11 04:26:58] Lendo a guia NTNBP 150515
+[2017-06-11 04:26:58]  - Tipo Titulo: NTNBP
+[2017-06-11 04:26:58]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:26:58]  - Linhas do documento: 252
+[2017-06-11 04:26:58]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:27:00]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:27:00] Lendo a guia NTNBP 150824
+[2017-06-11 04:27:00]  - Tipo Titulo: NTNBP
+[2017-06-11 04:27:00]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:27:00]  - Linhas do documento: 252
+[2017-06-11 04:27:00]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:27:03]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:27:03] Atualizando o arquivo numero 54:
+[2017-06-11 04:27:03] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=287:47474
+[2017-06-11 04:27:04] Arquivo carregado
+[2017-06-11 04:27:04] Identificado 7 guias
+[2017-06-11 04:27:04] Lendo a guia NTNF 010110
+[2017-06-11 04:27:04]  - Tipo Titulo: NTNF
+[2017-06-11 04:27:04]  - Vencimento do Titulo: 2010-01-01
+[2017-06-11 04:27:04]  - Linhas do documento: 252
+[2017-06-11 04:27:04]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:27:06]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:27:06] Lendo a guia NTNF 010710
+[2017-06-11 04:27:06]  - Tipo Titulo: NTNF
+[2017-06-11 04:27:06]  - Vencimento do Titulo: 2010-01-07
+[2017-06-11 04:27:06]  - Linhas do documento: 252
+[2017-06-11 04:27:06]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:27:09]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:27:09] Lendo a guia NTNF 010111
+[2017-06-11 04:27:09]  - Tipo Titulo: NTNF
+[2017-06-11 04:27:09]  - Vencimento do Titulo: 2011-01-01
+[2017-06-11 04:27:09]  - Linhas do documento: 252
+[2017-06-11 04:27:09]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:27:13]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:27:13] Lendo a guia NTNF 010112
+[2017-06-11 04:27:13]  - Tipo Titulo: NTNF
+[2017-06-11 04:27:13]  - Vencimento do Titulo: 2012-01-01
+[2017-06-11 04:27:13]  - Linhas do documento: 252
+[2017-06-11 04:27:13]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:27:27]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:27:27] Lendo a guia NTNF 010113
+[2017-06-11 04:27:28]  - Tipo Titulo: NTNF
+[2017-06-11 04:27:28]  - Vencimento do Titulo: 2013-01-01
+[2017-06-11 04:27:28]  - Linhas do documento: 252
+[2017-06-11 04:27:28]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:27:30]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:27:30] Lendo a guia NTNF 010114
+[2017-06-11 04:27:30]  - Tipo Titulo: NTNF
+[2017-06-11 04:27:30]  - Vencimento do Titulo: 2014-01-01
+[2017-06-11 04:27:30]  - Linhas do documento: 252
+[2017-06-11 04:27:31]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:27:33]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:27:33] Lendo a guia NTNF 010117
+[2017-06-11 04:27:33]  - Tipo Titulo: NTNF
+[2017-06-11 04:27:33]  - Vencimento do Titulo: 2017-01-01
+[2017-06-11 04:27:33]  - Linhas do documento: 252
+[2017-06-11 04:27:33]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:27:35]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:27:35] Atualizando o arquivo numero 55:
+[2017-06-11 04:27:35] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=276:120136
+[2017-06-11 04:27:36] Arquivo carregado
+[2017-06-11 04:27:36] Identificado 7 guias
+[2017-06-11 04:27:36] Lendo a guia LFT 180608
+[2017-06-11 04:27:36]  - Tipo Titulo: LFT
+[2017-06-11 04:27:36]  - Vencimento do Titulo: 2009-06-06
+[2017-06-11 04:27:36]  - Linhas do documento: 249
+[2017-06-11 04:27:36]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:27:39]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:27:39] Lendo a guia LFT 180309
+[2017-06-11 04:27:39]  - Tipo Titulo: LFT
+[2017-06-11 04:27:39]  - Vencimento do Titulo: 2010-06-03
+[2017-06-11 04:27:39]  - Linhas do documento: 249
+[2017-06-11 04:27:39]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:27:42]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:27:42] Lendo a guia LFT 170310
+[2017-06-11 04:27:42]  - Tipo Titulo: LFT
+[2017-06-11 04:27:42]  - Vencimento do Titulo: 2011-05-03
+[2017-06-11 04:27:42]  - Linhas do documento: 249
+[2017-06-11 04:27:42]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:27:44]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:27:44] Lendo a guia LFT 160311
+[2017-06-11 04:27:44]  - Tipo Titulo: LFT
+[2017-06-11 04:27:44]  - Vencimento do Titulo: 2012-04-03
+[2017-06-11 04:27:44]  - Linhas do documento: 249
+[2017-06-11 04:27:44]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:27:53]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:27:53] Lendo a guia LFT 070312
+[2017-06-11 04:27:53]  - Tipo Titulo: LFT
+[2017-06-11 04:27:53]  - Vencimento do Titulo: 2012-07-03
+[2017-06-11 04:27:53]  - Linhas do documento: 249
+[2017-06-11 04:27:53]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:27:57]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:27:57] Lendo a guia LFT 070313
+[2017-06-11 04:27:57]  - Tipo Titulo: LFT
+[2017-06-11 04:27:57]  - Vencimento do Titulo: 2013-07-03
+[2017-06-11 04:27:57]  - Linhas do documento: 249
+[2017-06-11 04:27:57]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:00]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:00] Lendo a guia LFT 070314
+[2017-06-11 04:28:00]  - Tipo Titulo: LFT
+[2017-06-11 04:28:00]  - Vencimento do Titulo: 2014-07-03
+[2017-06-11 04:28:00]  - Linhas do documento: 249
+[2017-06-11 04:28:00]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:04]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:04] Atualizando o arquivo numero 56:
+[2017-06-11 04:28:04] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=277:42017
+[2017-06-11 04:28:05] Arquivo carregado
+[2017-06-11 04:28:05] Identificado 10 guias
+[2017-06-11 04:28:05] Lendo a guia LTN 010408
+[2017-06-11 04:28:05]  - Tipo Titulo: LTN
+[2017-06-11 04:28:05]  - Vencimento do Titulo: 2008-01-04
+[2017-06-11 04:28:05]  - Linhas do documento: 256
+[2017-06-11 04:28:05]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:08]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:08] Lendo a guia LTN 010708
+[2017-06-11 04:28:08]  - Tipo Titulo: LTN
+[2017-06-11 04:28:08]  - Vencimento do Titulo: 2008-01-07
+[2017-06-11 04:28:08]  - Linhas do documento: 249
+[2017-06-11 04:28:08]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:10]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:10] Lendo a guia LTN 011008
+[2017-06-11 04:28:10]  - Tipo Titulo: LTN
+[2017-06-11 04:28:10]  - Vencimento do Titulo: 2008-01-10
+[2017-06-11 04:28:10]  - Linhas do documento: 249
+[2017-06-11 04:28:10]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:13]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:13] Lendo a guia LTN 010109
+[2017-06-11 04:28:13]  - Tipo Titulo: LTN
+[2017-06-11 04:28:13]  - Vencimento do Titulo: 2009-01-01
+[2017-06-11 04:28:13]  - Linhas do documento: 249
+[2017-06-11 04:28:13]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:21]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:21] Lendo a guia LTN 010409
+[2017-06-11 04:28:21]  - Tipo Titulo: LTN
+[2017-06-11 04:28:21]  - Vencimento do Titulo: 2009-01-04
+[2017-06-11 04:28:21]  - Linhas do documento: 249
+[2017-06-11 04:28:21]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:25]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:25] Lendo a guia LTN 010709
+[2017-06-11 04:28:25]  - Tipo Titulo: LTN
+[2017-06-11 04:28:25]  - Vencimento do Titulo: 2009-01-07
+[2017-06-11 04:28:25]  - Linhas do documento: 249
+[2017-06-11 04:28:25]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:29]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:29] Lendo a guia LTN 011009
+[2017-06-11 04:28:29]  - Tipo Titulo: LTN
+[2017-06-11 04:28:29]  - Vencimento do Titulo: 2009-01-10
+[2017-06-11 04:28:29]  - Linhas do documento: 249
+[2017-06-11 04:28:29]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:32]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:32] Lendo a guia LTN 010110
+[2017-06-11 04:28:32]  - Tipo Titulo: LTN
+[2017-06-11 04:28:32]  - Vencimento do Titulo: 2010-01-01
+[2017-06-11 04:28:32]  - Linhas do documento: 249
+[2017-06-11 04:28:32]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:36]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:36] Lendo a guia LTN 010710
+[2017-06-11 04:28:36]  - Tipo Titulo: LTN
+[2017-06-11 04:28:36]  - Vencimento do Titulo: 2010-01-07
+[2017-06-11 04:28:36]  - Linhas do documento: 249
+[2017-06-11 04:28:36]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:39]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:39] Lendo a guia LTN 010111
+[2017-06-11 04:28:39]  - Tipo Titulo: LTN
+[2017-06-11 04:28:39]  - Vencimento do Titulo: 2011-01-01
+[2017-06-11 04:28:39]  - Linhas do documento: 249
+[2017-06-11 04:28:39]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:43]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:43] Atualizando o arquivo numero 57:
+[2017-06-11 04:28:43] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=278:21382
+[2017-06-11 04:28:44] Arquivo carregado
+[2017-06-11 04:28:44] Identificado 5 guias
+[2017-06-11 04:28:44] Lendo a guia NTNC 010408
+[2017-06-11 04:28:44]  - Tipo Titulo: NTNC
+[2017-06-11 04:28:44]  - Vencimento do Titulo: 2008-01-04
+[2017-06-11 04:28:44]  - Linhas do documento: 256
+[2017-06-11 04:28:44]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:46]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:46] Lendo a guia NTNC 010311
+[2017-06-11 04:28:46]  - Tipo Titulo: NTNC
+[2017-06-11 04:28:46]  - Vencimento do Titulo: 2011-01-03
+[2017-06-11 04:28:46]  - Linhas do documento: 249
+[2017-06-11 04:28:47]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:52]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:52] Lendo a guia NTNC 010717
+[2017-06-11 04:28:52]  - Tipo Titulo: NTNC
+[2017-06-11 04:28:52]  - Vencimento do Titulo: 2017-01-07
+[2017-06-11 04:28:52]  - Linhas do documento: 249
+[2017-06-11 04:28:52]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:55]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:55] Lendo a guia NTNC 010421
+[2017-06-11 04:28:55]  - Tipo Titulo: NTNC
+[2017-06-11 04:28:55]  - Vencimento do Titulo: 2021-01-04
+[2017-06-11 04:28:55]  - Linhas do documento: 249
+[2017-06-11 04:28:55]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:28:57]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:28:57] Lendo a guia NTNC 010131
+[2017-06-11 04:28:57]  - Tipo Titulo: NTNC
+[2017-06-11 04:28:57]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:28:57]  - Linhas do documento: 249
+[2017-06-11 04:28:57]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:29:06]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:29:06] Atualizando o arquivo numero 58:
+[2017-06-11 04:29:06] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=279:100052
+[2017-06-11 04:29:07] Arquivo carregado
+[2017-06-11 04:29:07] Identificado 11 guias
+[2017-06-11 04:29:07] Lendo a guia NTNB 150808
+[2017-06-11 04:29:07]  - Tipo Titulo: NTNB
+[2017-06-11 04:29:07]  - Vencimento do Titulo: 2009-03-08
+[2017-06-11 04:29:07]  - Linhas do documento: 249
+[2017-06-11 04:29:07]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:29:10]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:29:10] Lendo a guia NTNB 150509
+[2017-06-11 04:29:10]  - Tipo Titulo: NTNB
+[2017-06-11 04:29:10]  - Vencimento do Titulo: 2010-03-05
+[2017-06-11 04:29:10]  - Linhas do documento: 249
+[2017-06-11 04:29:10]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:29:12]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:29:12] Lendo a guia NTNB 150810
+[2017-06-11 04:29:12]  - Tipo Titulo: NTNB
+[2017-06-11 04:29:12]  - Vencimento do Titulo: 2011-03-08
+[2017-06-11 04:29:12]  - Linhas do documento: 249
+[2017-06-11 04:29:12]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:29:20]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:29:20] Lendo a guia NTNB 150511
+[2017-06-11 04:29:20]  - Tipo Titulo: NTNB
+[2017-06-11 04:29:20]  - Vencimento do Titulo: 2012-03-05
+[2017-06-11 04:29:20]  - Linhas do documento: 249
+[2017-06-11 04:29:21]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:29:35]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:29:35] Lendo a guia NTNB 150812
+[2017-06-11 04:29:35]  - Tipo Titulo: NTNB
+[2017-06-11 04:29:35]  - Vencimento do Titulo: 2013-03-08
+[2017-06-11 04:29:35]  - Linhas do documento: 249
+[2017-06-11 04:29:35]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:29:38]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:29:38] Lendo a guia NTNB 150513
+[2017-06-11 04:29:38]  - Tipo Titulo: NTNB
+[2017-06-11 04:29:38]  - Vencimento do Titulo: 2014-03-05
+[2017-06-11 04:29:38]  - Linhas do documento: 257
+[2017-06-11 04:29:38]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:29:41]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:29:41] Lendo a guia NTNB 150515
+[2017-06-11 04:29:41]  - Tipo Titulo: NTNB
+[2017-06-11 04:29:41]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:29:41]  - Linhas do documento: 249
+[2017-06-11 04:29:41]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:29:46]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:29:46] Lendo a guia NTNB 150517
+[2017-06-11 04:29:46]  - Tipo Titulo: NTNB
+[2017-06-11 04:29:46]  - Vencimento do Titulo: 2018-03-05
+[2017-06-11 04:29:46]  - Linhas do documento: 249
+[2017-06-11 04:29:46]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:29:49]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:29:49] Lendo a guia NTNB 150824
+[2017-06-11 04:29:49]  - Tipo Titulo: NTNB
+[2017-06-11 04:29:49]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:29:49]  - Linhas do documento: 249
+[2017-06-11 04:29:49]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:29:51]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:29:51] Lendo a guia NTNB 150535
+[2017-06-11 04:29:51]  - Tipo Titulo: NTNB
+[2017-06-11 04:29:51]  - Vencimento do Titulo: 2036-03-05
+[2017-06-11 04:29:51]  - Linhas do documento: 257
+[2017-06-11 04:29:51]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:29:56]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:29:56] Lendo a guia NTNB 150545
+[2017-06-11 04:29:56]  - Tipo Titulo: NTNB
+[2017-06-11 04:29:56]  - Vencimento do Titulo: 1909-08-04
+[2017-06-11 04:29:56]  - Linhas do documento: 257
+[2017-06-11 04:29:56]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:30:06]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:30:06] Atualizando o arquivo numero 59:
+[2017-06-11 04:30:06] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=280:778568
+[2017-06-11 04:30:07] Arquivo carregado
+[2017-06-11 04:30:07] Identificado 2 guias
+[2017-06-11 04:30:07] Lendo a guia NTNBP 150515
+[2017-06-11 04:30:07]  - Tipo Titulo: NTNBP
+[2017-06-11 04:30:07]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:30:07]  - Linhas do documento: 249
+[2017-06-11 04:30:07]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:30:10]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:30:10] Lendo a guia NTNBP 150824
+[2017-06-11 04:30:10]  - Tipo Titulo: NTNBP
+[2017-06-11 04:30:10]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:30:10]  - Linhas do documento: 249
+[2017-06-11 04:30:10]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:30:13]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:30:13] Atualizando o arquivo numero 60:
+[2017-06-11 04:30:13] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=281:78206
+[2017-06-11 04:30:14] Arquivo carregado
+[2017-06-11 04:30:14] Identificado 7 guias
+[2017-06-11 04:30:14] Lendo a guia NTNF 010110
+[2017-06-11 04:30:14]  - Tipo Titulo: NTNF
+[2017-06-11 04:30:14]  - Vencimento do Titulo: 2010-01-01
+[2017-06-11 04:30:14]  - Linhas do documento: 249
+[2017-06-11 04:30:14]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:30:16]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:30:16] Lendo a guia NTNF 010710
+[2017-06-11 04:30:16]  - Tipo Titulo: NTNF
+[2017-06-11 04:30:16]  - Vencimento do Titulo: 2010-01-07
+[2017-06-11 04:30:16]  - Linhas do documento: 249
+[2017-06-11 04:30:16]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:30:21]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:30:21] Lendo a guia NTNF 010111
+[2017-06-11 04:30:21]  - Tipo Titulo: NTNF
+[2017-06-11 04:30:21]  - Vencimento do Titulo: 2011-01-01
+[2017-06-11 04:30:21]  - Linhas do documento: 249
+[2017-06-11 04:30:21]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:30:24]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:30:24] Lendo a guia NTNF 010112
+[2017-06-11 04:30:24]  - Tipo Titulo: NTNF
+[2017-06-11 04:30:24]  - Vencimento do Titulo: 2012-01-01
+[2017-06-11 04:30:24]  - Linhas do documento: 249
+[2017-06-11 04:30:24]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:30:35]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:30:35] Lendo a guia NTNF 010113
+[2017-06-11 04:30:35]  - Tipo Titulo: NTNF
+[2017-06-11 04:30:35]  - Vencimento do Titulo: 2013-01-01
+[2017-06-11 04:30:35]  - Linhas do documento: 249
+[2017-06-11 04:30:35]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:30:39]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:30:39] Lendo a guia NTNF 010114
+[2017-06-11 04:30:39]  - Tipo Titulo: NTNF
+[2017-06-11 04:30:39]  - Vencimento do Titulo: 2014-01-01
+[2017-06-11 04:30:39]  - Linhas do documento: 249
+[2017-06-11 04:30:39]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:30:41]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:30:41] Lendo a guia NTNF 010117
+[2017-06-11 04:30:41]  - Tipo Titulo: NTNF
+[2017-06-11 04:30:41]  - Vencimento do Titulo: 2017-01-01
+[2017-06-11 04:30:41]  - Linhas do documento: 249
+[2017-06-11 04:30:41]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:30:45]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:30:45] Atualizando o arquivo numero 61:
+[2017-06-11 04:30:45] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=270:851361
+[2017-06-11 04:30:46] Arquivo carregado
+[2017-06-11 04:30:46] Identificado 7 guias
+[2017-06-11 04:30:46] Lendo a guia LFT 170107
+[2017-06-11 04:30:46]  - Tipo Titulo: LFT
+[2017-06-11 04:30:46]  - Vencimento do Titulo: 2008-05-01
+[2017-06-11 04:30:46]  - Linhas do documento: 254
+[2017-06-11 04:30:46]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:30:49]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:30:49] Lendo a guia LFT 180608
+[2017-06-11 04:30:49]  - Tipo Titulo: LFT
+[2017-06-11 04:30:49]  - Vencimento do Titulo: 2009-06-06
+[2017-06-11 04:30:49]  - Linhas do documento: 254
+[2017-06-11 04:30:49]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:30:53]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:30:53] Lendo a guia LFT 180309
+[2017-06-11 04:30:53]  - Tipo Titulo: LFT
+[2017-06-11 04:30:53]  - Vencimento do Titulo: 2010-06-03
+[2017-06-11 04:30:53]  - Linhas do documento: 254
+[2017-06-11 04:30:53]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:30:57]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:30:57] Lendo a guia LFT 170310
+[2017-06-11 04:30:57]  - Tipo Titulo: LFT
+[2017-06-11 04:30:57]  - Vencimento do Titulo: 2011-05-03
+[2017-06-11 04:30:57]  - Linhas do documento: 254
+[2017-06-11 04:30:57]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:31:03]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:31:03] Lendo a guia LFT 160311
+[2017-06-11 04:31:03]  - Tipo Titulo: LFT
+[2017-06-11 04:31:03]  - Vencimento do Titulo: 2012-04-03
+[2017-06-11 04:31:03]  - Linhas do documento: 254
+[2017-06-11 04:31:03]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:31:06]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:31:06] Lendo a guia LFT 070312
+[2017-06-11 04:31:06]  - Tipo Titulo: LFT
+[2017-06-11 04:31:06]  - Vencimento do Titulo: 2012-07-03
+[2017-06-11 04:31:06]  - Linhas do documento: 254
+[2017-06-11 04:31:06]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:31:15]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:31:15] Lendo a guia LFT 070313
+[2017-06-11 04:31:15]  - Tipo Titulo: LFT
+[2017-06-11 04:31:15]  - Vencimento do Titulo: 2013-07-03
+[2017-06-11 04:31:15]  - Linhas do documento: 254
+[2017-06-11 04:31:15]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:31:17]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:31:17] Atualizando o arquivo numero 62:
+[2017-06-11 04:31:17] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=271:83271
+[2017-06-11 04:31:19] Arquivo carregado
+[2017-06-11 04:31:19] Identificado 11 guias
+[2017-06-11 04:31:19] Lendo a guia LTN 010407
+[2017-06-11 04:31:19]  - Tipo Titulo: LTN
+[2017-06-11 04:31:19]  - Vencimento do Titulo: 2007-01-04
+[2017-06-11 04:31:19]  - Linhas do documento: 253
+[2017-06-11 04:31:19]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:31:22]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:31:22] Lendo a guia LTN 010707
+[2017-06-11 04:31:22]  - Tipo Titulo: LTN
+[2017-06-11 04:31:22]  - Vencimento do Titulo: 2007-01-07
+[2017-06-11 04:31:22]  - Linhas do documento: 253
+[2017-06-11 04:31:22]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:31:25]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:31:25] Lendo a guia LTN 011007
+[2017-06-11 04:31:25]  - Tipo Titulo: LTN
+[2017-06-11 04:31:25]  - Vencimento do Titulo: 2007-01-10
+[2017-06-11 04:31:25]  - Linhas do documento: 253
+[2017-06-11 04:31:25]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:31:35]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:31:35] Lendo a guia LTN 010108
+[2017-06-11 04:31:35]  - Tipo Titulo: LTN
+[2017-06-11 04:31:35]  - Vencimento do Titulo: 2008-01-01
+[2017-06-11 04:31:35]  - Linhas do documento: 253
+[2017-06-11 04:31:35]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:31:47]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:31:47] Lendo a guia LTN 010408
+[2017-06-11 04:31:47]  - Tipo Titulo: LTN
+[2017-06-11 04:31:47]  - Vencimento do Titulo: 2008-01-04
+[2017-06-11 04:31:47]  - Linhas do documento: 253
+[2017-06-11 04:31:47]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:31:53]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:31:53] Lendo a guia LTN 010708
+[2017-06-11 04:31:53]  - Tipo Titulo: LTN
+[2017-06-11 04:31:53]  - Vencimento do Titulo: 2008-01-07
+[2017-06-11 04:31:53]  - Linhas do documento: 253
+[2017-06-11 04:31:53]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:32:01]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:32:01] Lendo a guia LTN 011008
+[2017-06-11 04:32:01]  - Tipo Titulo: LTN
+[2017-06-11 04:32:01]  - Vencimento do Titulo: 2008-01-10
+[2017-06-11 04:32:01]  - Linhas do documento: 253
+[2017-06-11 04:32:01]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:32:11]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:32:11] Lendo a guia LTN 010109
+[2017-06-11 04:32:12]  - Tipo Titulo: LTN
+[2017-06-11 04:32:12]  - Vencimento do Titulo: 2009-01-01
+[2017-06-11 04:32:12]  - Linhas do documento: 253
+[2017-06-11 04:32:12]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:32:26]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:32:26] Lendo a guia LTN 010709
+[2017-06-11 04:32:26]  - Tipo Titulo: LTN
+[2017-06-11 04:32:26]  - Vencimento do Titulo: 2009-01-07
+[2017-06-11 04:32:26]  - Linhas do documento: 253
+[2017-06-11 04:32:26]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:32:34]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:32:34] Lendo a guia LTN 011009
+[2017-06-11 04:32:34]  - Tipo Titulo: LTN
+[2017-06-11 04:32:34]  - Vencimento do Titulo: 2009-01-10
+[2017-06-11 04:32:34]  - Linhas do documento: 253
+[2017-06-11 04:32:34]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:32:36]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:32:36] Lendo a guia LTN 010110
+[2017-06-11 04:32:36]  - Tipo Titulo: LTN
+[2017-06-11 04:32:36]  - Vencimento do Titulo: 2010-01-01
+[2017-06-11 04:32:36]  - Linhas do documento: 253
+[2017-06-11 04:32:36]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:32:43]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:32:43] Atualizando o arquivo numero 63:
+[2017-06-11 04:32:43] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=272:21749
+[2017-06-11 04:32:44] Arquivo carregado
+[2017-06-11 04:32:44] Identificado 5 guias
+[2017-06-11 04:32:44] Lendo a guia NTNC 010408
+[2017-06-11 04:32:44]  - Tipo Titulo: NTNC
+[2017-06-11 04:32:44]  - Vencimento do Titulo: 2008-01-04
+[2017-06-11 04:32:44]  - Linhas do documento: 254
+[2017-06-11 04:32:44]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:32:46]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:32:46] Lendo a guia NTNC 010311
+[2017-06-11 04:32:46]  - Tipo Titulo: NTNC
+[2017-06-11 04:32:46]  - Vencimento do Titulo: 2011-01-03
+[2017-06-11 04:32:46]  - Linhas do documento: 254
+[2017-06-11 04:32:46]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:32:49]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:32:49] Lendo a guia NTNC 010717
+[2017-06-11 04:32:49]  - Tipo Titulo: NTNC
+[2017-06-11 04:32:49]  - Vencimento do Titulo: 2017-01-07
+[2017-06-11 04:32:49]  - Linhas do documento: 254
+[2017-06-11 04:32:49]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:32:52]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:32:53] Lendo a guia NTNC 010421
+[2017-06-11 04:32:53]  - Tipo Titulo: NTNC
+[2017-06-11 04:32:53]  - Vencimento do Titulo: 2021-01-04
+[2017-06-11 04:32:53]  - Linhas do documento: 254
+[2017-06-11 04:32:53]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:33:01]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:33:01] Lendo a guia NTNC 010131
+[2017-06-11 04:33:01]  - Tipo Titulo: NTNC
+[2017-06-11 04:33:01]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:33:01]  - Linhas do documento: 254
+[2017-06-11 04:33:01]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:33:12]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:33:12] Atualizando o arquivo numero 64:
+[2017-06-11 04:33:12] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=273:92177
+[2017-06-11 04:33:13] Arquivo carregado
+[2017-06-11 04:33:13] Identificado 11 guias
+[2017-06-11 04:33:13] Lendo a guia NTNB 150507
+[2017-06-11 04:33:13]  - Tipo Titulo: NTNB
+[2017-06-11 04:33:13]  - Vencimento do Titulo: 2008-03-05
+[2017-06-11 04:33:13]  - Linhas do documento: 254
+[2017-06-11 04:33:13]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:33:16]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:33:16] Lendo a guia NTNB 150808
+[2017-06-11 04:33:16]  - Tipo Titulo: NTNB
+[2017-06-11 04:33:16]  - Vencimento do Titulo: 2009-03-08
+[2017-06-11 04:33:16]  - Linhas do documento: 254
+[2017-06-11 04:33:16]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:33:23]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:33:23] Lendo a guia NTNB 150509
+[2017-06-11 04:33:23]  - Tipo Titulo: NTNB
+[2017-06-11 04:33:23]  - Vencimento do Titulo: 2010-03-05
+[2017-06-11 04:33:23]  - Linhas do documento: 254
+[2017-06-11 04:33:23]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:33:27]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:33:27] Lendo a guia NTNB 150810
+[2017-06-11 04:33:27]  - Tipo Titulo: NTNB
+[2017-06-11 04:33:27]  - Vencimento do Titulo: 2011-03-08
+[2017-06-11 04:33:27]  - Linhas do documento: 254
+[2017-06-11 04:33:27]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:33:32]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:33:32] Lendo a guia NTNB 150511
+[2017-06-11 04:33:32]  - Tipo Titulo: NTNB
+[2017-06-11 04:33:32]  - Vencimento do Titulo: 2012-03-05
+[2017-06-11 04:33:32]  - Linhas do documento: 254
+[2017-06-11 04:33:32]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:33:41]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:33:41] Lendo a guia NTNB 150812
+[2017-06-11 04:33:41]  - Tipo Titulo: NTNB
+[2017-06-11 04:33:41]  - Vencimento do Titulo: 2013-03-08
+[2017-06-11 04:33:41]  - Linhas do documento: 254
+[2017-06-11 04:33:41]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:33:50]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:33:50] Lendo a guia NTNB 150515
+[2017-06-11 04:33:50]  - Tipo Titulo: NTNB
+[2017-06-11 04:33:50]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:33:50]  - Linhas do documento: 254
+[2017-06-11 04:33:50]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:33:56]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:33:56] Lendo a guia NTNB 150517
+[2017-06-11 04:33:56]  - Tipo Titulo: NTNB
+[2017-06-11 04:33:56]  - Vencimento do Titulo: 2018-03-05
+[2017-06-11 04:33:56]  - Linhas do documento: 254
+[2017-06-11 04:33:56]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:34:02]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:34:02] Lendo a guia NTNB 150824
+[2017-06-11 04:34:02]  - Tipo Titulo: NTNB
+[2017-06-11 04:34:02]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:34:02]  - Linhas do documento: 254
+[2017-06-11 04:34:02]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:34:12]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:34:12] Lendo a guia NTNB 150535
+[2017-06-11 04:34:12]  - Tipo Titulo: NTNB
+[2017-06-11 04:34:12]  - Vencimento do Titulo: 2036-03-05
+[2017-06-11 04:34:12]  - Linhas do documento: 264
+[2017-06-11 04:34:12]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:34:25]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:34:25] Lendo a guia NTNB 150545
+[2017-06-11 04:34:25]  - Tipo Titulo: NTNB
+[2017-06-11 04:34:25]  - Vencimento do Titulo: 1909-08-04
+[2017-06-11 04:34:25]  - Linhas do documento: 264
+[2017-06-11 04:34:25]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:34:31]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:34:31] Atualizando o arquivo numero 65:
+[2017-06-11 04:34:31] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=274:23800
+[2017-06-11 04:34:32] Arquivo carregado
+[2017-06-11 04:34:32] Identificado 2 guias
+[2017-06-11 04:34:32] Lendo a guia NTNBP 150515
+[2017-06-11 04:34:32]  - Tipo Titulo: NTNBP
+[2017-06-11 04:34:32]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:34:32]  - Linhas do documento: 254
+[2017-06-11 04:34:32]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:34:35]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:34:35] Lendo a guia NTNBP 150824
+[2017-06-11 04:34:35]  - Tipo Titulo: NTNBP
+[2017-06-11 04:34:35]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:34:35]  - Linhas do documento: 254
+[2017-06-11 04:34:35]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:34:40]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:34:40] Atualizando o arquivo numero 66:
+[2017-06-11 04:34:40] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=275:803559
+[2017-06-11 04:34:41] Arquivo carregado
+[2017-06-11 04:34:41] Identificado 8 guias
+[2017-06-11 04:34:41] Lendo a guia NTNF 010108
+[2017-06-11 04:34:41]  - Tipo Titulo: NTNF
+[2017-06-11 04:34:41]  - Vencimento do Titulo: 2008-01-01
+[2017-06-11 04:34:41]  - Linhas do documento: 254
+[2017-06-11 04:34:41]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:34:45]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:34:45] Lendo a guia NTNF 010110
+[2017-06-11 04:34:45]  - Tipo Titulo: NTNF
+[2017-06-11 04:34:45]  - Vencimento do Titulo: 2010-01-01
+[2017-06-11 04:34:45]  - Linhas do documento: 254
+[2017-06-11 04:34:45]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:34:56]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:34:56] Lendo a guia NTNF 010710
+[2017-06-11 04:34:56]  - Tipo Titulo: NTNF
+[2017-06-11 04:34:56]  - Vencimento do Titulo: 2010-01-07
+[2017-06-11 04:34:56]  - Linhas do documento: 254
+[2017-06-11 04:34:56]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:34:59]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:34:59] Lendo a guia NTNF 010111
+[2017-06-11 04:34:59]  - Tipo Titulo: NTNF
+[2017-06-11 04:34:59]  - Vencimento do Titulo: 2011-01-01
+[2017-06-11 04:34:59]  - Linhas do documento: 254
+[2017-06-11 04:34:59]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:08]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:08] Lendo a guia NTNF 010112
+[2017-06-11 04:35:08]  - Tipo Titulo: NTNF
+[2017-06-11 04:35:08]  - Vencimento do Titulo: 2012-01-01
+[2017-06-11 04:35:08]  - Linhas do documento: 254
+[2017-06-11 04:35:08]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:11]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:11] Lendo a guia NTNF 010113
+[2017-06-11 04:35:11]  - Tipo Titulo: NTNF
+[2017-06-11 04:35:11]  - Vencimento do Titulo: 2013-01-01
+[2017-06-11 04:35:11]  - Linhas do documento: 254
+[2017-06-11 04:35:11]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:22]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:22] Lendo a guia NTNF 010114
+[2017-06-11 04:35:22]  - Tipo Titulo: NTNF
+[2017-06-11 04:35:22]  - Vencimento do Titulo: 2014-01-01
+[2017-06-11 04:35:22]  - Linhas do documento: 254
+[2017-06-11 04:35:22]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:29]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:29] Lendo a guia NTNF 010117
+[2017-06-11 04:35:29]  - Tipo Titulo: NTNF
+[2017-06-11 04:35:29]  - Vencimento do Titulo: 2017-01-01
+[2017-06-11 04:35:29]  - Linhas do documento: 254
+[2017-06-11 04:35:29]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:34]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:34] Atualizando o arquivo numero 67:
+[2017-06-11 04:35:34] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=264:74327
+[2017-06-11 04:35:35] Arquivo carregado
+[2017-06-11 04:35:35] Identificado 7 guias
+[2017-06-11 04:35:35] Lendo a guia LFT 180106
+[2017-06-11 04:35:35]  - Tipo Titulo: LFT
+[2017-06-11 04:35:35]  - Vencimento do Titulo: 2007-06-01
+[2017-06-11 04:35:35]  - Linhas do documento: 254
+[2017-06-11 04:35:35]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:39]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:39] Lendo a guia LFT 170107
+[2017-06-11 04:35:39]  - Tipo Titulo: LFT
+[2017-06-11 04:35:39]  - Vencimento do Titulo: 2008-05-01
+[2017-06-11 04:35:39]  - Linhas do documento: 254
+[2017-06-11 04:35:39]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:41]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:41] Lendo a guia LFT 180608
+[2017-06-11 04:35:41]  - Tipo Titulo: LFT
+[2017-06-11 04:35:41]  - Vencimento do Titulo: 2009-06-06
+[2017-06-11 04:35:41]  - Linhas do documento: 254
+[2017-06-11 04:35:41]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:43]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:43] Lendo a guia LFT 180309
+[2017-06-11 04:35:43]  - Tipo Titulo: LFT
+[2017-06-11 04:35:43]  - Vencimento do Titulo: 2010-06-03
+[2017-06-11 04:35:43]  - Linhas do documento: 254
+[2017-06-11 04:35:43]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:45]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:45] Lendo a guia LFT 170310
+[2017-06-11 04:35:45]  - Tipo Titulo: LFT
+[2017-06-11 04:35:45]  - Vencimento do Titulo: 2011-05-03
+[2017-06-11 04:35:45]  - Linhas do documento: 254
+[2017-06-11 04:35:45]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:47]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:47] Lendo a guia LFT 160311
+[2017-06-11 04:35:47]  - Tipo Titulo: LFT
+[2017-06-11 04:35:47]  - Vencimento do Titulo: 2012-04-03
+[2017-06-11 04:35:47]  - Linhas do documento: 254
+[2017-06-11 04:35:47]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:49]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:49] Lendo a guia LFT 070312
+[2017-06-11 04:35:49]  - Tipo Titulo: LFT
+[2017-06-11 04:35:49]  - Vencimento do Titulo: 2012-07-03
+[2017-06-11 04:35:49]  - Linhas do documento: 254
+[2017-06-11 04:35:49]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:51]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:51] Atualizando o arquivo numero 68:
+[2017-06-11 04:35:51] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=265:798102
+[2017-06-11 04:35:52] Arquivo carregado
+[2017-06-11 04:35:52] Identificado 11 guias
+[2017-06-11 04:35:52] Lendo a guia LTN 010406
+[2017-06-11 04:35:52]  - Tipo Titulo: LTN
+[2017-06-11 04:35:52]  - Vencimento do Titulo: 2006-01-04
+[2017-06-11 04:35:52]  - Linhas do documento: 253
+[2017-06-11 04:35:52]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:54]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:54] Lendo a guia LTN 010706
+[2017-06-11 04:35:54]  - Tipo Titulo: LTN
+[2017-06-11 04:35:54]  - Vencimento do Titulo: 2006-01-07
+[2017-06-11 04:35:54]  - Linhas do documento: 253
+[2017-06-11 04:35:54]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:56]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:56] Lendo a guia LTN 011006
+[2017-06-11 04:35:56]  - Tipo Titulo: LTN
+[2017-06-11 04:35:56]  - Vencimento do Titulo: 2006-01-10
+[2017-06-11 04:35:56]  - Linhas do documento: 253
+[2017-06-11 04:35:56]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:35:58]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:35:58] Lendo a guia LTN 010107
+[2017-06-11 04:35:58]  - Tipo Titulo: LTN
+[2017-06-11 04:35:58]  - Vencimento do Titulo: 2007-01-01
+[2017-06-11 04:35:58]  - Linhas do documento: 253
+[2017-06-11 04:35:58]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:00]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:00] Lendo a guia LTN 010407
+[2017-06-11 04:36:00]  - Tipo Titulo: LTN
+[2017-06-11 04:36:00]  - Vencimento do Titulo: 2007-01-04
+[2017-06-11 04:36:00]  - Linhas do documento: 253
+[2017-06-11 04:36:00]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:02]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:02] Lendo a guia LTN 010707
+[2017-06-11 04:36:02]  - Tipo Titulo: LTN
+[2017-06-11 04:36:02]  - Vencimento do Titulo: 2007-01-07
+[2017-06-11 04:36:02]  - Linhas do documento: 253
+[2017-06-11 04:36:02]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:04]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:04] Lendo a guia LTN 011007
+[2017-06-11 04:36:04]  - Tipo Titulo: LTN
+[2017-06-11 04:36:04]  - Vencimento do Titulo: 2007-01-10
+[2017-06-11 04:36:04]  - Linhas do documento: 253
+[2017-06-11 04:36:05]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:07]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:07] Lendo a guia LTN 010108
+[2017-06-11 04:36:07]  - Tipo Titulo: LTN
+[2017-06-11 04:36:07]  - Vencimento do Titulo: 2008-01-01
+[2017-06-11 04:36:07]  - Linhas do documento: 253
+[2017-06-11 04:36:07]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:09]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:09] Lendo a guia LTN 010408
+[2017-06-11 04:36:09]  - Tipo Titulo: LTN
+[2017-06-11 04:36:09]  - Vencimento do Titulo: 2008-01-04
+[2017-06-11 04:36:09]  - Linhas do documento: 253
+[2017-06-11 04:36:09]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:11]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:11] Lendo a guia LTN 010708
+[2017-06-11 04:36:11]  - Tipo Titulo: LTN
+[2017-06-11 04:36:11]  - Vencimento do Titulo: 2008-01-07
+[2017-06-11 04:36:11]  - Linhas do documento: 253
+[2017-06-11 04:36:11]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:13]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:13] Lendo a guia LTN 010109
+[2017-06-11 04:36:13]  - Tipo Titulo: LTN
+[2017-06-11 04:36:13]  - Vencimento do Titulo: 2009-01-01
+[2017-06-11 04:36:13]  - Linhas do documento: 253
+[2017-06-11 04:36:13]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:15]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:15] Atualizando o arquivo numero 69:
+[2017-06-11 04:36:15] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=266:68875
+[2017-06-11 04:36:16] Arquivo carregado
+[2017-06-11 04:36:16] Identificado 6 guias
+[2017-06-11 04:36:16] Lendo a guia NTNC 011206
+[2017-06-11 04:36:16]  - Tipo Titulo: NTNC
+[2017-06-11 04:36:16]  - Vencimento do Titulo: 2006-01-12
+[2017-06-11 04:36:16]  - Linhas do documento: 254
+[2017-06-11 04:36:16]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:18]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:18] Lendo a guia NTNC 010408
+[2017-06-11 04:36:18]  - Tipo Titulo: NTNC
+[2017-06-11 04:36:18]  - Vencimento do Titulo: 2008-01-04
+[2017-06-11 04:36:18]  - Linhas do documento: 254
+[2017-06-11 04:36:18]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:20]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:20] Lendo a guia NTNC 010311
+[2017-06-11 04:36:20]  - Tipo Titulo: NTNC
+[2017-06-11 04:36:20]  - Vencimento do Titulo: 2011-01-03
+[2017-06-11 04:36:20]  - Linhas do documento: 254
+[2017-06-11 04:36:20]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:22]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:22] Lendo a guia NTNC 010717
+[2017-06-11 04:36:22]  - Tipo Titulo: NTNC
+[2017-06-11 04:36:22]  - Vencimento do Titulo: 2017-01-07
+[2017-06-11 04:36:22]  - Linhas do documento: 254
+[2017-06-11 04:36:22]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:25]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:25] Lendo a guia NTNC 010421
+[2017-06-11 04:36:25]  - Tipo Titulo: NTNC
+[2017-06-11 04:36:25]  - Vencimento do Titulo: 2021-01-04
+[2017-06-11 04:36:25]  - Linhas do documento: 254
+[2017-06-11 04:36:25]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:27]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:27] Lendo a guia NTNC 010131
+[2017-06-11 04:36:27]  - Tipo Titulo: NTNC
+[2017-06-11 04:36:27]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:36:27]  - Linhas do documento: 254
+[2017-06-11 04:36:27]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:29]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:29] Atualizando o arquivo numero 70:
+[2017-06-11 04:36:29] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=267:108938
+[2017-06-11 04:36:30] Arquivo carregado
+[2017-06-11 04:36:30] Identificado 10 guias
+[2017-06-11 04:36:30] Lendo a guia NTNB 150806
+[2017-06-11 04:36:30]  - Tipo Titulo: NTNB
+[2017-06-11 04:36:30]  - Vencimento do Titulo: 2007-03-08
+[2017-06-11 04:36:30]  - Linhas do documento: 254
+[2017-06-11 04:36:30]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:32]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:32] Lendo a guia NTNB 150507
+[2017-06-11 04:36:32]  - Tipo Titulo: NTNB
+[2017-06-11 04:36:32]  - Vencimento do Titulo: 2008-03-05
+[2017-06-11 04:36:32]  - Linhas do documento: 254
+[2017-06-11 04:36:32]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:34]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:34] Lendo a guia NTNB 150808
+[2017-06-11 04:36:34]  - Tipo Titulo: NTNB
+[2017-06-11 04:36:34]  - Vencimento do Titulo: 2009-03-08
+[2017-06-11 04:36:34]  - Linhas do documento: 254
+[2017-06-11 04:36:34]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:36]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:36] Lendo a guia NTNB 150509
+[2017-06-11 04:36:36]  - Tipo Titulo: NTNB
+[2017-06-11 04:36:36]  - Vencimento do Titulo: 2010-03-05
+[2017-06-11 04:36:36]  - Linhas do documento: 254
+[2017-06-11 04:36:36]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:39]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:39] Lendo a guia NTNB 150810
+[2017-06-11 04:36:39]  - Tipo Titulo: NTNB
+[2017-06-11 04:36:39]  - Vencimento do Titulo: 2011-03-08
+[2017-06-11 04:36:39]  - Linhas do documento: 254
+[2017-06-11 04:36:39]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:41]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:41] Lendo a guia NTNB 150511
+[2017-06-11 04:36:41]  - Tipo Titulo: NTNB
+[2017-06-11 04:36:41]  - Vencimento do Titulo: 2012-03-05
+[2017-06-11 04:36:41]  - Linhas do documento: 254
+[2017-06-11 04:36:41]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:43]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:43] Lendo a guia NTNB 150515
+[2017-06-11 04:36:44]  - Tipo Titulo: NTNB
+[2017-06-11 04:36:44]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:36:44]  - Linhas do documento: 254
+[2017-06-11 04:36:44]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:46]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:46] Lendo a guia NTNB 150824
+[2017-06-11 04:36:46]  - Tipo Titulo: NTNB
+[2017-06-11 04:36:46]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:36:46]  - Linhas do documento: 254
+[2017-06-11 04:36:46]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:48]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:48] Lendo a guia NTNB 150535
+[2017-06-11 04:36:48]  - Tipo Titulo: NTNB
+[2017-06-11 04:36:48]  - Vencimento do Titulo: 2036-03-05
+[2017-06-11 04:36:48]  - Linhas do documento: 264
+[2017-06-11 04:36:48]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:50]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:50] Lendo a guia NTNB 150545
+[2017-06-11 04:36:50]  - Tipo Titulo: NTNB
+[2017-06-11 04:36:50]  - Vencimento do Titulo: 1909-08-04
+[2017-06-11 04:36:50]  - Linhas do documento: 264
+[2017-06-11 04:36:50]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:52]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:52] Atualizando o arquivo numero 71:
+[2017-06-11 04:36:52] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=268:10053
+[2017-06-11 04:36:52] Arquivo carregado
+[2017-06-11 04:36:52] Identificado 2 guias
+[2017-06-11 04:36:52] Lendo a guia NTNBP 150515
+[2017-06-11 04:36:52]  - Tipo Titulo: NTNBP
+[2017-06-11 04:36:53]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:36:53]  - Linhas do documento: 254
+[2017-06-11 04:36:53]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:55]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:55] Lendo a guia NTNBP 150824
+[2017-06-11 04:36:55]  - Tipo Titulo: NTNBP
+[2017-06-11 04:36:55]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:36:55]  - Linhas do documento: 254
+[2017-06-11 04:36:55]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:57]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:57] Atualizando o arquivo numero 72:
+[2017-06-11 04:36:57] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=269:32397
+[2017-06-11 04:36:57] Arquivo carregado
+[2017-06-11 04:36:57] Identificado 4 guias
+[2017-06-11 04:36:57] Lendo a guia NTNF 010108
+[2017-06-11 04:36:57]  - Tipo Titulo: NTNF
+[2017-06-11 04:36:57]  - Vencimento do Titulo: 2008-01-01
+[2017-06-11 04:36:57]  - Linhas do documento: 254
+[2017-06-11 04:36:57]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:36:59]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:36:59] Lendo a guia NTNF 010110
+[2017-06-11 04:36:59]  - Tipo Titulo: NTNF
+[2017-06-11 04:36:59]  - Vencimento do Titulo: 2010-01-01
+[2017-06-11 04:36:59]  - Linhas do documento: 254
+[2017-06-11 04:36:59]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:02]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:02] Lendo a guia NTNF 010112
+[2017-06-11 04:37:02]  - Tipo Titulo: NTNF
+[2017-06-11 04:37:02]  - Vencimento do Titulo: 2012-01-01
+[2017-06-11 04:37:02]  - Linhas do documento: 254
+[2017-06-11 04:37:02]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:04]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:04] Lendo a guia NTNF 010114
+[2017-06-11 04:37:04]  - Tipo Titulo: NTNF
+[2017-06-11 04:37:04]  - Vencimento do Titulo: 2014-01-01
+[2017-06-11 04:37:04]  - Linhas do documento: 254
+[2017-06-11 04:37:04]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:06]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:06] Atualizando o arquivo numero 73:
+[2017-06-11 04:37:06] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=258:82846
+[2017-06-11 04:37:06] Arquivo carregado
+[2017-06-11 04:37:06] Identificado 6 guias
+[2017-06-11 04:37:06] Lendo a guia LFT 160205
+[2017-06-11 04:37:06]  - Tipo Titulo: LFT
+[2017-06-11 04:37:06]  - Vencimento do Titulo: 2006-04-02
+[2017-06-11 04:37:06]  - Linhas do documento: 254
+[2017-06-11 04:37:06]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:08]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:08] Lendo a guia LFT 180106
+[2017-06-11 04:37:08]  - Tipo Titulo: LFT
+[2017-06-11 04:37:08]  - Vencimento do Titulo: 2007-06-01
+[2017-06-11 04:37:08]  - Linhas do documento: 254
+[2017-06-11 04:37:08]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:10]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:10] Lendo a guia LFT 170107
+[2017-06-11 04:37:10]  - Tipo Titulo: LFT
+[2017-06-11 04:37:11]  - Vencimento do Titulo: 2008-05-01
+[2017-06-11 04:37:11]  - Linhas do documento: 254
+[2017-06-11 04:37:11]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:13]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:13] Lendo a guia LFT 180608
+[2017-06-11 04:37:13]  - Tipo Titulo: LFT
+[2017-06-11 04:37:13]  - Vencimento do Titulo: 2009-06-06
+[2017-06-11 04:37:13]  - Linhas do documento: 254
+[2017-06-11 04:37:13]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:15]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:15] Lendo a guia LFT 180309
+[2017-06-11 04:37:15]  - Tipo Titulo: LFT
+[2017-06-11 04:37:15]  - Vencimento do Titulo: 2010-06-03
+[2017-06-11 04:37:15]  - Linhas do documento: 254
+[2017-06-11 04:37:15]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:17]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:17] Lendo a guia LFT 170310
+[2017-06-11 04:37:17]  - Tipo Titulo: LFT
+[2017-06-11 04:37:17]  - Vencimento do Titulo: 2011-05-03
+[2017-06-11 04:37:17]  - Linhas do documento: 254
+[2017-06-11 04:37:17]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:19]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:19] Atualizando o arquivo numero 74:
+[2017-06-11 04:37:19] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=259:37462
+[2017-06-11 04:37:20] Arquivo carregado
+[2017-06-11 04:37:20] Identificado 13 guias
+[2017-06-11 04:37:20] Lendo a guia LTN 040105
+[2017-06-11 04:37:20]  - Tipo Titulo: LTN
+[2017-06-11 04:37:20]  - Vencimento do Titulo: 2005-04-01
+[2017-06-11 04:37:20]  - Linhas do documento: 253
+[2017-06-11 04:37:20]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:22]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:22] Lendo a guia LTN 010405
+[2017-06-11 04:37:22]  - Tipo Titulo: LTN
+[2017-06-11 04:37:22]  - Vencimento do Titulo: 2005-01-04
+[2017-06-11 04:37:22]  - Linhas do documento: 253
+[2017-06-11 04:37:22]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:34]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:34] Lendo a guia LTN 010705
+[2017-06-11 04:37:34]  - Tipo Titulo: LTN
+[2017-06-11 04:37:34]  - Vencimento do Titulo: 2005-01-07
+[2017-06-11 04:37:34]  - Linhas do documento: 253
+[2017-06-11 04:37:34]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:36]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:36] Lendo a guia LTN 011005
+[2017-06-11 04:37:36]  - Tipo Titulo: LTN
+[2017-06-11 04:37:36]  - Vencimento do Titulo: 2005-01-10
+[2017-06-11 04:37:36]  - Linhas do documento: 253
+[2017-06-11 04:37:36]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:38]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:38] Lendo a guia LTN 010106
+[2017-06-11 04:37:38]  - Tipo Titulo: LTN
+[2017-06-11 04:37:38]  - Vencimento do Titulo: 2006-01-01
+[2017-06-11 04:37:38]  - Linhas do documento: 253
+[2017-06-11 04:37:38]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:40]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:40] Lendo a guia LTN 010406
+[2017-06-11 04:37:40]  - Tipo Titulo: LTN
+[2017-06-11 04:37:40]  - Vencimento do Titulo: 2006-01-04
+[2017-06-11 04:37:40]  - Linhas do documento: 253
+[2017-06-11 04:37:40]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:46]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:46] Lendo a guia LTN 010706
+[2017-06-11 04:37:46]  - Tipo Titulo: LTN
+[2017-06-11 04:37:46]  - Vencimento do Titulo: 2006-01-07
+[2017-06-11 04:37:46]  - Linhas do documento: 253
+[2017-06-11 04:37:46]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:37:52]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:37:52] Lendo a guia LTN 011006
+[2017-06-11 04:37:52]  - Tipo Titulo: LTN
+[2017-06-11 04:37:52]  - Vencimento do Titulo: 2006-01-10
+[2017-06-11 04:37:52]  - Linhas do documento: 253
+[2017-06-11 04:37:52]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:02]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:02] Lendo a guia LTN 010107
+[2017-06-11 04:38:02]  - Tipo Titulo: LTN
+[2017-06-11 04:38:02]  - Vencimento do Titulo: 2007-01-01
+[2017-06-11 04:38:02]  - Linhas do documento: 253
+[2017-06-11 04:38:02]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:04]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:04] Lendo a guia LTN 010407
+[2017-06-11 04:38:04]  - Tipo Titulo: LTN
+[2017-06-11 04:38:04]  - Vencimento do Titulo: 2007-01-04
+[2017-06-11 04:38:04]  - Linhas do documento: 253
+[2017-06-11 04:38:04]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:06]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:06] Lendo a guia LTN 010707
+[2017-06-11 04:38:06]  - Tipo Titulo: LTN
+[2017-06-11 04:38:06]  - Vencimento do Titulo: 2007-01-07
+[2017-06-11 04:38:06]  - Linhas do documento: 253
+[2017-06-11 04:38:06]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:08]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:08] Lendo a guia LTN 010108
+[2017-06-11 04:38:08]  - Tipo Titulo: LTN
+[2017-06-11 04:38:08]  - Vencimento do Titulo: 2008-01-01
+[2017-06-11 04:38:08]  - Linhas do documento: 253
+[2017-06-11 04:38:08]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:10]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:10] Lendo a guia LTN 010708
+[2017-06-11 04:38:10]  - Tipo Titulo: LTN
+[2017-06-11 04:38:10]  - Vencimento do Titulo: 2008-01-07
+[2017-06-11 04:38:10]  - Linhas do documento: 253
+[2017-06-11 04:38:10]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:12]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:12] Atualizando o arquivo numero 75:
+[2017-06-11 04:38:12] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=260:777834
+[2017-06-11 04:38:13] Arquivo carregado
+[2017-06-11 04:38:13] Identificado 8 guias
+[2017-06-11 04:38:13] Lendo a guia NTNC 010705
+[2017-06-11 04:38:13]  - Tipo Titulo: NTNC
+[2017-06-11 04:38:14]  - Vencimento do Titulo: 2005-01-07
+[2017-06-11 04:38:14]  - Linhas do documento: 254
+[2017-06-11 04:38:14]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:16]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:16] Lendo a guia NTNC 011205
+[2017-06-11 04:38:16]  - Tipo Titulo: NTNC
+[2017-06-11 04:38:16]  - Vencimento do Titulo: 2005-01-12
+[2017-06-11 04:38:16]  - Linhas do documento: 254
+[2017-06-11 04:38:16]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:18]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:18] Lendo a guia NTNC 011206
+[2017-06-11 04:38:18]  - Tipo Titulo: NTNC
+[2017-06-11 04:38:18]  - Vencimento do Titulo: 2006-01-12
+[2017-06-11 04:38:18]  - Linhas do documento: 254
+[2017-06-11 04:38:18]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:20]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:20] Lendo a guia NTNC 010408
+[2017-06-11 04:38:20]  - Tipo Titulo: NTNC
+[2017-06-11 04:38:20]  - Vencimento do Titulo: 2008-01-04
+[2017-06-11 04:38:20]  - Linhas do documento: 254
+[2017-06-11 04:38:20]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:22]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:22] Lendo a guia NTNC 010311
+[2017-06-11 04:38:22]  - Tipo Titulo: NTNC
+[2017-06-11 04:38:22]  - Vencimento do Titulo: 2011-01-03
+[2017-06-11 04:38:22]  - Linhas do documento: 254
+[2017-06-11 04:38:22]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:24]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:24] Lendo a guia NTNC 010717
+[2017-06-11 04:38:24]  - Tipo Titulo: NTNC
+[2017-06-11 04:38:24]  - Vencimento do Titulo: 2017-01-07
+[2017-06-11 04:38:24]  - Linhas do documento: 254
+[2017-06-11 04:38:24]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:26]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:27] Lendo a guia NTNC 010421
+[2017-06-11 04:38:27]  - Tipo Titulo: NTNC
+[2017-06-11 04:38:27]  - Vencimento do Titulo: 2021-01-04
+[2017-06-11 04:38:27]  - Linhas do documento: 254
+[2017-06-11 04:38:27]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:29]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:29] Lendo a guia NTNC 010131
+[2017-06-11 04:38:29]  - Tipo Titulo: NTNC
+[2017-06-11 04:38:29]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:38:29]  - Linhas do documento: 254
+[2017-06-11 04:38:29]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:31]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:31] Atualizando o arquivo numero 76:
+[2017-06-11 04:38:31] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=261:139670
+[2017-06-11 04:38:32] Arquivo carregado
+[2017-06-11 04:38:32] Identificado 7 guias
+[2017-06-11 04:38:32] Lendo a guia NTNB 150806
+[2017-06-11 04:38:32]  - Tipo Titulo: NTNB
+[2017-06-11 04:38:32]  - Vencimento do Titulo: 2007-03-08
+[2017-06-11 04:38:32]  - Linhas do documento: 254
+[2017-06-11 04:38:32]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:34]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:34] Lendo a guia NTNB 150507
+[2017-06-11 04:38:34]  - Tipo Titulo: NTNB
+[2017-06-11 04:38:34]  - Vencimento do Titulo: 2008-03-05
+[2017-06-11 04:38:34]  - Linhas do documento: 254
+[2017-06-11 04:38:34]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:36]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:36] Lendo a guia NTNB 150808
+[2017-06-11 04:38:36]  - Tipo Titulo: NTNB
+[2017-06-11 04:38:36]  - Vencimento do Titulo: 2009-03-08
+[2017-06-11 04:38:36]  - Linhas do documento: 254
+[2017-06-11 04:38:36]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:38]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:38] Lendo a guia NTNB 150509
+[2017-06-11 04:38:38]  - Tipo Titulo: NTNB
+[2017-06-11 04:38:38]  - Vencimento do Titulo: 2010-03-05
+[2017-06-11 04:38:38]  - Linhas do documento: 254
+[2017-06-11 04:38:38]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:51]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:51] Lendo a guia NTNB 150515
+[2017-06-11 04:38:51]  - Tipo Titulo: NTNB
+[2017-06-11 04:38:51]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:38:51]  - Linhas do documento: 254
+[2017-06-11 04:38:51]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:53]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:53] Lendo a guia NTNB 150824
+[2017-06-11 04:38:53]  - Tipo Titulo: NTNB
+[2017-06-11 04:38:53]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:38:53]  - Linhas do documento: 254
+[2017-06-11 04:38:53]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:55]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:55] Lendo a guia NTNB 150545
+[2017-06-11 04:38:55]  - Tipo Titulo: NTNB
+[2017-06-11 04:38:55]  - Vencimento do Titulo: 1909-08-04
+[2017-06-11 04:38:55]  - Linhas do documento: 264
+[2017-06-11 04:38:55]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:38:57]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:38:57] Atualizando o arquivo numero 77:
+[2017-06-11 04:38:57] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=262:32686
+[2017-06-11 04:38:58] Arquivo carregado
+[2017-06-11 04:38:58] Identificado 2 guias
+[2017-06-11 04:38:58] Lendo a guia NTNBP 150515
+[2017-06-11 04:38:58]  - Tipo Titulo: NTNBP
+[2017-06-11 04:38:58]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:38:58]  - Linhas do documento: 254
+[2017-06-11 04:38:58]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:00]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:00] Lendo a guia NTNBP 150824
+[2017-06-11 04:39:00]  - Tipo Titulo: NTNBP
+[2017-06-11 04:39:00]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:39:00]  - Linhas do documento: 254
+[2017-06-11 04:39:00]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:02]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:02] Atualizando o arquivo numero 78:
+[2017-06-11 04:39:02] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=263:35044
+[2017-06-11 04:39:02] Arquivo carregado
+[2017-06-11 04:39:02] Identificado 2 guias
+[2017-06-11 04:39:02] Lendo a guia NTNF 010108
+[2017-06-11 04:39:02]  - Tipo Titulo: NTNF
+[2017-06-11 04:39:02]  - Vencimento do Titulo: 2008-01-01
+[2017-06-11 04:39:02]  - Linhas do documento: 254
+[2017-06-11 04:39:02]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:04]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:04] Lendo a guia NTNF 010110
+[2017-06-11 04:39:04]  - Tipo Titulo: NTNF
+[2017-06-11 04:39:04]  - Vencimento do Titulo: 2010-01-01
+[2017-06-11 04:39:04]  - Linhas do documento: 254
+[2017-06-11 04:39:04]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:06]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:06] Atualizando o arquivo numero 79:
+[2017-06-11 04:39:06] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=253:29587
+[2017-06-11 04:39:07] Arquivo carregado
+[2017-06-11 04:39:07] Identificado 6 guias
+[2017-06-11 04:39:07] Lendo a guia LFT 210104
+[2017-06-11 04:39:07]  - Tipo Titulo: LFT
+[2017-06-11 04:39:07]  - Vencimento do Titulo: 2005-09-01
+[2017-06-11 04:39:07]  - Linhas do documento: 254
+[2017-06-11 04:39:07]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:09]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:09] Lendo a guia LFT 160205
+[2017-06-11 04:39:09]  - Tipo Titulo: LFT
+[2017-06-11 04:39:09]  - Vencimento do Titulo: 2006-04-02
+[2017-06-11 04:39:09]  - Linhas do documento: 254
+[2017-06-11 04:39:09]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:14]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:14] Lendo a guia LFT 180106
+[2017-06-11 04:39:14]  - Tipo Titulo: LFT
+[2017-06-11 04:39:14]  - Vencimento do Titulo: 2007-06-01
+[2017-06-11 04:39:14]  - Linhas do documento: 254
+[2017-06-11 04:39:14]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:16]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:16] Lendo a guia LFT 170107
+[2017-06-11 04:39:16]  - Tipo Titulo: LFT
+[2017-06-11 04:39:16]  - Vencimento do Titulo: 2008-05-01
+[2017-06-11 04:39:16]  - Linhas do documento: 254
+[2017-06-11 04:39:16]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:18]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:18] Lendo a guia LFT 180608
+[2017-06-11 04:39:18]  - Tipo Titulo: LFT
+[2017-06-11 04:39:18]  - Vencimento do Titulo: 2009-06-06
+[2017-06-11 04:39:18]  - Linhas do documento: 254
+[2017-06-11 04:39:19]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:21]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:21] Lendo a guia LFT 180309
+[2017-06-11 04:39:21]  - Tipo Titulo: LFT
+[2017-06-11 04:39:21]  - Vencimento do Titulo: 2010-06-03
+[2017-06-11 04:39:21]  - Linhas do documento: 254
+[2017-06-11 04:39:21]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:24]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:24] Atualizando o arquivo numero 80:
+[2017-06-11 04:39:24] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=254:23066
+[2017-06-11 04:39:25] Arquivo carregado
+[2017-06-11 04:39:25] Identificado 10 guias
+[2017-06-11 04:39:25] Lendo a guia LTN 070104
+[2017-06-11 04:39:25]  - Tipo Titulo: LTN
+[2017-06-11 04:39:25]  - Vencimento do Titulo: 2004-07-01
+[2017-06-11 04:39:25]  - Linhas do documento: 254
+[2017-06-11 04:39:25]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:27]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:27] Lendo a guia LTN 010404
+[2017-06-11 04:39:27]  - Tipo Titulo: LTN
+[2017-06-11 04:39:27]  - Vencimento do Titulo: 2004-01-04
+[2017-06-11 04:39:27]  - Linhas do documento: 254
+[2017-06-11 04:39:27]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:36]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:36] Lendo a guia LTN 010704
+[2017-06-11 04:39:36]  - Tipo Titulo: LTN
+[2017-06-11 04:39:36]  - Vencimento do Titulo: 2004-01-07
+[2017-06-11 04:39:36]  - Linhas do documento: 254
+[2017-06-11 04:39:36]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:38]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:38] Lendo a guia LTN 011004
+[2017-06-11 04:39:38]  - Tipo Titulo: LTN
+[2017-06-11 04:39:38]  - Vencimento do Titulo: 2004-01-10
+[2017-06-11 04:39:38]  - Linhas do documento: 254
+[2017-06-11 04:39:38]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:40]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:40] Lendo a guia LTN 040105
+[2017-06-11 04:39:40]  - Tipo Titulo: LTN
+[2017-06-11 04:39:40]  - Vencimento do Titulo: 2005-04-01
+[2017-06-11 04:39:40]  - Linhas do documento: 254
+[2017-06-11 04:39:40]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:42]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:42] Lendo a guia LTN 010405
+[2017-06-11 04:39:42]  - Tipo Titulo: LTN
+[2017-06-11 04:39:42]  - Vencimento do Titulo: 2005-01-04
+[2017-06-11 04:39:42]  - Linhas do documento: 254
+[2017-06-11 04:39:42]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:44]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:44] Lendo a guia LTN 010705
+[2017-06-11 04:39:44]  - Tipo Titulo: LTN
+[2017-06-11 04:39:44]  - Vencimento do Titulo: 2005-01-07
+[2017-06-11 04:39:44]  - Linhas do documento: 254
+[2017-06-11 04:39:44]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:46]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:46] Lendo a guia LTN 011005
+[2017-06-11 04:39:46]  - Tipo Titulo: LTN
+[2017-06-11 04:39:46]  - Vencimento do Titulo: 2005-01-10
+[2017-06-11 04:39:46]  - Linhas do documento: 254
+[2017-06-11 04:39:46]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:49]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:49] Lendo a guia LTN 010106
+[2017-06-11 04:39:49]  - Tipo Titulo: LTN
+[2017-06-11 04:39:49]  - Vencimento do Titulo: 2006-01-01
+[2017-06-11 04:39:49]  - Linhas do documento: 254
+[2017-06-11 04:39:49]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:51]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:51] Lendo a guia LTN 010706
+[2017-06-11 04:39:51]  - Tipo Titulo: LTN
+[2017-06-11 04:39:51]  - Vencimento do Titulo: 2006-01-07
+[2017-06-11 04:39:51]  - Linhas do documento: 254
+[2017-06-11 04:39:51]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:53]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:53] Atualizando o arquivo numero 81:
+[2017-06-11 04:39:53] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=255:865023
+[2017-06-11 04:39:54] Arquivo carregado
+[2017-06-11 04:39:54] Identificado 8 guias
+[2017-06-11 04:39:54] Lendo a guia NTNC 010705
+[2017-06-11 04:39:54]  - Tipo Titulo: NTNC
+[2017-06-11 04:39:54]  - Vencimento do Titulo: 2005-01-07
+[2017-06-11 04:39:54]  - Linhas do documento: 254
+[2017-06-11 04:39:54]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:56]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:56] Lendo a guia NTNC 011205
+[2017-06-11 04:39:56]  - Tipo Titulo: NTNC
+[2017-06-11 04:39:56]  - Vencimento do Titulo: 2005-01-12
+[2017-06-11 04:39:56]  - Linhas do documento: 254
+[2017-06-11 04:39:56]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:39:58]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:39:58] Lendo a guia NTNC 011206
+[2017-06-11 04:39:58]  - Tipo Titulo: NTNC
+[2017-06-11 04:39:58]  - Vencimento do Titulo: 2006-01-12
+[2017-06-11 04:39:58]  - Linhas do documento: 254
+[2017-06-11 04:39:58]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:00]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:00] Lendo a guia NTNC 010408
+[2017-06-11 04:40:00]  - Tipo Titulo: NTNC
+[2017-06-11 04:40:00]  - Vencimento do Titulo: 2008-01-04
+[2017-06-11 04:40:00]  - Linhas do documento: 254
+[2017-06-11 04:40:00]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:02]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:02] Lendo a guia NTNC 010311
+[2017-06-11 04:40:02]  - Tipo Titulo: NTNC
+[2017-06-11 04:40:02]  - Vencimento do Titulo: 2011-01-03
+[2017-06-11 04:40:02]  - Linhas do documento: 254
+[2017-06-11 04:40:02]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:04]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:04] Lendo a guia NTNC 010717
+[2017-06-11 04:40:04]  - Tipo Titulo: NTNC
+[2017-06-11 04:40:04]  - Vencimento do Titulo: 2017-01-07
+[2017-06-11 04:40:04]  - Linhas do documento: 254
+[2017-06-11 04:40:04]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:06]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:06] Lendo a guia NTNC 010421
+[2017-06-11 04:40:06]  - Tipo Titulo: NTNC
+[2017-06-11 04:40:06]  - Vencimento do Titulo: 2021-01-04
+[2017-06-11 04:40:06]  - Linhas do documento: 254
+[2017-06-11 04:40:06]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:08]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:08] Lendo a guia NTNC 010131
+[2017-06-11 04:40:08]  - Tipo Titulo: NTNC
+[2017-06-11 04:40:08]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:40:08]  - Linhas do documento: 254
+[2017-06-11 04:40:08]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:10]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:10] Atualizando o arquivo numero 82:
+[2017-06-11 04:40:10] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=256:57546
+[2017-06-11 04:40:11] Arquivo carregado
+[2017-06-11 04:40:11] Identificado 5 guias
+[2017-06-11 04:40:11] Lendo a guia NTNB 150806
+[2017-06-11 04:40:11]  - Tipo Titulo: NTNB
+[2017-06-11 04:40:11]  - Vencimento do Titulo: 2007-03-08
+[2017-06-11 04:40:11]  - Linhas do documento: 254
+[2017-06-11 04:40:11]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:13]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:13] Lendo a guia NTNB 150509
+[2017-06-11 04:40:13]  - Tipo Titulo: NTNB
+[2017-06-11 04:40:13]  - Vencimento do Titulo: 2010-03-05
+[2017-06-11 04:40:13]  - Linhas do documento: 254
+[2017-06-11 04:40:13]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:18]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:18] Lendo a guia NTNB 150515
+[2017-06-11 04:40:18]  - Tipo Titulo: NTNB
+[2017-06-11 04:40:18]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:40:18]  - Linhas do documento: 254
+[2017-06-11 04:40:18]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:26]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:26] Lendo a guia NTNB 150824
+[2017-06-11 04:40:26]  - Tipo Titulo: NTNB
+[2017-06-11 04:40:26]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:40:26]  - Linhas do documento: 254
+[2017-06-11 04:40:26]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:28]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:28] Lendo a guia NTNB 150545
+[2017-06-11 04:40:28]  - Tipo Titulo: NTNB
+[2017-06-11 04:40:28]  - Vencimento do Titulo: 1909-08-04
+[2017-06-11 04:40:28]  - Linhas do documento: 264
+[2017-06-11 04:40:28]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:30]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:30] Atualizando o arquivo numero 83:
+[2017-06-11 04:40:30] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=257:41283
+[2017-06-11 04:40:30] Arquivo carregado
+[2017-06-11 04:40:31] Identificado 1 guias
+[2017-06-11 04:40:31] Lendo a guia NTNF 010108
+[2017-06-11 04:40:31]  - Tipo Titulo: NTNF
+[2017-06-11 04:40:31]  - Vencimento do Titulo: 2008-01-01
+[2017-06-11 04:40:31]  - Linhas do documento: 254
+[2017-06-11 04:40:31]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:33]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:33] Atualizando o arquivo numero 84:
+[2017-06-11 04:40:33] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=244:11737
+[2017-06-11 04:40:34] Arquivo carregado
+[2017-06-11 04:40:34] Identificado 5 guias
+[2017-06-11 04:40:34] Lendo a guia LFT 210104
+[2017-06-11 04:40:34]  - Tipo Titulo: LFT
+[2017-06-11 04:40:34]  - Vencimento do Titulo: 2005-09-01
+[2017-06-11 04:40:34]  - Linhas do documento: 759
+[2017-06-11 04:40:34]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:36]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:36] Lendo a guia LFT 160205
+[2017-06-11 04:40:36]  - Tipo Titulo: LFT
+[2017-06-11 04:40:36]  - Vencimento do Titulo: 2006-04-02
+[2017-06-11 04:40:36]  - Linhas do documento: 759
+[2017-06-11 04:40:36]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:38]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:38] Lendo a guia LFT 180106
+[2017-06-11 04:40:38]  - Tipo Titulo: LFT
+[2017-06-11 04:40:38]  - Vencimento do Titulo: 2007-06-01
+[2017-06-11 04:40:38]  - Linhas do documento: 759
+[2017-06-11 04:40:38]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:40]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:40] Lendo a guia LFT 170107
+[2017-06-11 04:40:40]  - Tipo Titulo: LFT
+[2017-06-11 04:40:40]  - Vencimento do Titulo: 2008-05-01
+[2017-06-11 04:40:40]  - Linhas do documento: 759
+[2017-06-11 04:40:40]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:42]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:42] Lendo a guia LFT 180608
+[2017-06-11 04:40:42]  - Tipo Titulo: LFT
+[2017-06-11 04:40:42]  - Vencimento do Titulo: 2009-06-06
+[2017-06-11 04:40:42]  - Linhas do documento: 255
+[2017-06-11 04:40:42]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:44]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:44] Atualizando o arquivo numero 85:
+[2017-06-11 04:40:44] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=245:797368
+[2017-06-11 04:40:45] Arquivo carregado
+[2017-06-11 04:40:45] Identificado 7 guias
+[2017-06-11 04:40:45] Lendo a guia LTN 011003
+[2017-06-11 04:40:45]  - Tipo Titulo: LTN
+[2017-06-11 04:40:45]  - Vencimento do Titulo: 2003-01-10
+[2017-06-11 04:40:45]  - Linhas do documento: 255
+[2017-06-11 04:40:45]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:47]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:47] Lendo a guia LTN 070104
+[2017-06-11 04:40:47]  - Tipo Titulo: LTN
+[2017-06-11 04:40:47]  - Vencimento do Titulo: 2004-07-01
+[2017-06-11 04:40:47]  - Linhas do documento: 255
+[2017-06-11 04:40:47]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:49]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:49] Lendo a guia LTN 010404
+[2017-06-11 04:40:49]  - Tipo Titulo: LTN
+[2017-06-11 04:40:49]  - Vencimento do Titulo: 2004-01-04
+[2017-06-11 04:40:49]  - Linhas do documento: 255
+[2017-06-11 04:40:49]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:51]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:51] Lendo a guia LTN 010704
+[2017-06-11 04:40:51]  - Tipo Titulo: LTN
+[2017-06-11 04:40:51]  - Vencimento do Titulo: 2004-01-07
+[2017-06-11 04:40:51]  - Linhas do documento: 255
+[2017-06-11 04:40:51]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:53]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:54] Lendo a guia LTN 011004
+[2017-06-11 04:40:54]  - Tipo Titulo: LTN
+[2017-06-11 04:40:54]  - Vencimento do Titulo: 2004-01-10
+[2017-06-11 04:40:54]  - Linhas do documento: 255
+[2017-06-11 04:40:54]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:56]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:56] Lendo a guia LTN 040105
+[2017-06-11 04:40:56]  - Tipo Titulo: LTN
+[2017-06-11 04:40:56]  - Vencimento do Titulo: 2005-04-01
+[2017-06-11 04:40:56]  - Linhas do documento: 255
+[2017-06-11 04:40:56]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:40:58]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:40:58] Lendo a guia LTN 010705
+[2017-06-11 04:40:58]  - Tipo Titulo: LTN
+[2017-06-11 04:40:58]  - Vencimento do Titulo: 2005-01-07
+[2017-06-11 04:40:58]  - Linhas do documento: 255
+[2017-06-11 04:40:58]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:00]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:00] Atualizando o arquivo numero 86:
+[2017-06-11 04:41:00] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=246:130339
+[2017-06-11 04:41:01] Arquivo carregado
+[2017-06-11 04:41:01] Identificado 8 guias
+[2017-06-11 04:41:01] Lendo a guia NTNC 010705
+[2017-06-11 04:41:01]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:01]  - Vencimento do Titulo: 2005-01-07
+[2017-06-11 04:41:01]  - Linhas do documento: 759
+[2017-06-11 04:41:01]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:03]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:03] Lendo a guia NTNC 011205
+[2017-06-11 04:41:03]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:03]  - Vencimento do Titulo: 2005-01-12
+[2017-06-11 04:41:03]  - Linhas do documento: 759
+[2017-06-11 04:41:03]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:05]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:05] Lendo a guia NTNC 011206
+[2017-06-11 04:41:05]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:05]  - Vencimento do Titulo: 2006-01-12
+[2017-06-11 04:41:05]  - Linhas do documento: 759
+[2017-06-11 04:41:05]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:07]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:07] Lendo a guia NTNC 010408
+[2017-06-11 04:41:07]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:07]  - Vencimento do Titulo: 2008-01-04
+[2017-06-11 04:41:07]  - Linhas do documento: 759
+[2017-06-11 04:41:07]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:09]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:09] Lendo a guia NTNC 010311
+[2017-06-11 04:41:09]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:09]  - Vencimento do Titulo: 2011-01-03
+[2017-06-11 04:41:09]  - Linhas do documento: 759
+[2017-06-11 04:41:09]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:11]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:11] Lendo a guia NTNC 010717
+[2017-06-11 04:41:11]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:11]  - Vencimento do Titulo: 2017-01-07
+[2017-06-11 04:41:11]  - Linhas do documento: 759
+[2017-06-11 04:41:11]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:13]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:13] Lendo a guia NTNC 010421
+[2017-06-11 04:41:13]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:13]  - Vencimento do Titulo: 2021-01-04
+[2017-06-11 04:41:13]  - Linhas do documento: 759
+[2017-06-11 04:41:13]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:15]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:15] Lendo a guia NTNC 010131
+[2017-06-11 04:41:16]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:16]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:41:16]  - Linhas do documento: 759
+[2017-06-11 04:41:16]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:21]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:21] Atualizando o arquivo numero 87:
+[2017-06-11 04:41:21] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=247:46348
+[2017-06-11 04:41:22] Arquivo carregado
+[2017-06-11 04:41:22] Identificado 4 guias
+[2017-06-11 04:41:22] Lendo a guia NTNB 150806
+[2017-06-11 04:41:22]  - Tipo Titulo: NTNB
+[2017-06-11 04:41:22]  - Vencimento do Titulo: 2007-03-08
+[2017-06-11 04:41:22]  - Linhas do documento: 759
+[2017-06-11 04:41:22]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:24]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:24] Lendo a guia NTNB 150509
+[2017-06-11 04:41:24]  - Tipo Titulo: NTNB
+[2017-06-11 04:41:24]  - Vencimento do Titulo: 2010-03-05
+[2017-06-11 04:41:24]  - Linhas do documento: 759
+[2017-06-11 04:41:24]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:26]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:26] Lendo a guia NTNB 150515
+[2017-06-11 04:41:26]  - Tipo Titulo: NTNB
+[2017-06-11 04:41:26]  - Vencimento do Titulo: 2016-03-05
+[2017-06-11 04:41:26]  - Linhas do documento: 759
+[2017-06-11 04:41:26]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:28]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:28] Lendo a guia NTNB 150824
+[2017-06-11 04:41:28]  - Tipo Titulo: NTNB
+[2017-06-11 04:41:28]  - Vencimento do Titulo: 2025-03-08
+[2017-06-11 04:41:28]  - Linhas do documento: 759
+[2017-06-11 04:41:28]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:30]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:30] Atualizando o arquivo numero 88:
+[2017-06-11 04:41:30] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=241:77080
+[2017-06-11 04:41:31] Arquivo carregado
+[2017-06-11 04:41:31] Identificado 4 guias
+[2017-06-11 04:41:31] Lendo a guia LFT 210104
+[2017-06-11 04:41:31]  - Tipo Titulo: LFT
+[2017-06-11 04:41:31]  - Vencimento do Titulo: 2005-09-01
+[2017-06-11 04:41:31]  - Linhas do documento: 1012
+[2017-06-11 04:41:31]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:33]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:33] Lendo a guia LFT 160205
+[2017-06-11 04:41:33]  - Tipo Titulo: LFT
+[2017-06-11 04:41:33]  - Vencimento do Titulo: 2006-04-02
+[2017-06-11 04:41:33]  - Linhas do documento: 1012
+[2017-06-11 04:41:33]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:35]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:35] Lendo a guia LFT 180106
+[2017-06-11 04:41:35]  - Tipo Titulo: LFT
+[2017-06-11 04:41:35]  - Vencimento do Titulo: 2007-06-01
+[2017-06-11 04:41:35]  - Linhas do documento: 1012
+[2017-06-11 04:41:35]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:37]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:37] Lendo a guia LFT 170107
+[2017-06-11 04:41:37]  - Tipo Titulo: LFT
+[2017-06-11 04:41:37]  - Vencimento do Titulo: 2008-05-01
+[2017-06-11 04:41:37]  - Linhas do documento: 1012
+[2017-06-11 04:41:37]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:40]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:40] Atualizando o arquivo numero 89:
+[2017-06-11 04:41:40] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=242:31952
+[2017-06-11 04:41:40] Arquivo carregado
+[2017-06-11 04:41:40] Identificado 1 guias
+[2017-06-11 04:41:40] Lendo a guia LTN 070104
+[2017-06-11 04:41:40]  - Tipo Titulo: LTN
+[2017-06-11 04:41:40]  - Vencimento do Titulo: 2004-07-01
+[2017-06-11 04:41:40]  - Linhas do documento: 255
+[2017-06-11 04:41:40]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:42]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:42] Atualizando o arquivo numero 90:
+[2017-06-11 04:41:42] Caminho: http://sisweb.tesouro.gov.br/apex/COSIS_SISTD.obtem_arquivo?p_id=243:96508
+[2017-06-11 04:41:43] Arquivo carregado
+[2017-06-11 04:41:43] Identificado 8 guias
+[2017-06-11 04:41:43] Lendo a guia NTNC 010705
+[2017-06-11 04:41:43]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:43]  - Vencimento do Titulo: 2005-01-07
+[2017-06-11 04:41:43]  - Linhas do documento: 1012
+[2017-06-11 04:41:43]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:45]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:45] Lendo a guia NTNC 011205
+[2017-06-11 04:41:45]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:45]  - Vencimento do Titulo: 2005-01-12
+[2017-06-11 04:41:45]  - Linhas do documento: 1012
+[2017-06-11 04:41:45]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:47]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:47] Lendo a guia NTNC 011206
+[2017-06-11 04:41:47]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:47]  - Vencimento do Titulo: 2006-01-12
+[2017-06-11 04:41:47]  - Linhas do documento: 1012
+[2017-06-11 04:41:47]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:49]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:49] Lendo a guia NTNC 010408
+[2017-06-11 04:41:49]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:49]  - Vencimento do Titulo: 2008-01-04
+[2017-06-11 04:41:49]  - Linhas do documento: 1012
+[2017-06-11 04:41:49]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:51]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:51] Lendo a guia NTNC 010311
+[2017-06-11 04:41:51]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:51]  - Vencimento do Titulo: 2011-01-03
+[2017-06-11 04:41:51]  - Linhas do documento: 1012
+[2017-06-11 04:41:51]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:53]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:53] Lendo a guia NTNC 010717
+[2017-06-11 04:41:53]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:53]  - Vencimento do Titulo: 2017-01-07
+[2017-06-11 04:41:53]  - Linhas do documento: 1012
+[2017-06-11 04:41:53]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:55]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:55] Lendo a guia NTNC 010421
+[2017-06-11 04:41:55]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:55]  - Vencimento do Titulo: 2021-01-04
+[2017-06-11 04:41:55]  - Linhas do documento: 1012
+[2017-06-11 04:41:55]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:41:57]  - Arquivo atualizado com sucesso no BD.
+[2017-06-11 04:41:57] Lendo a guia NTNC 010131
+[2017-06-11 04:41:57]  - Tipo Titulo: NTNC
+[2017-06-11 04:41:57]  - Vencimento do Titulo: 2031-01-01
+[2017-06-11 04:41:57]  - Linhas do documento: 1012
+[2017-06-11 04:41:58]  - Executando SQL de insercao/atualizacao...
+[2017-06-11 04:42:00]  - Arquivo atualizado com sucesso no BD.
