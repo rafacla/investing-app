@@ -1,3 +1,1146 @@
-[2017-05-30 03:38:36] Iniciando atualizacao.
-[2017-05-30 03:38:42] Atualizando AGRO3.SA...
-[2017-05-30 03:38:56] AGRO3.SA foi atualizado.
+[2017-07-02 01:36:00] Iniciando atualizacao.
+[2017-07-02 01:36:08] Atualizando KLBN4...
+[2017-07-02 01:36:17] Acessando URL: http://www.google.com/finance/historical?q=BVMF:KLBN4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:36:19] KLBN4 foi atualizado.
+[2017-07-02 01:36:19] Dormindo 13 segundos
+[2017-07-02 01:36:32] Acordei!
+[2017-07-02 01:36:44] Atualizando ELET3...
+[2017-07-02 01:36:52] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ELET3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:36:55] ELET3 foi atualizado.
+[2017-07-02 01:36:55] Dormindo 6 segundos
+[2017-07-02 01:37:01] Acordei!
+[2017-07-02 01:37:23] Atualizando VIVT4...
+[2017-07-02 01:37:29] Acessando URL: http://www.google.com/finance/historical?q=BVMF:VIVT4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:37:32] VIVT4 foi atualizado.
+[2017-07-02 01:37:32] Dormindo 13 segundos
+[2017-07-02 01:37:45] Acordei!
+[2017-07-02 01:37:58] Atualizando BRCR11...
+[2017-07-02 01:38:05] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BRCR11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:38:07] BRCR11 foi atualizado.
+[2017-07-02 01:38:07] Dormindo 10 segundos
+[2017-07-02 01:38:17] Acordei!
+[2017-07-02 01:38:26] Atualizando CGAS3...
+[2017-07-02 01:38:33] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CGAS3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:38:34] CGAS3 foi atualizado.
+[2017-07-02 01:38:34] Dormindo 12 segundos
+[2017-07-02 01:38:46] Acordei!
+[2017-07-02 01:39:05] Atualizando BBTG11...
+[2017-07-02 01:39:11] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BBTG11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:39:13] BBTG11 foi atualizado.
+[2017-07-02 01:39:13] Dormindo 9 segundos
+[2017-07-02 01:39:22] Acordei!
+[2017-07-02 01:39:34] Atualizando VTLM3...
+[2017-07-02 01:39:40] Acessando URL: http://www.google.com/finance/historical?q=BVMF:VTLM3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:39:43] VTLM3 foi atualizado.
+[2017-07-02 01:39:43] Dormindo 7 segundos
+[2017-07-02 01:39:50] Acordei!
+[2017-07-02 01:40:08] Atualizando DTEX3...
+[2017-07-02 01:40:14] Acessando URL: http://www.google.com/finance/historical?q=BVMF:DTEX3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:40:16] DTEX3 foi atualizado.
+[2017-07-02 01:40:16] Dormindo 5 segundos
+[2017-07-02 01:40:21] Acordei!
+[2017-07-02 01:40:45] Atualizando SLCE3...
+[2017-07-02 01:40:52] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SLCE3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:40:54] SLCE3 foi atualizado.
+[2017-07-02 01:40:54] Dormindo 6 segundos
+[2017-07-02 01:41:00] Acordei!
+[2017-07-02 01:41:27] Atualizando SUZB5...
+[2017-07-02 01:41:35] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SUZB5&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:41:37] SUZB5 foi atualizado.
+[2017-07-02 01:41:37] Dormindo 12 segundos
+[2017-07-02 01:41:49] Acordei!
+[2017-07-02 01:42:04] Atualizando CSAN3...
+[2017-07-02 01:42:11] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CSAN3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:42:13] CSAN3 foi atualizado.
+[2017-07-02 01:42:13] Dormindo 13 segundos
+[2017-07-02 01:42:26] Acordei!
+[2017-07-02 01:42:37] Atualizando JBSS3...
+[2017-07-02 01:42:44] Acessando URL: http://www.google.com/finance/historical?q=BVMF:JBSS3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:42:45] JBSS3 foi atualizado.
+[2017-07-02 01:42:45] Dormindo 12 segundos
+[2017-07-02 01:42:57] Acordei!
+[2017-07-02 01:43:15] Atualizando SMLE3...
+[2017-07-02 01:43:22] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SMLE3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:43:24] SMLE3 foi atualizado.
+[2017-07-02 01:43:24] Dormindo 5 segundos
+[2017-07-02 01:43:29] Acordei!
+[2017-07-02 01:43:53] Atualizando CGAS5...
+[2017-07-02 01:44:00] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CGAS5&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:44:02] CGAS5 foi atualizado.
+[2017-07-02 01:44:02] Dormindo 13 segundos
+[2017-07-02 01:44:15] Acordei!
+[2017-07-02 01:44:27] Atualizando SPTW11...
+[2017-07-02 01:44:33] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SPTW11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:44:35] SPTW11 foi atualizado.
+[2017-07-02 01:44:35] Dormindo 5 segundos
+[2017-07-02 01:44:40] Acordei!
+[2017-07-02 01:44:57] Atualizando ALPA4...
+[2017-07-02 01:45:04] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ALPA4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:45:07] ALPA4 foi atualizado.
+[2017-07-02 01:45:07] Dormindo 11 segundos
+[2017-07-02 01:45:18] Acordei!
+[2017-07-02 01:45:34] Atualizando BRPR3...
+[2017-07-02 01:45:41] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BRPR3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:45:43] BRPR3 foi atualizado.
+[2017-07-02 01:45:43] Dormindo 9 segundos
+[2017-07-02 01:45:52] Acordei!
+[2017-07-02 01:46:16] Atualizando BBAS3...
+[2017-07-02 01:46:24] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BBAS3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:46:26] BBAS3 foi atualizado.
+[2017-07-02 01:46:26] Dormindo 7 segundos
+[2017-07-02 01:46:33] Acordei!
+[2017-07-02 01:47:07] Atualizando LFFE3...
+[2017-07-02 01:47:15] Acessando URL: http://www.google.com/finance/historical?q=BVMF:LFFE3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:47:18] LFFE3 foi atualizado.
+[2017-07-02 01:47:18] Dormindo 13 segundos
+[2017-07-02 01:47:31] Acordei!
+[2017-07-02 01:47:37] Atualizando POMO3...
+[2017-07-02 01:47:43] Acessando URL: http://www.google.com/finance/historical?q=BVMF:POMO3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:47:45] POMO3 foi atualizado.
+[2017-07-02 01:47:45] Dormindo 13 segundos
+[2017-07-02 01:47:58] Acordei!
+[2017-07-02 01:48:12] Atualizando BRFS3...
+[2017-07-02 01:48:18] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BRFS3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:48:21] BRFS3 foi atualizado.
+[2017-07-02 01:48:21] Dormindo 10 segundos
+[2017-07-02 01:48:31] Acordei!
+[2017-07-02 01:48:54] Atualizando AAPL34...
+[2017-07-02 01:49:01] Acessando URL: http://www.google.com/finance/historical?q=BVMF:AAPL34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:49:03] AAPL34 foi atualizado.
+[2017-07-02 01:49:03] Dormindo 12 segundos
+[2017-07-02 01:49:15] Acordei!
+[2017-07-02 01:49:23] Atualizando IBOVESPA...
+[2017-07-02 01:49:30] Acessando URL: http://www.google.com/finance/historical?q=INDEXBVMF:IBOV&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:49:32] IBOVESPA foi atualizado.
+[2017-07-02 01:49:32] Dormindo 12 segundos
+[2017-07-02 01:49:44] Acordei!
+[2017-07-02 01:49:53] Atualizando SAPR4...
+[2017-07-02 01:49:59] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SAPR4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:50:01] SAPR4 foi atualizado.
+[2017-07-02 01:50:01] Dormindo 5 segundos
+[2017-07-02 01:50:06] Acordei!
+[2017-07-02 01:50:33] Atualizando PFRM3...
+[2017-07-02 01:50:40] Acessando URL: http://www.google.com/finance/historical?q=BVMF:PFRM3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:50:42] PFRM3 foi atualizado.
+[2017-07-02 01:50:42] Dormindo 7 segundos
+[2017-07-02 01:50:49] Acordei!
+[2017-07-02 01:51:16] Atualizando BBSE3...
+[2017-07-02 01:51:22] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BBSE3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:51:24] BBSE3 foi atualizado.
+[2017-07-02 01:51:24] Dormindo 12 segundos
+[2017-07-02 01:51:36] Acordei!
+[2017-07-02 01:51:52] Atualizando CCXC3...
+[2017-07-02 01:51:59] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CCXC3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:52:02] CCXC3 foi atualizado.
+[2017-07-02 01:52:02] Dormindo 6 segundos
+[2017-07-02 01:52:08] Acordei!
+[2017-07-02 01:52:35] Atualizando BOVV11...
+[2017-07-02 01:52:41] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BOVV11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:52:43] BOVV11 foi atualizado.
+[2017-07-02 01:52:43] Dormindo 6 segundos
+[2017-07-02 01:52:49] Acordei!
+[2017-07-02 01:53:01] Atualizando ENGI11...
+[2017-07-02 01:53:07] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ENGI11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:53:13] ENGI11 foi atualizado.
+[2017-07-02 01:53:13] Dormindo 11 segundos
+[2017-07-02 01:53:24] Acordei!
+[2017-07-02 01:53:33] Atualizando RPMG3...
+[2017-07-02 01:53:41] Acessando URL: http://www.google.com/finance/historical?q=BVMF:RPMG3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:53:44] RPMG3 foi atualizado.
+[2017-07-02 01:53:44] Dormindo 8 segundos
+[2017-07-02 01:53:52] Acordei!
+[2017-07-02 01:54:25] Atualizando TRPL4...
+[2017-07-02 01:54:32] Acessando URL: http://www.google.com/finance/historical?q=BVMF:TRPL4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:54:34] TRPL4 foi atualizado.
+[2017-07-02 01:54:34] Dormindo 13 segundos
+[2017-07-02 01:54:47] Acordei!
+[2017-07-02 01:55:15] Atualizando SULA11...
+[2017-07-02 01:55:20] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SULA11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:55:23] SULA11 foi atualizado.
+[2017-07-02 01:55:23] Dormindo 5 segundos
+[2017-07-02 01:55:28] Acordei!
+[2017-07-02 01:55:48] Atualizando QGEP3...
+[2017-07-02 01:55:53] Acessando URL: http://www.google.com/finance/historical?q=BVMF:QGEP3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:55:56] QGEP3 foi atualizado.
+[2017-07-02 01:55:56] Dormindo 10 segundos
+[2017-07-02 01:56:06] Acordei!
+[2017-07-02 01:56:39] Atualizando CIEL3...
+[2017-07-02 01:56:45] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CIEL3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:56:48] CIEL3 foi atualizado.
+[2017-07-02 01:56:48] Dormindo 12 segundos
+[2017-07-02 01:57:00] Acordei!
+[2017-07-02 01:57:23] Atualizando GOAU4...
+[2017-07-02 01:57:30] Acessando URL: http://www.google.com/finance/historical?q=BVMF:GOAU4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:57:32] GOAU4 foi atualizado.
+[2017-07-02 01:57:32] Dormindo 12 segundos
+[2017-07-02 01:57:44] Acordei!
+[2017-07-02 01:58:09] Atualizando TELB4...
+[2017-07-02 01:58:15] Acessando URL: http://www.google.com/finance/historical?q=BVMF:TELB4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:58:18] TELB4 foi atualizado.
+[2017-07-02 01:58:18] Dormindo 12 segundos
+[2017-07-02 01:58:30] Acordei!
+[2017-07-02 01:58:45] Atualizando LAME4...
+[2017-07-02 01:58:52] Acessando URL: http://www.google.com/finance/historical?q=BVMF:LAME4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:58:54] LAME4 foi atualizado.
+[2017-07-02 01:58:54] Dormindo 9 segundos
+[2017-07-02 01:59:03] Acordei!
+[2017-07-02 01:59:19] Atualizando RLOG3...
+[2017-07-02 01:59:25] Acessando URL: http://www.google.com/finance/historical?q=BVMF:RLOG3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 01:59:28] RLOG3 foi atualizado.
+[2017-07-02 01:59:28] Dormindo 5 segundos
+[2017-07-02 01:59:33] Acordei!
+[2017-07-02 01:59:55] Atualizando MILS3...
+[2017-07-02 02:00:01] Acessando URL: http://www.google.com/finance/historical?q=BVMF:MILS3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:00:04] MILS3 foi atualizado.
+[2017-07-02 02:00:04] Dormindo 11 segundos
+[2017-07-02 02:00:15] Acordei!
+[2017-07-02 02:00:30] Atualizando ITSA4...
+[2017-07-02 02:00:36] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ITSA4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:00:38] ITSA4 foi atualizado.
+[2017-07-02 02:00:38] Dormindo 6 segundos
+[2017-07-02 02:00:44] Acordei!
+[2017-07-02 02:01:11] Atualizando LAME3...
+[2017-07-02 02:01:18] Acessando URL: http://www.google.com/finance/historical?q=BVMF:LAME3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:01:19] LAME3 foi atualizado.
+[2017-07-02 02:01:19] Dormindo 13 segundos
+[2017-07-02 02:01:32] Acordei!
+[2017-07-02 02:01:49] Atualizando MRVE3...
+[2017-07-02 02:01:55] Acessando URL: http://www.google.com/finance/historical?q=BVMF:MRVE3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:01:57] MRVE3 foi atualizado.
+[2017-07-02 02:01:57] Dormindo 8 segundos
+[2017-07-02 02:02:05] Acordei!
+[2017-07-02 02:02:26] Atualizando FIIB11...
+[2017-07-02 02:02:33] Acessando URL: http://www.google.com/finance/historical?q=BVMF:FIIB11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:02:35] FIIB11 foi atualizado.
+[2017-07-02 02:02:35] Dormindo 6 segundos
+[2017-07-02 02:02:41] Acordei!
+[2017-07-02 02:03:03] Atualizando FIND11...
+[2017-07-02 02:03:09] Acessando URL: http://www.google.com/finance/historical?q=BVMF:FIND11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:03:11] FIND11 foi atualizado.
+[2017-07-02 02:03:11] Dormindo 7 segundos
+[2017-07-02 02:03:18] Acordei!
+[2017-07-02 02:03:36] Atualizando BTOW3...
+[2017-07-02 02:03:41] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BTOW3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:03:44] BTOW3 foi atualizado.
+[2017-07-02 02:03:44] Dormindo 8 segundos
+[2017-07-02 02:03:52] Acordei!
+[2017-07-02 02:04:12] Atualizando CVCB3...
+[2017-07-02 02:04:18] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CVCB3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:04:21] CVCB3 foi atualizado.
+[2017-07-02 02:04:21] Dormindo 13 segundos
+[2017-07-02 02:04:34] Acordei!
+[2017-07-02 02:05:05] Atualizando PIBB11...
+[2017-07-02 02:05:12] Acessando URL: http://www.google.com/finance/historical?q=BVMF:PIBB11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:05:15] PIBB11 foi atualizado.
+[2017-07-02 02:05:15] Dormindo 7 segundos
+[2017-07-02 02:05:22] Acordei!
+[2017-07-02 02:05:38] Atualizando SANB11...
+[2017-07-02 02:05:43] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SANB11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:05:45] SANB11 foi atualizado.
+[2017-07-02 02:05:45] Dormindo 10 segundos
+[2017-07-02 02:05:55] Acordei!
+[2017-07-02 02:06:03] Atualizando FIBR3...
+[2017-07-02 02:06:09] Acessando URL: http://www.google.com/finance/historical?q=BVMF:FIBR3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:06:12] FIBR3 foi atualizado.
+[2017-07-02 02:06:12] Dormindo 8 segundos
+[2017-07-02 02:06:20] Acordei!
+[2017-07-02 02:06:39] Atualizando ODPV3...
+[2017-07-02 02:06:45] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ODPV3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:06:47] ODPV3 foi atualizado.
+[2017-07-02 02:06:47] Dormindo 13 segundos
+[2017-07-02 02:07:00] Acordei!
+[2017-07-02 02:07:24] Atualizando GPIV33...
+[2017-07-02 02:07:30] Acessando URL: http://www.google.com/finance/historical?q=BVMF:GPIV33&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:07:32] GPIV33 foi atualizado.
+[2017-07-02 02:07:32] Dormindo 9 segundos
+[2017-07-02 02:07:41] Acordei!
+[2017-07-02 02:07:55] Atualizando OIBR4...
+[2017-07-02 02:08:01] Acessando URL: http://www.google.com/finance/historical?q=BVMF:OIBR4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:08:04] OIBR4 foi atualizado.
+[2017-07-02 02:08:04] Dormindo 10 segundos
+[2017-07-02 02:08:14] Acordei!
+[2017-07-02 02:08:33] Atualizando HGRE11...
+[2017-07-02 02:08:38] Acessando URL: http://www.google.com/finance/historical?q=BVMF:HGRE11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:08:41] HGRE11 foi atualizado.
+[2017-07-02 02:08:41] Dormindo 9 segundos
+[2017-07-02 02:08:50] Acordei!
+[2017-07-02 02:09:01] Atualizando GUAR4...
+[2017-07-02 02:09:07] Acessando URL: http://www.google.com/finance/historical?q=BVMF:GUAR4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:09:10] GUAR4 foi atualizado.
+[2017-07-02 02:09:10] Dormindo 7 segundos
+[2017-07-02 02:09:17] Acordei!
+[2017-07-02 02:09:43] Atualizando JSLG3...
+[2017-07-02 02:09:49] Acessando URL: http://www.google.com/finance/historical?q=BVMF:JSLG3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:09:51] JSLG3 foi atualizado.
+[2017-07-02 02:09:51] Dormindo 13 segundos
+[2017-07-02 02:10:04] Acordei!
+[2017-07-02 02:10:23] Atualizando CESP6...
+[2017-07-02 02:10:28] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CESP6&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:10:30] CESP6 foi atualizado.
+[2017-07-02 02:10:30] Dormindo 10 segundos
+[2017-07-02 02:10:40] Acordei!
+[2017-07-02 02:10:58] Atualizando GFSA3...
+[2017-07-02 02:11:03] Acessando URL: http://www.google.com/finance/historical?q=BVMF:GFSA3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:11:06] GFSA3 foi atualizado.
+[2017-07-02 02:11:06] Dormindo 7 segundos
+[2017-07-02 02:11:13] Acordei!
+[2017-07-02 02:11:33] Atualizando KNCR11...
+[2017-07-02 02:11:39] Acessando URL: http://www.google.com/finance/historical?q=BVMF:KNCR11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:11:41] KNCR11 foi atualizado.
+[2017-07-02 02:11:41] Dormindo 9 segundos
+[2017-07-02 02:11:50] Acordei!
+[2017-07-02 02:12:00] Atualizando POMO4...
+[2017-07-02 02:12:05] Acessando URL: http://www.google.com/finance/historical?q=BVMF:POMO4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:12:07] POMO4 foi atualizado.
+[2017-07-02 02:12:07] Dormindo 5 segundos
+[2017-07-02 02:12:12] Acordei!
+[2017-07-02 02:12:34] Atualizando BRKM5...
+[2017-07-02 02:12:40] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BRKM5&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:12:42] BRKM5 foi atualizado.
+[2017-07-02 02:12:42] Dormindo 5 segundos
+[2017-07-02 02:12:47] Acordei!
+[2017-07-02 02:13:19] Atualizando LCAM3...
+[2017-07-02 02:13:25] Acessando URL: http://www.google.com/finance/historical?q=BVMF:LCAM3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:13:27] LCAM3 foi atualizado.
+[2017-07-02 02:13:27] Dormindo 5 segundos
+[2017-07-02 02:13:32] Acordei!
+[2017-07-02 02:14:00] Atualizando KNRI11...
+[2017-07-02 02:14:05] Acessando URL: http://www.google.com/finance/historical?q=BVMF:KNRI11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:14:07] KNRI11 foi atualizado.
+[2017-07-02 02:14:07] Dormindo 8 segundos
+[2017-07-02 02:14:15] Acordei!
+[2017-07-02 02:14:30] Atualizando CMIG4...
+[2017-07-02 02:14:36] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CMIG4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:14:38] CMIG4 foi atualizado.
+[2017-07-02 02:14:38] Dormindo 13 segundos
+[2017-07-02 02:14:51] Acordei!
+[2017-07-02 02:15:04] Atualizando SMTO3...
+[2017-07-02 02:15:09] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SMTO3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:15:10] SMTO3 foi atualizado.
+[2017-07-02 02:15:10] Dormindo 8 segundos
+[2017-07-02 02:15:18] Acordei!
+[2017-07-02 02:15:38] Atualizando TAEE11...
+[2017-07-02 02:15:44] Acessando URL: http://www.google.com/finance/historical?q=BVMF:TAEE11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:15:46] TAEE11 foi atualizado.
+[2017-07-02 02:15:46] Dormindo 11 segundos
+[2017-07-02 02:15:57] Acordei!
+[2017-07-02 02:16:10] Atualizando ITSA3...
+[2017-07-02 02:16:15] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ITSA3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:16:17] ITSA3 foi atualizado.
+[2017-07-02 02:16:17] Dormindo 8 segundos
+[2017-07-02 02:16:25] Acordei!
+[2017-07-02 02:16:56] Atualizando MRFG3...
+[2017-07-02 02:17:12] Acessando URL: http://www.google.com/finance/historical?q=BVMF:MRFG3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:17:15] MRFG3 foi atualizado.
+[2017-07-02 02:17:15] Dormindo 6 segundos
+[2017-07-02 02:17:21] Acordei!
+[2017-07-02 02:18:11] Atualizando AGRO3...
+[2017-07-02 02:18:27] Acessando URL: http://www.google.com/finance/historical?q=BVMF:AGRO3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:18:28] AGRO3 foi atualizado.
+[2017-07-02 02:18:28] Dormindo 13 segundos
+[2017-07-02 02:18:41] Acordei!
+[2017-07-02 02:19:52] Atualizando RAPT4...
+[2017-07-02 02:20:07] Acessando URL: http://www.google.com/finance/historical?q=BVMF:RAPT4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:20:09] RAPT4 foi atualizado.
+[2017-07-02 02:20:09] Dormindo 9 segundos
+[2017-07-02 02:20:18] Acordei!
+[2017-07-02 02:21:06] Atualizando SNSL3...
+[2017-07-02 02:21:12] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SNSL3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:21:14] SNSL3 foi atualizado.
+[2017-07-02 02:21:14] Dormindo 9 segundos
+[2017-07-02 02:21:23] Acordei!
+[2017-07-02 02:21:45] Atualizando BBRK3...
+[2017-07-02 02:21:50] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BBRK3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:21:53] BBRK3 foi atualizado.
+[2017-07-02 02:21:53] Dormindo 10 segundos
+[2017-07-02 02:22:03] Acordei!
+[2017-07-02 02:22:25] Atualizando AALR3...
+[2017-07-02 02:22:32] Acessando URL: http://www.google.com/finance/historical?q=BVMF:AALR3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:22:33] AALR3 foi atualizado.
+[2017-07-02 02:22:33] Dormindo 7 segundos
+[2017-07-02 02:22:40] Acordei!
+[2017-07-02 02:23:03] Atualizando BPHA3...
+[2017-07-02 02:23:09] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BPHA3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:23:12] BPHA3 foi atualizado.
+[2017-07-02 02:23:12] Dormindo 6 segundos
+[2017-07-02 02:23:18] Acordei!
+[2017-07-02 02:23:43] Atualizando PTBL3...
+[2017-07-02 02:23:48] Acessando URL: http://www.google.com/finance/historical?q=BVMF:PTBL3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:23:50] PTBL3 foi atualizado.
+[2017-07-02 02:23:50] Dormindo 13 segundos
+[2017-07-02 02:24:03] Acordei!
+[2017-07-02 02:24:18] Atualizando ETER3...
+[2017-07-02 02:24:23] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ETER3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:24:25] ETER3 foi atualizado.
+[2017-07-02 02:24:25] Dormindo 12 segundos
+[2017-07-02 02:24:37] Acordei!
+[2017-07-02 02:24:52] Atualizando MAGG3...
+[2017-07-02 02:24:57] Acessando URL: http://www.google.com/finance/historical?q=BVMF:MAGG3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:24:59] MAGG3 foi atualizado.
+[2017-07-02 02:24:59] Dormindo 9 segundos
+[2017-07-02 02:25:08] Acordei!
+[2017-07-02 02:25:28] Atualizando GOAU3...
+[2017-07-02 02:25:33] Acessando URL: http://www.google.com/finance/historical?q=BVMF:GOAU3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:25:35] GOAU3 foi atualizado.
+[2017-07-02 02:25:35] Dormindo 13 segundos
+[2017-07-02 02:25:48] Acordei!
+[2017-07-02 02:25:58] Atualizando OGSA3...
+[2017-07-02 02:26:03] Acessando URL: http://www.google.com/finance/historical?q=BVMF:OGSA3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:26:05] OGSA3 foi atualizado.
+[2017-07-02 02:26:05] Dormindo 12 segundos
+[2017-07-02 02:26:17] Acordei!
+[2017-07-02 02:26:35] Atualizando HOME34...
+[2017-07-02 02:26:41] Acessando URL: http://www.google.com/finance/historical?q=BVMF:HOME34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:26:43] HOME34 foi atualizado.
+[2017-07-02 02:26:43] Dormindo 13 segundos
+[2017-07-02 02:26:56] Acordei!
+[2017-07-02 02:27:02] Atualizando VIVT3...
+[2017-07-02 02:27:07] Acessando URL: http://www.google.com/finance/historical?q=BVMF:VIVT3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:27:08] VIVT3 foi atualizado.
+[2017-07-02 02:27:08] Dormindo 8 segundos
+[2017-07-02 02:27:16] Acordei!
+[2017-07-02 02:27:39] Atualizando GOLL4...
+[2017-07-02 02:27:44] Acessando URL: http://www.google.com/finance/historical?q=BVMF:GOLL4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:27:47] GOLL4 foi atualizado.
+[2017-07-02 02:27:47] Dormindo 11 segundos
+[2017-07-02 02:27:58] Acordei!
+[2017-07-02 02:28:24] Atualizando MPLU3...
+[2017-07-02 02:28:30] Acessando URL: http://www.google.com/finance/historical?q=BVMF:MPLU3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:28:33] MPLU3 foi atualizado.
+[2017-07-02 02:28:33] Dormindo 8 segundos
+[2017-07-02 02:28:41] Acordei!
+[2017-07-02 02:29:28] Atualizando ATOM3...
+[2017-07-02 02:29:51] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ATOM3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:29:54] ATOM3 foi atualizado.
+[2017-07-02 02:29:54] Dormindo 9 segundos
+[2017-07-02 02:30:03] Acordei!
+[2017-07-02 02:31:06] Atualizando WEGE3...
+[2017-07-02 02:31:11] Acessando URL: http://www.google.com/finance/historical?q=BVMF:WEGE3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:31:13] WEGE3 foi atualizado.
+[2017-07-02 02:31:13] Dormindo 5 segundos
+[2017-07-02 02:31:18] Acordei!
+[2017-07-02 02:32:03] Atualizando LUPA3...
+[2017-07-02 02:32:18] Acessando URL: http://www.google.com/finance/historical?q=BVMF:LUPA3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:32:21] LUPA3 foi atualizado.
+[2017-07-02 02:32:21] Dormindo 11 segundos
+[2017-07-02 02:32:32] Acordei!
+[2017-07-02 02:32:57] Atualizando BRML3...
+[2017-07-02 02:33:02] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BRML3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:33:04] BRML3 foi atualizado.
+[2017-07-02 02:33:04] Dormindo 10 segundos
+[2017-07-02 02:33:14] Acordei!
+[2017-07-02 02:33:38] Atualizando HYPE3...
+[2017-07-02 02:33:43] Acessando URL: http://www.google.com/finance/historical?q=BVMF:HYPE3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:33:45] HYPE3 foi atualizado.
+[2017-07-02 02:33:45] Dormindo 9 segundos
+[2017-07-02 02:33:54] Acordei!
+[2017-07-02 02:34:14] Atualizando UCAS3...
+[2017-07-02 02:34:19] Acessando URL: http://www.google.com/finance/historical?q=BVMF:UCAS3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:34:22] UCAS3 foi atualizado.
+[2017-07-02 02:34:22] Dormindo 6 segundos
+[2017-07-02 02:34:28] Acordei!
+[2017-07-02 02:35:06] Atualizando STBP3...
+[2017-07-02 02:35:11] Acessando URL: http://www.google.com/finance/historical?q=BVMF:STBP3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:35:13] STBP3 foi atualizado.
+[2017-07-02 02:35:13] Dormindo 10 segundos
+[2017-07-02 02:35:23] Acordei!
+[2017-07-02 02:35:38] Atualizando ENBR3...
+[2017-07-02 02:35:42] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ENBR3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:35:45] ENBR3 foi atualizado.
+[2017-07-02 02:35:45] Dormindo 13 segundos
+[2017-07-02 02:35:58] Acordei!
+[2017-07-02 02:36:12] Atualizando BRAP3...
+[2017-07-02 02:36:19] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BRAP3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:36:21] BRAP3 foi atualizado.
+[2017-07-02 02:36:21] Dormindo 8 segundos
+[2017-07-02 02:36:29] Acordei!
+[2017-07-02 02:36:52] Atualizando MDIA3...
+[2017-07-02 02:37:00] Acessando URL: http://www.google.com/finance/historical?q=BVMF:MDIA3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:37:02] MDIA3 foi atualizado.
+[2017-07-02 02:37:02] Dormindo 12 segundos
+[2017-07-02 02:37:14] Acordei!
+[2017-07-02 02:37:44] Atualizando PARC3...
+[2017-07-02 02:37:52] Acessando URL: http://www.google.com/finance/historical?q=BVMF:PARC3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:37:55] PARC3 foi atualizado.
+[2017-07-02 02:37:55] Dormindo 13 segundos
+[2017-07-02 02:38:08] Acordei!
+[2017-07-02 02:38:32] Atualizando MSFT34...
+[2017-07-02 02:38:36] Acessando URL: http://www.google.com/finance/historical?q=BVMF:MSFT34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:38:38] MSFT34 foi atualizado.
+[2017-07-02 02:38:38] Dormindo 6 segundos
+[2017-07-02 02:38:44] Acordei!
+[2017-07-02 02:39:00] Atualizando FLRY3...
+[2017-07-02 02:39:04] Acessando URL: http://www.google.com/finance/historical?q=BVMF:FLRY3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:39:07] FLRY3 foi atualizado.
+[2017-07-02 02:39:07] Dormindo 8 segundos
+[2017-07-02 02:39:15] Acordei!
+[2017-07-02 02:39:44] Atualizando CCRO3...
+[2017-07-02 02:39:49] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CCRO3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:39:51] CCRO3 foi atualizado.
+[2017-07-02 02:39:51] Dormindo 10 segundos
+[2017-07-02 02:40:01] Acordei!
+[2017-07-02 02:40:27] Atualizando SMAL11...
+[2017-07-02 02:40:31] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SMAL11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:40:32] SMAL11 foi atualizado.
+[2017-07-02 02:40:32] Dormindo 7 segundos
+[2017-07-02 02:40:39] Acordei!
+[2017-07-02 02:41:10] Atualizando BCRI11...
+[2017-07-02 02:41:17] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BCRI11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:41:19] BCRI11 foi atualizado.
+[2017-07-02 02:41:19] Dormindo 12 segundos
+[2017-07-02 02:41:31] Acordei!
+[2017-07-02 02:41:42] Atualizando RAIL3...
+[2017-07-02 02:41:50] Acessando URL: http://www.google.com/finance/historical?q=BVMF:RAIL3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:41:51] RAIL3 foi atualizado.
+[2017-07-02 02:41:51] Dormindo 11 segundos
+[2017-07-02 02:42:02] Acordei!
+[2017-07-02 02:42:08] Atualizando LINX3...
+[2017-07-02 02:42:13] Acessando URL: http://www.google.com/finance/historical?q=BVMF:LINX3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:42:14] LINX3 foi atualizado.
+[2017-07-02 02:42:15] Dormindo 13 segundos
+[2017-07-02 02:42:28] Acordei!
+[2017-07-02 02:42:56] Atualizando SSBR3...
+[2017-07-02 02:43:00] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SSBR3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:43:02] SSBR3 foi atualizado.
+[2017-07-02 02:43:03] Dormindo 13 segundos
+[2017-07-02 02:43:16] Acordei!
+[2017-07-02 02:44:14] Atualizando ELET6...
+[2017-07-02 02:44:29] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ELET6&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:44:31] ELET6 foi atualizado.
+[2017-07-02 02:44:31] Dormindo 11 segundos
+[2017-07-02 02:44:42] Acordei!
+[2017-07-02 02:44:59] Atualizando ITUB4...
+[2017-07-02 02:45:03] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ITUB4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:45:06] ITUB4 foi atualizado.
+[2017-07-02 02:45:06] Dormindo 11 segundos
+[2017-07-02 02:45:17] Acordei!
+[2017-07-02 02:45:43] Atualizando USIM5...
+[2017-07-02 02:45:52] Acessando URL: http://www.google.com/finance/historical?q=BVMF:USIM5&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:45:55] USIM5 foi atualizado.
+[2017-07-02 02:45:55] Dormindo 6 segundos
+[2017-07-02 02:46:01] Acordei!
+[2017-07-02 02:46:43] Atualizando LREN3...
+[2017-07-02 02:46:50] Acessando URL: http://www.google.com/finance/historical?q=BVMF:LREN3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:46:53] LREN3 foi atualizado.
+[2017-07-02 02:46:53] Dormindo 11 segundos
+[2017-07-02 02:47:04] Acordei!
+[2017-07-02 02:47:44] Atualizando CSMG3...
+[2017-07-02 02:47:49] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CSMG3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:47:51] CSMG3 foi atualizado.
+[2017-07-02 02:47:51] Dormindo 8 segundos
+[2017-07-02 02:47:59] Acordei!
+[2017-07-02 02:48:23] Atualizando BSAN33...
+[2017-07-02 02:48:32] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BSAN33&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:48:33] BSAN33 foi atualizado.
+[2017-07-02 02:48:33] Dormindo 12 segundos
+[2017-07-02 02:48:45] Acordei!
+[2017-07-02 02:48:50] Atualizando CARD3...
+[2017-07-02 02:48:55] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CARD3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:48:56] CARD3 foi atualizado.
+[2017-07-02 02:48:56] Dormindo 11 segundos
+[2017-07-02 02:49:07] Acordei!
+[2017-07-02 02:49:33] Atualizando IBOV11...
+[2017-07-02 02:49:37] Acessando URL: http://www.google.com/finance/historical?q=BVMF:IBOV11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:49:38] IBOV11 nao foi encontrada no Yahoo...
+[2017-07-02 02:49:38] Dormindo 13 segundos
+[2017-07-02 02:49:51] Acordei!
+[2017-07-02 02:49:56] Atualizando IGTA3...
+[2017-07-02 02:50:00] Acessando URL: http://www.google.com/finance/historical?q=BVMF:IGTA3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:50:03] IGTA3 foi atualizado.
+[2017-07-02 02:50:03] Dormindo 10 segundos
+[2017-07-02 02:50:13] Acordei!
+[2017-07-02 02:50:37] Atualizando WSON33...
+[2017-07-02 02:50:43] Acessando URL: http://www.google.com/finance/historical?q=BVMF:WSON33&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:50:44] WSON33 foi atualizado.
+[2017-07-02 02:50:44] Dormindo 5 segundos
+[2017-07-02 02:50:49] Acordei!
+[2017-07-02 02:51:29] Atualizando KEPL3...
+[2017-07-02 02:51:34] Acessando URL: http://www.google.com/finance/historical?q=BVMF:KEPL3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:51:36] KEPL3 foi atualizado.
+[2017-07-02 02:51:36] Dormindo 5 segundos
+[2017-07-02 02:51:41] Acordei!
+[2017-07-02 02:52:28] Atualizando ELPL4...
+[2017-07-02 02:52:33] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ELPL4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:52:35] ELPL4 foi atualizado.
+[2017-07-02 02:52:35] Dormindo 8 segundos
+[2017-07-02 02:52:43] Acordei!
+[2017-07-02 02:53:08] Atualizando TWXB34...
+[2017-07-02 02:53:11] Acessando URL: http://www.google.com/finance/historical?q=BVMF:TWXB34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:53:14] TWXB34 foi atualizado.
+[2017-07-02 02:53:14] Dormindo 11 segundos
+[2017-07-02 02:53:25] Acordei!
+[2017-07-02 02:53:31] Atualizando OIBR3...
+[2017-07-02 02:53:35] Acessando URL: http://www.google.com/finance/historical?q=BVMF:OIBR3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:53:36] OIBR3 foi atualizado.
+[2017-07-02 02:53:36] Dormindo 12 segundos
+[2017-07-02 02:53:48] Acordei!
+[2017-07-02 02:54:02] Atualizando PNVL3...
+[2017-07-02 02:54:06] Acessando URL: http://www.google.com/finance/historical?q=BVMF:PNVL3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:54:08] PNVL3 foi atualizado.
+[2017-07-02 02:54:08] Dormindo 9 segundos
+[2017-07-02 02:54:17] Acordei!
+[2017-07-02 02:54:44] Atualizando MSCD34...
+[2017-07-02 02:54:48] Acessando URL: http://www.google.com/finance/historical?q=BVMF:MSCD34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:54:49] MSCD34 foi atualizado.
+[2017-07-02 02:54:49] Dormindo 7 segundos
+[2017-07-02 02:54:56] Acordei!
+[2017-07-02 02:55:04] Atualizando DIRR3...
+[2017-07-02 02:55:09] Acessando URL: http://www.google.com/finance/historical?q=BVMF:DIRR3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:55:14] DIRR3 foi atualizado.
+[2017-07-02 02:55:14] Dormindo 12 segundos
+[2017-07-02 02:55:26] Acordei!
+[2017-07-02 02:55:39] Atualizando CPLE3...
+[2017-07-02 02:55:43] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CPLE3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:55:48] CPLE3 foi atualizado.
+[2017-07-02 02:55:49] Dormindo 8 segundos
+[2017-07-02 02:55:57] Acordei!
+[2017-07-02 02:56:19] Atualizando AMAR3...
+[2017-07-02 02:56:22] Acessando URL: http://www.google.com/finance/historical?q=BVMF:AMAR3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:56:25] AMAR3 foi atualizado.
+[2017-07-02 02:56:25] Dormindo 9 segundos
+[2017-07-02 02:56:34] Acordei!
+[2017-07-02 02:56:56] Atualizando DAGB33...
+[2017-07-02 02:56:59] Acessando URL: http://www.google.com/finance/historical?q=BVMF:DAGB33&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:57:01] DAGB33 foi atualizado.
+[2017-07-02 02:57:01] Dormindo 8 segundos
+[2017-07-02 02:57:09] Acordei!
+[2017-07-02 02:57:20] Atualizando JSRE11...
+[2017-07-02 02:57:24] Acessando URL: http://www.google.com/finance/historical?q=BVMF:JSRE11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:57:27] JSRE11 foi atualizado.
+[2017-07-02 02:57:27] Dormindo 7 segundos
+[2017-07-02 02:57:34] Acordei!
+[2017-07-02 02:57:46] Atualizando HGTX3...
+[2017-07-02 02:57:50] Acessando URL: http://www.google.com/finance/historical?q=BVMF:HGTX3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:57:52] HGTX3 foi atualizado.
+[2017-07-02 02:57:52] Dormindo 5 segundos
+[2017-07-02 02:57:57] Acordei!
+[2017-07-02 02:58:23] Atualizando GRND3...
+[2017-07-02 02:58:27] Acessando URL: http://www.google.com/finance/historical?q=BVMF:GRND3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:58:30] GRND3 foi atualizado.
+[2017-07-02 02:58:30] Dormindo 8 segundos
+[2017-07-02 02:58:38] Acordei!
+[2017-07-02 02:59:01] Atualizando PETR3...
+[2017-07-02 02:59:04] Acessando URL: http://www.google.com/finance/historical?q=BVMF:PETR3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:59:10] PETR3 foi atualizado.
+[2017-07-02 02:59:10] Dormindo 5 segundos
+[2017-07-02 02:59:15] Acordei!
+[2017-07-02 02:59:43] Atualizando BBDC3...
+[2017-07-02 02:59:47] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BBDC3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 02:59:49] BBDC3 foi atualizado.
+[2017-07-02 02:59:49] Dormindo 13 segundos
+[2017-07-02 03:00:02] Acordei!
+[2017-07-02 03:00:19] Atualizando GSHP3...
+[2017-07-02 03:00:24] Acessando URL: http://www.google.com/finance/historical?q=BVMF:GSHP3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:00:26] GSHP3 foi atualizado.
+[2017-07-02 03:00:26] Dormindo 5 segundos
+[2017-07-02 03:00:31] Acordei!
+[2017-07-02 03:00:54] Atualizando TIMP3...
+[2017-07-02 03:00:58] Acessando URL: http://www.google.com/finance/historical?q=BVMF:TIMP3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:01:00] TIMP3 foi atualizado.
+[2017-07-02 03:01:00] Dormindo 11 segundos
+[2017-07-02 03:01:11] Acordei!
+[2017-07-02 03:01:29] Atualizando QUAL3...
+[2017-07-02 03:01:33] Acessando URL: http://www.google.com/finance/historical?q=BVMF:QUAL3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:01:36] QUAL3 foi atualizado.
+[2017-07-02 03:01:36] Dormindo 5 segundos
+[2017-07-02 03:01:41] Acordei!
+[2017-07-02 03:02:07] Atualizando BERK34...
+[2017-07-02 03:02:11] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BERK34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:02:13] BERK34 foi atualizado.
+[2017-07-02 03:02:13] Dormindo 6 segundos
+[2017-07-02 03:02:19] Acordei!
+[2017-07-02 03:02:27] Atualizando ROMI3...
+[2017-07-02 03:02:30] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ROMI3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:02:32] ROMI3 foi atualizado.
+[2017-07-02 03:02:32] Dormindo 12 segundos
+[2017-07-02 03:02:44] Acordei!
+[2017-07-02 03:03:01] Atualizando ITUB3...
+[2017-07-02 03:03:05] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ITUB3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:03:07] ITUB3 foi atualizado.
+[2017-07-02 03:03:07] Dormindo 11 segundos
+[2017-07-02 03:03:18] Acordei!
+[2017-07-02 03:03:37] Atualizando SGPS3...
+[2017-07-02 03:03:42] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SGPS3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:03:43] SGPS3 foi atualizado.
+[2017-07-02 03:03:43] Dormindo 11 segundos
+[2017-07-02 03:03:54] Acordei!
+[2017-07-02 03:04:09] Atualizando BEEF3...
+[2017-07-02 03:04:13] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BEEF3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:04:15] BEEF3 foi atualizado.
+[2017-07-02 03:04:15] Dormindo 13 segundos
+[2017-07-02 03:04:28] Acordei!
+[2017-07-02 03:04:35] Atualizando PSSA3...
+[2017-07-02 03:04:39] Acessando URL: http://www.google.com/finance/historical?q=BVMF:PSSA3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:04:41] PSSA3 foi atualizado.
+[2017-07-02 03:04:41] Dormindo 8 segundos
+[2017-07-02 03:04:49] Acordei!
+[2017-07-02 03:05:12] Atualizando DISB34...
+[2017-07-02 03:05:16] Acessando URL: http://www.google.com/finance/historical?q=BVMF:DISB34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:05:19] DISB34 foi atualizado.
+[2017-07-02 03:05:19] Dormindo 5 segundos
+[2017-07-02 03:05:24] Acordei!
+[2017-07-02 03:05:35] Atualizando TPIS3...
+[2017-07-02 03:05:39] Acessando URL: http://www.google.com/finance/historical?q=BVMF:TPIS3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:05:42] TPIS3 foi atualizado.
+[2017-07-02 03:05:42] Dormindo 11 segundos
+[2017-07-02 03:05:53] Acordei!
+[2017-07-02 03:06:08] Atualizando BBDC4...
+[2017-07-02 03:06:12] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BBDC4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:06:14] BBDC4 foi atualizado.
+[2017-07-02 03:06:14] Dormindo 10 segundos
+[2017-07-02 03:06:24] Acordei!
+[2017-07-02 03:06:39] Atualizando TIET11...
+[2017-07-02 03:06:44] Acessando URL: http://www.google.com/finance/historical?q=BVMF:TIET11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:06:45] TIET11 foi atualizado.
+[2017-07-02 03:06:45] Dormindo 6 segundos
+[2017-07-02 03:06:51] Acordei!
+[2017-07-02 03:07:05] Atualizando BRSR6...
+[2017-07-02 03:07:09] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BRSR6&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:07:11] BRSR6 foi atualizado.
+[2017-07-02 03:07:11] Dormindo 12 segundos
+[2017-07-02 03:07:23] Acordei!
+[2017-07-02 03:07:32] Atualizando GOGL34...
+[2017-07-02 03:07:35] Acessando URL: http://www.google.com/finance/historical?q=BVMF:GOGL34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:07:37] GOGL34 foi atualizado.
+[2017-07-02 03:07:37] Dormindo 7 segundos
+[2017-07-02 03:07:44] Acordei!
+[2017-07-02 03:07:56] Atualizando MXRF11...
+[2017-07-02 03:07:59] Acessando URL: http://www.google.com/finance/historical?q=BVMF:MXRF11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:08:01] MXRF11 foi atualizado.
+[2017-07-02 03:08:01] Dormindo 6 segundos
+[2017-07-02 03:08:07] Acordei!
+[2017-07-02 03:08:21] Atualizando JPMC34...
+[2017-07-02 03:08:25] Acessando URL: http://www.google.com/finance/historical?q=BVMF:JPMC34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:08:26] JPMC34 foi atualizado.
+[2017-07-02 03:08:26] Dormindo 9 segundos
+[2017-07-02 03:08:35] Acordei!
+[2017-07-02 03:08:41] Atualizando HGBS11...
+[2017-07-02 03:08:44] Acessando URL: http://www.google.com/finance/historical?q=BVMF:HGBS11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:08:46] HGBS11 foi atualizado.
+[2017-07-02 03:08:46] Dormindo 10 segundos
+[2017-07-02 03:08:56] Acordei!
+[2017-07-02 03:09:05] Atualizando ARZZ3...
+[2017-07-02 03:09:12] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ARZZ3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:09:14] ARZZ3 foi atualizado.
+[2017-07-02 03:09:14] Dormindo 8 segundos
+[2017-07-02 03:09:22] Acordei!
+[2017-07-02 03:09:45] Atualizando PEPB34...
+[2017-07-02 03:09:49] Acessando URL: http://www.google.com/finance/historical?q=BVMF:PEPB34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:09:51] PEPB34 foi atualizado.
+[2017-07-02 03:09:51] Dormindo 5 segundos
+[2017-07-02 03:09:56] Acordei!
+[2017-07-02 03:10:13] Atualizando ANIM3...
+[2017-07-02 03:10:19] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ANIM3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:10:22] ANIM3 foi atualizado.
+[2017-07-02 03:10:22] Dormindo 10 segundos
+[2017-07-02 03:10:32] Acordei!
+[2017-07-02 03:10:52] Atualizando SAAG11...
+[2017-07-02 03:10:56] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SAAG11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:10:59] SAAG11 foi atualizado.
+[2017-07-02 03:10:59] Dormindo 11 segundos
+[2017-07-02 03:11:10] Acordei!
+[2017-07-02 03:11:15] Atualizando LEVE3...
+[2017-07-02 03:11:18] Acessando URL: http://www.google.com/finance/historical?q=BVMF:LEVE3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:11:19] LEVE3 foi atualizado.
+[2017-07-02 03:11:19] Dormindo 7 segundos
+[2017-07-02 03:11:26] Acordei!
+[2017-07-02 03:11:43] Atualizando SCAR3...
+[2017-07-02 03:11:46] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SCAR3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:11:49] SCAR3 foi atualizado.
+[2017-07-02 03:11:49] Dormindo 13 segundos
+[2017-07-02 03:12:02] Acordei!
+[2017-07-02 03:12:11] Atualizando TUPY3...
+[2017-07-02 03:12:15] Acessando URL: http://www.google.com/finance/historical?q=BVMF:TUPY3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:12:17] TUPY3 foi atualizado.
+[2017-07-02 03:12:17] Dormindo 10 segundos
+[2017-07-02 03:12:27] Acordei!
+[2017-07-02 03:12:40] Atualizando MEAL3...
+[2017-07-02 03:12:44] Acessando URL: http://www.google.com/finance/historical?q=BVMF:MEAL3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:12:45] MEAL3 foi atualizado.
+[2017-07-02 03:12:45] Dormindo 11 segundos
+[2017-07-02 03:12:56] Acordei!
+[2017-07-02 03:13:10] Atualizando KROT3...
+[2017-07-02 03:13:13] Acessando URL: http://www.google.com/finance/historical?q=BVMF:KROT3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:13:16] KROT3 foi atualizado.
+[2017-07-02 03:13:16] Dormindo 9 segundos
+[2017-07-02 03:13:25] Acordei!
+[2017-07-02 03:13:43] Atualizando ABCB4...
+[2017-07-02 03:13:47] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ABCB4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:13:48] ABCB4 foi atualizado.
+[2017-07-02 03:13:48] Dormindo 9 segundos
+[2017-07-02 03:13:57] Acordei!
+[2017-07-02 03:14:13] Atualizando MYPK3...
+[2017-07-02 03:14:16] Acessando URL: http://www.google.com/finance/historical?q=BVMF:MYPK3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:14:19] MYPK3 foi atualizado.
+[2017-07-02 03:14:19] Dormindo 6 segundos
+[2017-07-02 03:14:25] Acordei!
+[2017-07-02 03:14:43] Atualizando LPSB3...
+[2017-07-02 03:14:46] Acessando URL: http://www.google.com/finance/historical?q=BVMF:LPSB3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:14:48] LPSB3 foi atualizado.
+[2017-07-02 03:14:48] Dormindo 12 segundos
+[2017-07-02 03:15:00] Acordei!
+[2017-07-02 03:15:17] Atualizando LOGN3...
+[2017-07-02 03:15:21] Acessando URL: http://www.google.com/finance/historical?q=BVMF:LOGN3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:15:23] LOGN3 foi atualizado.
+[2017-07-02 03:15:23] Dormindo 10 segundos
+[2017-07-02 03:15:33] Acordei!
+[2017-07-02 03:15:49] Atualizando VALE5...
+[2017-07-02 03:15:53] Acessando URL: http://www.google.com/finance/historical?q=BVMF:VALE5&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:15:54] VALE5 foi atualizado.
+[2017-07-02 03:15:54] Dormindo 9 segundos
+[2017-07-02 03:16:03] Acordei!
+[2017-07-02 03:16:19] Atualizando ECOR3...
+[2017-07-02 03:16:22] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ECOR3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:16:24] ECOR3 foi atualizado.
+[2017-07-02 03:16:24] Dormindo 6 segundos
+[2017-07-02 03:16:30] Acordei!
+[2017-07-02 03:16:54] Atualizando VVAR11...
+[2017-07-02 03:16:57] Acessando URL: http://www.google.com/finance/historical?q=BVMF:VVAR11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:16:59] VVAR11 foi atualizado.
+[2017-07-02 03:16:59] Dormindo 11 segundos
+[2017-07-02 03:17:10] Acordei!
+[2017-07-02 03:17:15] Atualizando ITLC34...
+[2017-07-02 03:17:18] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ITLC34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:17:20] ITLC34 foi atualizado.
+[2017-07-02 03:17:20] Dormindo 7 segundos
+[2017-07-02 03:17:27] Acordei!
+[2017-07-02 03:17:36] Atualizando KLBN11...
+[2017-07-02 03:17:38] Acessando URL: http://www.google.com/finance/historical?q=BVMF:KLBN11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:17:40] KLBN11 foi atualizado.
+[2017-07-02 03:17:40] Dormindo 7 segundos
+[2017-07-02 03:17:47] Acordei!
+[2017-07-02 03:17:56] Atualizando PETR4...
+[2017-07-02 03:17:59] Acessando URL: http://www.google.com/finance/historical?q=BVMF:PETR4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:18:00] PETR4 foi atualizado.
+[2017-07-02 03:18:00] Dormindo 6 segundos
+[2017-07-02 03:18:06] Acordei!
+[2017-07-02 03:18:26] Atualizando RADL3...
+[2017-07-02 03:18:29] Acessando URL: http://www.google.com/finance/historical?q=BVMF:RADL3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:18:35] RADL3 foi atualizado.
+[2017-07-02 03:18:35] Dormindo 9 segundos
+[2017-07-02 03:18:44] Acordei!
+[2017-07-02 03:19:06] Atualizando POSI3...
+[2017-07-02 03:19:10] Acessando URL: http://www.google.com/finance/historical?q=BVMF:POSI3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:19:11] POSI3 foi atualizado.
+[2017-07-02 03:19:11] Dormindo 12 segundos
+[2017-07-02 03:19:23] Acordei!
+[2017-07-02 03:19:36] Atualizando EMBR3...
+[2017-07-02 03:19:40] Acessando URL: http://www.google.com/finance/historical?q=BVMF:EMBR3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:19:42] EMBR3 foi atualizado.
+[2017-07-02 03:19:42] Dormindo 13 segundos
+[2017-07-02 03:19:55] Acordei!
+[2017-07-02 03:20:06] Atualizando SLED4...
+[2017-07-02 03:20:09] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SLED4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:20:11] SLED4 foi atualizado.
+[2017-07-02 03:20:11] Dormindo 7 segundos
+[2017-07-02 03:20:18] Acordei!
+[2017-07-02 03:20:40] Atualizando USIM3...
+[2017-07-02 03:20:43] Acessando URL: http://www.google.com/finance/historical?q=BVMF:USIM3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:20:45] USIM3 foi atualizado.
+[2017-07-02 03:20:45] Dormindo 11 segundos
+[2017-07-02 03:20:56] Acordei!
+[2017-07-02 03:21:14] Atualizando BMTO4...
+[2017-07-02 03:21:17] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BMTO4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:21:23] BMTO4 foi atualizado.
+[2017-07-02 03:21:23] Dormindo 5 segundos
+[2017-07-02 03:21:28] Acordei!
+[2017-07-02 03:21:36] Atualizando ESTC3...
+[2017-07-02 03:21:44] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ESTC3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:21:46] ESTC3 foi atualizado.
+[2017-07-02 03:21:46] Dormindo 12 segundos
+[2017-07-02 03:21:58] Acordei!
+[2017-07-02 03:22:27] Atualizando JNJB34...
+[2017-07-02 03:22:38] Acessando URL: http://www.google.com/finance/historical?q=BVMF:JNJB34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:22:39] JNJB34 foi atualizado.
+[2017-07-02 03:22:39] Dormindo 13 segundos
+[2017-07-02 03:22:52] Acordei!
+[2017-07-02 03:22:55] Atualizando KHCB34...
+[2017-07-02 03:22:58] Acessando URL: http://www.google.com/finance/historical?q=BVMF:KHCB34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:23:00] KHCB34 foi atualizado.
+[2017-07-02 03:23:00] Dormindo 11 segundos
+[2017-07-02 03:23:11] Acordei!
+[2017-07-02 03:23:14] Atualizando CGRA4...
+[2017-07-02 03:23:17] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CGRA4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:23:19] CGRA4 foi atualizado.
+[2017-07-02 03:23:19] Dormindo 5 segundos
+[2017-07-02 03:23:24] Acordei!
+[2017-07-02 03:23:44] Atualizando BRAP4...
+[2017-07-02 03:23:47] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BRAP4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:23:49] BRAP4 foi atualizado.
+[2017-07-02 03:23:49] Dormindo 11 segundos
+[2017-07-02 03:24:00] Acordei!
+[2017-07-02 03:24:12] Atualizando SEER3...
+[2017-07-02 03:24:15] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SEER3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:24:16] SEER3 foi atualizado.
+[2017-07-02 03:24:16] Dormindo 7 segundos
+[2017-07-02 03:24:23] Acordei!
+[2017-07-02 03:24:41] Atualizando PRIO3...
+[2017-07-02 03:24:45] Acessando URL: http://www.google.com/finance/historical?q=BVMF:PRIO3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:24:47] PRIO3 foi atualizado.
+[2017-07-02 03:24:47] Dormindo 5 segundos
+[2017-07-02 03:24:52] Acordei!
+[2017-07-02 03:25:10] Atualizando RUMO3...
+[2017-07-02 03:25:16] Acessando URL: http://www.google.com/finance/historical?q=BVMF:RUMO3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:25:18] RUMO3 foi atualizado.
+[2017-07-02 03:25:18] Dormindo 12 segundos
+[2017-07-02 03:25:30] Acordei!
+[2017-07-02 03:25:33] Atualizando RNEW11...
+[2017-07-02 03:25:35] Acessando URL: http://www.google.com/finance/historical?q=BVMF:RNEW11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:25:38] RNEW11 foi atualizado.
+[2017-07-02 03:25:38] Dormindo 6 segundos
+[2017-07-02 03:25:44] Acordei!
+[2017-07-02 03:26:00] Atualizando FRAS3...
+[2017-07-02 03:26:03] Acessando URL: http://www.google.com/finance/historical?q=BVMF:FRAS3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:26:05] FRAS3 foi atualizado.
+[2017-07-02 03:26:05] Dormindo 11 segundos
+[2017-07-02 03:26:16] Acordei!
+[2017-07-02 03:26:30] Atualizando CPFE3...
+[2017-07-02 03:26:33] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CPFE3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:26:35] CPFE3 foi atualizado.
+[2017-07-02 03:26:35] Dormindo 12 segundos
+[2017-07-02 03:26:47] Acordei!
+[2017-07-02 03:27:02] Atualizando CZLT33...
+[2017-07-02 03:27:05] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CZLT33&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:27:08] CZLT33 foi atualizado.
+[2017-07-02 03:27:08] Dormindo 10 segundos
+[2017-07-02 03:27:18] Acordei!
+[2017-07-02 03:27:25] Atualizando PDGR3...
+[2017-07-02 03:27:28] Acessando URL: http://www.google.com/finance/historical?q=BVMF:PDGR3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:27:31] PDGR3 foi atualizado.
+[2017-07-02 03:27:31] Dormindo 13 segundos
+[2017-07-02 03:27:44] Acordei!
+[2017-07-02 03:27:56] Atualizando HGLG11...
+[2017-07-02 03:27:59] Acessando URL: http://www.google.com/finance/historical?q=BVMF:HGLG11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:28:01] HGLG11 foi atualizado.
+[2017-07-02 03:28:01] Dormindo 7 segundos
+[2017-07-02 03:28:08] Acordei!
+[2017-07-02 03:28:22] Atualizando GSGI34...
+[2017-07-02 03:28:25] Acessando URL: http://www.google.com/finance/historical?q=BVMF:GSGI34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:28:27] GSGI34 foi atualizado.
+[2017-07-02 03:28:27] Dormindo 13 segundos
+[2017-07-02 03:28:40] Acordei!
+[2017-07-02 03:28:42] Atualizando PMAM3...
+[2017-07-02 03:28:45] Acessando URL: http://www.google.com/finance/historical?q=BVMF:PMAM3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:28:47] PMAM3 foi atualizado.
+[2017-07-02 03:28:47] Dormindo 5 segundos
+[2017-07-02 03:28:52] Acordei!
+[2017-07-02 03:29:08] Atualizando VRTA11...
+[2017-07-02 03:29:16] Acessando URL: http://www.google.com/finance/historical?q=BVMF:VRTA11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:29:18] VRTA11 foi atualizado.
+[2017-07-02 03:29:18] Dormindo 10 segundos
+[2017-07-02 03:29:28] Acordei!
+[2017-07-02 03:29:38] Atualizando OFSA3...
+[2017-07-02 03:29:40] Acessando URL: http://www.google.com/finance/historical?q=BVMF:OFSA3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:29:42] OFSA3 foi atualizado.
+[2017-07-02 03:29:42] Dormindo 10 segundos
+[2017-07-02 03:29:52] Acordei!
+[2017-07-02 03:30:05] Atualizando ALSC3...
+[2017-07-02 03:30:08] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ALSC3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:30:10] ALSC3 foi atualizado.
+[2017-07-02 03:30:10] Dormindo 7 segundos
+[2017-07-02 03:30:17] Acordei!
+[2017-07-02 03:30:33] Atualizando CYRE3...
+[2017-07-02 03:30:37] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CYRE3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:30:40] CYRE3 foi atualizado.
+[2017-07-02 03:30:40] Dormindo 10 segundos
+[2017-07-02 03:30:50] Acordei!
+[2017-07-02 03:31:06] Atualizando BSEV3...
+[2017-07-02 03:31:08] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BSEV3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:31:10] BSEV3 foi atualizado.
+[2017-07-02 03:31:10] Dormindo 13 segundos
+[2017-07-02 03:31:23] Acordei!
+[2017-07-02 03:31:35] Atualizando AGCX11...
+[2017-07-02 03:31:37] Acessando URL: http://www.google.com/finance/historical?q=BVMF:AGCX11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:31:39] AGCX11 foi atualizado.
+[2017-07-02 03:31:39] Dormindo 11 segundos
+[2017-07-02 03:31:50] Acordei!
+[2017-07-02 03:31:55] Atualizando JHSF3...
+[2017-07-02 03:31:57] Acessando URL: http://www.google.com/finance/historical?q=BVMF:JHSF3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:31:59] JHSF3 foi atualizado.
+[2017-07-02 03:31:59] Dormindo 10 segundos
+[2017-07-02 03:32:09] Acordei!
+[2017-07-02 03:32:23] Atualizando ALUP11...
+[2017-07-02 03:32:27] Acessando URL: http://www.google.com/finance/historical?q=BVMF:ALUP11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:32:28] ALUP11 foi atualizado.
+[2017-07-02 03:32:28] Dormindo 13 segundos
+[2017-07-02 03:32:41] Acordei!
+[2017-07-02 03:32:46] Atualizando EVEN3...
+[2017-07-02 03:32:48] Acessando URL: http://www.google.com/finance/historical?q=BVMF:EVEN3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:32:50] EVEN3 foi atualizado.
+[2017-07-02 03:32:50] Dormindo 8 segundos
+[2017-07-02 03:32:58] Acordei!
+[2017-07-02 03:33:14] Atualizando IVVB11...
+[2017-07-02 03:33:21] Acessando URL: http://www.google.com/finance/historical?q=BVMF:IVVB11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:33:23] IVVB11 foi atualizado.
+[2017-07-02 03:33:23] Dormindo 13 segundos
+[2017-07-02 03:33:36] Acordei!
+[2017-07-02 03:33:40] Atualizando GGBR4...
+[2017-07-02 03:33:43] Acessando URL: http://www.google.com/finance/historical?q=BVMF:GGBR4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:33:46] GGBR4 foi atualizado.
+[2017-07-02 03:33:46] Dormindo 5 segundos
+[2017-07-02 03:33:51] Acordei!
+[2017-07-02 03:34:07] Atualizando KNIP11...
+[2017-07-02 03:34:15] Acessando URL: http://www.google.com/finance/historical?q=BVMF:KNIP11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:34:17] KNIP11 foi atualizado.
+[2017-07-02 03:34:17] Dormindo 8 segundos
+[2017-07-02 03:34:25] Acordei!
+[2017-07-02 03:34:33] Atualizando UGPA3...
+[2017-07-02 03:34:36] Acessando URL: http://www.google.com/finance/historical?q=BVMF:UGPA3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:34:40] UGPA3 foi atualizado.
+[2017-07-02 03:34:40] Dormindo 13 segundos
+[2017-07-02 03:34:53] Acordei!
+[2017-07-02 03:35:01] Atualizando TESA3...
+[2017-07-02 03:35:03] Acessando URL: http://www.google.com/finance/historical?q=BVMF:TESA3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:35:06] TESA3 foi atualizado.
+[2017-07-02 03:35:06] Dormindo 10 segundos
+[2017-07-02 03:35:16] Acordei!
+[2017-07-02 03:35:19] Atualizando XBOV11...
+[2017-07-02 03:35:21] Acessando URL: http://www.google.com/finance/historical?q=BVMF:XBOV11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:35:23] XBOV11 foi atualizado.
+[2017-07-02 03:35:23] Dormindo 7 segundos
+[2017-07-02 03:35:30] Acordei!
+[2017-07-02 03:35:37] Atualizando COCE5...
+[2017-07-02 03:35:40] Acessando URL: http://www.google.com/finance/historical?q=BVMF:COCE5&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:35:41] COCE5 foi atualizado.
+[2017-07-02 03:35:41] Dormindo 11 segundos
+[2017-07-02 03:35:52] Acordei!
+[2017-07-02 03:36:04] Atualizando VISA34...
+[2017-07-02 03:36:07] Acessando URL: http://www.google.com/finance/historical?q=BVMF:VISA34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:36:09] VISA34 foi atualizado.
+[2017-07-02 03:36:09] Dormindo 12 segundos
+[2017-07-02 03:36:21] Acordei!
+[2017-07-02 03:36:24] Atualizando VLID3...
+[2017-07-02 03:36:26] Acessando URL: http://www.google.com/finance/historical?q=BVMF:VLID3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:36:29] VLID3 foi atualizado.
+[2017-07-02 03:36:29] Dormindo 5 segundos
+[2017-07-02 03:36:34] Acordei!
+[2017-07-02 03:36:49] Atualizando CTIP3...
+[2017-07-02 03:36:56] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CTIP3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:36:58] CTIP3 foi atualizado.
+[2017-07-02 03:36:58] Dormindo 9 segundos
+[2017-07-02 03:37:07] Acordei!
+[2017-07-02 03:37:15] Atualizando TBOF11...
+[2017-07-02 03:37:17] Acessando URL: http://www.google.com/finance/historical?q=BVMF:TBOF11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:37:19] TBOF11 foi atualizado.
+[2017-07-02 03:37:19] Dormindo 6 segundos
+[2017-07-02 03:37:25] Acordei!
+[2017-07-02 03:37:34] Atualizando BBPO11...
+[2017-07-02 03:37:37] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BBPO11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:37:39] BBPO11 foi atualizado.
+[2017-07-02 03:37:39] Dormindo 5 segundos
+[2017-07-02 03:37:44] Acordei!
+[2017-07-02 03:37:56] Atualizando WFCO34...
+[2017-07-02 03:38:00] Acessando URL: http://www.google.com/finance/historical?q=BVMF:WFCO34&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:38:02] WFCO34 foi atualizado.
+[2017-07-02 03:38:02] Dormindo 8 segundos
+[2017-07-02 03:38:10] Acordei!
+[2017-07-02 03:38:13] Atualizando FIGS11...
+[2017-07-02 03:38:17] Acessando URL: http://www.google.com/finance/historical?q=BVMF:FIGS11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:38:19] FIGS11 foi atualizado.
+[2017-07-02 03:38:19] Dormindo 7 segundos
+[2017-07-02 03:38:26] Acordei!
+[2017-07-02 03:38:33] Atualizando EZTC3...
+[2017-07-02 03:38:36] Acessando URL: http://www.google.com/finance/historical?q=BVMF:EZTC3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:38:38] EZTC3 foi atualizado.
+[2017-07-02 03:38:38] Dormindo 10 segundos
+[2017-07-02 03:38:48] Acordei!
+[2017-07-02 03:39:01] Atualizando CMIG3...
+[2017-07-02 03:39:06] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CMIG3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:39:08] CMIG3 foi atualizado.
+[2017-07-02 03:39:08] Dormindo 6 segundos
+[2017-07-02 03:39:14] Acordei!
+[2017-07-02 03:39:30] Atualizando RENT3...
+[2017-07-02 03:39:40] Acessando URL: http://www.google.com/finance/historical?q=BVMF:RENT3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:39:42] RENT3 foi atualizado.
+[2017-07-02 03:39:42] Dormindo 6 segundos
+[2017-07-02 03:39:48] Acordei!
+[2017-07-02 03:40:02] Atualizando BOVA11...
+[2017-07-02 03:40:13] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BOVA11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:40:16] BOVA11 foi atualizado.
+[2017-07-02 03:40:16] Dormindo 13 segundos
+[2017-07-02 03:40:29] Acordei!
+[2017-07-02 03:40:33] Atualizando TGMA3...
+[2017-07-02 03:40:36] Acessando URL: http://www.google.com/finance/historical?q=BVMF:TGMA3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:40:38] TGMA3 foi atualizado.
+[2017-07-02 03:40:38] Dormindo 7 segundos
+[2017-07-02 03:40:45] Acordei!
+[2017-07-02 03:40:58] Atualizando TCSA3...
+[2017-07-02 03:41:06] Acessando URL: http://www.google.com/finance/historical?q=BVMF:TCSA3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:41:08] TCSA3 foi atualizado.
+[2017-07-02 03:41:08] Dormindo 12 segundos
+[2017-07-02 03:41:20] Acordei!
+[2017-07-02 03:41:31] Atualizando SHOW3...
+[2017-07-02 03:41:33] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SHOW3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:41:35] SHOW3 foi atualizado.
+[2017-07-02 03:41:35] Dormindo 7 segundos
+[2017-07-02 03:41:42] Acordei!
+[2017-07-02 03:41:52] Atualizando PCAR4...
+[2017-07-02 03:42:02] Acessando URL: http://www.google.com/finance/historical?q=BVMF:PCAR4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:42:04] PCAR4 foi atualizado.
+[2017-07-02 03:42:04] Dormindo 13 segundos
+[2017-07-02 03:42:17] Acordei!
+[2017-07-02 03:42:32] Atualizando OGXP3...
+[2017-07-02 03:42:37] Acessando URL: http://www.google.com/finance/historical?q=BVMF:OGXP3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:42:39] OGXP3 foi atualizado.
+[2017-07-02 03:42:39] Dormindo 13 segundos
+[2017-07-02 03:42:52] Acordei!
+[2017-07-02 03:43:03] Atualizando EQTL3...
+[2017-07-02 03:43:05] Acessando URL: http://www.google.com/finance/historical?q=BVMF:EQTL3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:43:07] EQTL3 foi atualizado.
+[2017-07-02 03:43:07] Dormindo 9 segundos
+[2017-07-02 03:43:16] Acordei!
+[2017-07-02 03:43:27] Atualizando MMXM3...
+[2017-07-02 03:43:33] Acessando URL: http://www.google.com/finance/historical?q=BVMF:MMXM3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:43:36] MMXM3 foi atualizado.
+[2017-07-02 03:43:36] Dormindo 8 segundos
+[2017-07-02 03:43:44] Acordei!
+[2017-07-02 03:43:53] Atualizando TOTS3...
+[2017-07-02 03:44:00] Acessando URL: http://www.google.com/finance/historical?q=BVMF:TOTS3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:44:03] TOTS3 foi atualizado.
+[2017-07-02 03:44:03] Dormindo 9 segundos
+[2017-07-02 03:44:12] Acordei!
+[2017-07-02 03:44:20] Atualizando RSID3...
+[2017-07-02 03:44:26] Acessando URL: http://www.google.com/finance/historical?q=BVMF:RSID3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:44:28] RSID3 foi atualizado.
+[2017-07-02 03:44:28] Dormindo 12 segundos
+[2017-07-02 03:44:40] Acordei!
+[2017-07-02 03:44:47] Atualizando RNGO11...
+[2017-07-02 03:44:50] Acessando URL: http://www.google.com/finance/historical?q=BVMF:RNGO11&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:44:51] RNGO11 foi atualizado.
+[2017-07-02 03:44:51] Dormindo 7 segundos
+[2017-07-02 03:44:58] Acordei!
+[2017-07-02 03:45:05] Atualizando MGLU3...
+[2017-07-02 03:45:07] Acessando URL: http://www.google.com/finance/historical?q=BVMF:MGLU3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:45:09] MGLU3 foi atualizado.
+[2017-07-02 03:45:09] Dormindo 9 segundos
+[2017-07-02 03:45:18] Acordei!
+[2017-07-02 03:45:26] Atualizando CSNA3...
+[2017-07-02 03:45:30] Acessando URL: http://www.google.com/finance/historical?q=BVMF:CSNA3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:45:32] CSNA3 foi atualizado.
+[2017-07-02 03:45:32] Dormindo 7 segundos
+[2017-07-02 03:45:39] Acordei!
+[2017-07-02 03:45:46] Atualizando MLFT4...
+[2017-07-02 03:45:53] Acessando URL: http://www.google.com/finance/historical?q=BVMF:MLFT4&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:45:54] MLFT4 foi atualizado.
+[2017-07-02 03:45:54] Dormindo 13 segundos
+[2017-07-02 03:46:07] Acordei!
+[2017-07-02 03:46:14] Atualizando HBOR3...
+[2017-07-02 03:46:16] Acessando URL: http://www.google.com/finance/historical?q=BVMF:HBOR3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:46:19] HBOR3 foi atualizado.
+[2017-07-02 03:46:19] Dormindo 7 segundos
+[2017-07-02 03:46:26] Acordei!
+[2017-07-02 03:46:32] Atualizando SBSP3...
+[2017-07-02 03:46:38] Acessando URL: http://www.google.com/finance/historical?q=BVMF:SBSP3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:46:39] SBSP3 foi atualizado.
+[2017-07-02 03:46:39] Dormindo 6 segundos
+[2017-07-02 03:46:45] Acordei!
+[2017-07-02 03:46:52] Atualizando BRIN3...
+[2017-07-02 03:47:00] Acessando URL: http://www.google.com/finance/historical?q=BVMF:BRIN3&startdate=Jan+01,+1010&enddate=Jul+02,+1717&output=csv
+[2017-07-02 03:47:02] BRIN3 foi atualizado.
+[2017-07-02 03:47:02] Dormindo 9 segundos
+[2017-07-02 03:47:11] Acordei!
+[2017-07-02 03:47:20] Nao ha acoes a atualizar. Encerrando.
+[2017-07-16 06:32:08] Acessando URL: http://www.google.com/finance/historical?q=INDEXBVMF:IBOV&startdate=Jan+01,+1010&enddate=Jan+01,+1717&output=csv
+[2017-07-16 06:33:43] Acessando URL: http://www.google.com/finance/historical?q=INDEXBVMF:IBOV&startdate=Jan+01,+1010&enddate=Jul+16,+1717&output=csv
+[2017-07-16 06:33:45] Acessando URL: http://www.google.com/finance/historical?q=INDEXBVMF:IBOV&startdate=Jan+01,+1010&enddate=Jan+01,+1717&output=csv
+[2017-07-16 06:42:13] Acessando URL: http://www.google.com/finance/historical?q=INDEXBVMF:IBOV&startdate=Jan+01,+1010&enddate=Jul+16,+1717&output=csv

@@ -1,5 +1,4 @@
 <!-- #page-wrapper -->
-<div id="page-wrapper" style="width:100%;">
     <div class="conteudo">
 		<?php if (isset($deleta_corretora_nome)) : ?>
 			<div class="alert alert-warning alert-dismissible" role="alert">
@@ -64,5 +63,4 @@
 		</div>
 	</div>
 
-</div>
 <!-- /#page-wrapper -->

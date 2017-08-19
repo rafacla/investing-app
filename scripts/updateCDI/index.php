@@ -1,6 +1,6 @@
 <?php
 
-include_once('../Database.php');
+include_once(realpath(dirname(__FILE__).'/../Database.php'));
 $blacklist = array();
 
 function getLista_CDI_Cetip() {

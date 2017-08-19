@@ -20,6 +20,10 @@ class AcoesResultados extends Admin_Controller {
 			$data['resultados'] = array_column($query,'ResLiqAntIR');
 			$data['ativos'] = array_column($query,'ativo_nome');
 			$data['quantidades'] = array_column($query,'qt_a');
+			
+			$data['modulo'] = "investimentos";
+			$data['title'] = "Gráfico de Performance";
+			
 			$data['page'] = $this->config->item('ci_acoes_template_dir') . "acoes_resultados";
 			
 			$this->load->view($this->_container, $data);

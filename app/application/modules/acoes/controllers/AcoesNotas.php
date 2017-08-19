@@ -36,6 +36,10 @@ class AcoesNotas extends Admin_Controller {
 			} else {
 				$data['corretora_nome'] = "Todas Corretoras";
 			}
+			
+			$data['modulo'] = "investimentos";
+			$data['title'] = "Notas de Corretagem";
+			
 			$this->load->view($this->_container, $data);
 		}
     }
@@ -105,6 +109,10 @@ class AcoesNotas extends Admin_Controller {
 			$data['nota_id'] = $nota_id;
 			$data['corretoras'] = $this->Corretora->get_all('',array('profile_id' => $this->profile->id));
 			$data['page'] = $this->config->item('ci_acoes_template_dir') . "notas_edit";
+			
+			$data['modulo'] = "investimentos";
+			$data['title'] = "Nota de Corretagem";
+			
 			$this->load->view($this->_container, $data);
 		}
 	}

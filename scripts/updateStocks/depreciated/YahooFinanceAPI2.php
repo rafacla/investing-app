@@ -2,65 +2,6 @@
 
 class YahooFinanceAPI
 {    
-
-	public function Ajustes($ticker,$startDate,$endDate) {
-		//retorna os Dividendos e Splits
-		$base_url = "http://ichart.finance.yahoo.com/x?";
-		$ativo = "s=".$ticker;
-		$mesI="&a=".(date('m',$startDate)-1);
-		$diaI="&b=".date('d',$startDate);
-		$anoI="&c=".date('Y',$startDate);
-		$mesF="&d=".(date('m',$endDate)-1);
-		$diaF="&e=".date('d',$endDate);
-		$anoF="&f=".date('Y',$endDate);
-		$compl = "&g=v&y=0&z=30000";
-		
-		$url = $base_url . $ativo . $mesI . $diaI . $anoI . $mesF . $diaF . $anoF . $compl;
-		
-		$csv = @file_get_contents($url);
-		
-		$linhas = explode("\n",$csv);
-		
-		$data = array();
-		
-		//inicia as variaiveis de loop
-		$nrPregoes =0;
-		$nrDividendos =0;
-		$nrSplits =0;
-		
-		$data['resumo']['ativo'] = $ticker;
-		$data['resumo']['dtInicio'] = date('d/m/Y',$startDate);
-		$data['resumo']['dtTermino'] = date('d/m/Y',$endDate);
-		
-		for ($i=1;$i<=sizeof($linhas)-5;$i++) {
-			$tempArray = explode(",",$linhas[$i]);
-			if ($tempArray[0]=="DIVIDEND") {
-				++$nrDividendos;
-				$data['dividendos'][$nrDividendos]['data']=substr(trim($tempArray[1]),0,4)."-".substr(trim($tempArray[1]),4,2)."-".substr(trim($tempArray[1]),6,2);
-				$data['dividendos'][$nrDividendos]['valor']=$tempArray[2];
-			} else if ($tempArray[0]=="SPLIT") {
-				++$nrSplits;
-				$data['splits'][$nrSplits]['data']=substr(trim($tempArray[1]),0,4)."-".substr(trim($tempArray[1]),4,2)."-".substr(trim($tempArray[1]),6,2);
-				$data['splits'][$nrSplits]['origem']=substr(trim($tempArray[2]),0,strpos(trim($tempArray[2]),":"));
-				$data['splits'][$nrSplits]['final']=substr(trim($tempArray[2]),strpos(trim($tempArray[2]),":")+1,strlen(trim($tempArray[2]))-strpos(trim($tempArray[2]),":"));
-			} else if (is_numeric($tempArray[0])) {
-				++$nrPregoes;
-				$data['pregoes'][$nrPregoes]['data']=$tempArray[0];
-				$data['pregoes'][$nrPregoes]['abertura']=$tempArray[1];
-				$data['pregoes'][$nrPregoes]['alta']=$tempArray[2];
-				$data['pregoes'][$nrPregoes]['baixa']=$tempArray[3];
-				$data['pregoes'][$nrPregoes]['fechamento']=$tempArray[4];
-				$data['pregoes'][$nrPregoes]['fechamento_ajustado']=$tempArray[6];
-				$data['pregoes'][$nrPregoes]['volume']=$tempArray[5];
-			}
-		}
-		
-		$data['resumo']['nrPregoes'] = $nrPregoes;		
-		$data['resumo']['nrDividendos'] = $nrDividendos;		
-		$data['resumo']['nrSplits'] = $nrSplits;		
-		
-		return $data;
-	}
 	
 	public function Historico($ticker,$startDate,$endDate) {
 		//$url = "http://real-chart.finance.yahoo.com/table.csv?s=".$ticker."&a=".(date('m',$startDate)-1)."&b=".date('d',$startDate)."&c=".date('Y',$startDate)."&d=".(date('m',$endDate)-1)."&e=".date('d',$endDate)."&f=".date('Y',$endDate)."&g=d&ignore=.csv";
@@ -68,8 +9,10 @@ class YahooFinanceAPI
 		$sDate = mktime(0,0,0,date("m",$startDate),date("d",$startDate),date("Y",$startDate));
 		//$eDate = cint($endDate - strtotime(1-1-1970)) * 86400;
 		$eDate = mktime(0,0,0,date("m",$endDate),date("d",$endDate),date("Y",$endDate));
-		$cookie = "afjuc3tc7aqm8&b=3&s=94"; //retirado da session
-		$crumb =  "dvBvLPVQLg0";// retirada da session do navegador
+		//$cookie = "afjuc3tc7aqm8&b=3&s=94"; //retirado da session
+		//$crumb =  "dvBvLPVQLg0";// retirada da session do navegador
+		$cookie = "aqre859cktb97&b=3&s=mu"; //retirado da session
+		$crumb =  "3zzqP1ez3WW";// retirada da session do navegador
 		$opts = array(
 			'http'=>array(
 				'method'=>"GET",
@@ -80,7 +23,10 @@ class YahooFinanceAPI
 		$context = stream_context_create($opts); 
 		
 		$url = "https://query1.finance.yahoo.com/v7/finance/download/".$ticker."?period1=".$sDate."&period2=".$eDate."&interval=1d&events=history&crumb=".$crumb;
-		$csv = @file_get_contents($url,false,$context);
+		
+		$csv = file_get_contents($url,false,$context);
+		
+		logMsg(serialize($http_response_header));
 		
 		if ($csv === false) {
 			return false;
@@ -192,4 +138,13 @@ class YahooFinanceAPI
         }
         return $data;
     }
+}
+
+function logMsg ($msg,$verbose=true) {
+	if ($verbose) { 
+		$date = new DateTime();
+		$date = $date->format("Y-m-d h:i:s");
+		echo "[".$date."] " . $msg ."<br>";
+		file_put_contents (__DIR__ ."/log.txt","[".$date."] " . $msg."\r\n",FILE_APPEND);
+	}
 }

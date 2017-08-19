@@ -2,7 +2,6 @@
 <script type="text/javascript" src="<?= base_url() ?>assets/fusioncharts/js/fusioncharts.js"></script>
 <script type="text/javascript" src="<?= base_url() ?>assets/fusioncharts/js/themes/fusioncharts.theme.fint.js"></script>
 <!-- #page-wrapper -->
-<div id="page-wrapper">
 	<div class="conteudo">
 		<div class="row">
 			<div class="page-header users-header">
@@ -197,5 +196,4 @@ EOT;
 			</script>
 		<?php endif; ?>
 	</div>
-</div>
 <!-- /#page-wrapper -->

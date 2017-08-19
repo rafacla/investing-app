@@ -11,12 +11,13 @@ function Atualizar() {
 	$date = new DateTime();
 	$date = $date->format("Y-m-d h:i:s");
 
-	if ($acoes->AcaoAleatoriaDesatualizada('yahoo',$blacklist)) {
+	if ($acoes->AcaoAleatoriaDesatualizada($blacklist)) {
+		set_time_limit (300);
 		$date = new DateTime();
 		$date = $date->format("Y-m-d h:i:s");
-		$acao = $acoes->AcaoAleatoriaDesatualizada('yahoo',$blacklist);
+		$acao = $acoes->AcaoAleatoriaDesatualizada($blacklist);
 		file_put_contents (__DIR__ ."/log.txt","[" . $date."] Atualizando " . $acao . "...\r\n",FILE_APPEND);
-		$resultado = $acoes->AtualizaAcaoYahoo($acao);
+		$resultado = $acoes->AtualizaAcaoGoogle($acao);
 		$date = new DateTime();
 		$date = $date->format("Y-m-d h:i:s");
 		
@@ -28,7 +29,10 @@ function Atualizar() {
 			file_put_contents (__DIR__ ."/log.txt","[" . $date."] ".$acao . " nao foi encontrada no Yahoo...\r\n",FILE_APPEND);
 			array_push($blacklist,$acao);
 		}
-		sleep(10);
+		$number = rand(5,13);
+		logMsg("Dormindo ".$number." segundos");
+		sleep($number);
+		logMsg("Acordei!");
 		Atualizar();
 	} else {
 		$date = new DateTime();

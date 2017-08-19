@@ -29,6 +29,10 @@ class AcoesCotas extends Admin_Controller {
 			$data['ibovespa'] = $this->Acoeshistorico->get_all('data,fechamento',array('data>='=>$data_i,'ativo'=>'IBOVESPA'),'','','data');
 			$data['cdi'] = $this->Cdi->get_all('data,taxa_diaria',array('data>='=>$data_i),'','','data');
 			$data['page'] = $this->config->item('ci_acoes_template_dir') . "acoes_cotas";
+			
+			$data['modulo'] = "investimentos";
+			$data['title'] = "Gráfico de Performance";
+			
 			$this->load->view($this->_container, $data);
 		}
     }

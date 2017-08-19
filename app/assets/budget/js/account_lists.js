@@ -1,10 +1,9 @@
 var $table = $('#tbTransacoes');
-var request;
 var filer;
 var ofx_resultado;
 var curDate = new Date();
 var newID='';
-
+var lista_contas;
 var resposta;
 
 Number.prototype.formatMoney = function(c, d, t){
@@ -19,20 +18,32 @@ var n = this,
  };
  
 $(function() {
+	function geraEndereco() {
+		var Endereco = base_url + profileUID + '/accounts/' + $('#selConta').val() + '/' + $('#selPeriodo').val() + '/' + $('#selConciliada').val();
+		$(location).attr('href',Endereco);
+	}
+	
+	$('#selPeriodo').change(function() {
+		geraEndereco();
+	});
+	$('#selConta').change(function() {
+		geraEndereco();
+	});
+	$('#selConciliada').change(function() {
+		geraEndereco();
+	});		
+	
+	
 	$(document).on('click', '#tbTransacoes tr', function(event) {
 		if($(event.target).is('#btConciliar')) {
-			if ($(event.target).attr('data-conciliado')==1) {
-				$(event.target).removeClass('btn-success');
-				$(event.target).addClass('btn-secondary');
-				$(event.target).attr('data-conciliado',0);
-				calculaSaldoGlobal();
+			
+			
+			if ($(event.target).attr('data-conciliado')==0) {
+				var conc = 1;
 			} else {
-				$(event.target).addClass('btn-success');
-				$(event.target).removeClass('btn-secondary');
-				$(event.target).attr('data-conciliado',1);
-				calculaSaldoGlobal();
+				var conc = 0;
 			}
-			editaConciliado($(event.target).attr('data-tid'),$(event.target).attr('data-conciliado'));
+			editaConciliado([$(event.target).attr('data-tid')],[conc]);
 		} else if ($(this).hasClass('selected') && event.target.type !== 'checkbox') {
 			if (!$('#tbTransacoes .editaTransacao').length) {
 				if ($(this).attr('data-editavel')==1) {
@@ -51,6 +62,11 @@ $(function() {
 		} else {
 			$('#btCancelar').fadeIn(50).fadeOut(20).fadeIn(50);
 			$('#btSalvar').fadeIn(50).fadeOut(20).fadeIn(50);
+		}
+		if ($('tbody input:checkbox:checked').length) {
+			$('#abtEditar').removeClass('not-active');
+		} else {
+			$('#abtEditar').addClass('not-active');
 		}
 	});
 	$('#formTransacoes').submit(function(e){
@@ -90,7 +106,27 @@ $(function() {
             onComplete: null
         }
 	});
+
+	// constructs the suggestion engine
+	if (contas.length) {
+		lista_contas = new Bloodhound({
+		  queryTokenizer: Bloodhound.tokenizers.whitespace,                                                                                                                                                      
+		  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('conta_nome'),  
+		  
+		  local: contas
+		});
+	} 
+
 });
+function lista_contasWithDefault(q, sync) {
+	  if (q === '') {
+	sync(lista_contas.all()); // This is the only change needed to get 'ALL' items as the defaults
+  }
+
+  else {
+	lista_contas.search(q, sync);
+  }
+}
 
 function marcaLinha(id,valor) {
 	if (id == 'todas') {
@@ -113,6 +149,7 @@ function marcaLinha(id,valor) {
 	} else {
 		$('th input:checkbox').prop('checked',false);
 	}
+	
 }
 
 function geraListaContas() {
@@ -127,9 +164,71 @@ function geraListaContas() {
 //Esta função lê a prévia do arquivo OFX e formata o modal:
 function lerPreviaOFX(arrayOFX,arrayOFX_unparse) {
 	$('#OFX_Inicio').fadeOut(20);
-	$('#OFX_Resultado').fadeIn(20);
-	$('#OFX_Resultado').html('');
-	sHTML = `<p><b>Importar de</b>: `+arrayOFX.accountNumber[0]+`<br />
+	$('#OFX_Carregando').fadeIn(20);
+	$('#OFX_Resultado tbody').html('');
+	sHTML = "";
+	
+	var valores_importados = [];
+	
+	for (i=0;i<arrayOFX.statement.transactions.length;i++) {
+		if (arrayOFX.statement.transactions[i].name == "") {
+			var payee = arrayOFX.statement.transactions[i].memo;
+			var memo = arrayOFX.statement.transactions[i].name;
+		} else {
+			var payee = arrayOFX.statement.transactions[i].name;
+			var memo = arrayOFX.statement.transactions[i].memo;
+		}
+		var date = arrayOFX.statement.transactions[i].date.date.substr(0,10);
+		
+		valores_importados[i] = {payee:payee,memo:memo,date:date,uniqueID:arrayOFX.statement.transactions[i].uniqueID,amount:arrayOFX.statement.transactions[i].amount};
+		
+		sHTML += `<tr id="r`+i+`">
+					<input type="text" name="uniqueID`+i+`" value="`+arrayOFX.statement.transactions[i].uniqueID+`">
+					<td><input type="date" name="date`+i+`" value="`+date+`" class="form-control input-sm"></td>
+					<td><input type="text" name="payee`+i+`" value="`+payee+`" class="form-control input-sm"></td>
+					<td><input type="text" name="memo`+i+`" value="`+memo+`" class="form-control input-sm"></td>
+					<td><input type="text" name="amount`+i+`" value="`+arrayOFX.statement.transactions[i].amount+`" class="form-control input-sm"></td>
+					<td>
+						<select id="acao`+i+`" name="acao`+i+`" class="form-control input-sm">
+							<option value="yes">Importar</option>
+							<option value="no">Não importar</option>
+						</select>
+					</td>
+				</tr>`;
+		
+	}
+	sHTML += `<input type="hidden" name="nrItens" value="`+arrayOFX.statement.transactions.length+`">`;
+	sHTML += `<input type="text" style="display:none" name="old_url" value="`+window.location.href+`">`;
+	
+	$.ajax({
+		type: "POST",
+		url: base_url+"getTransacoes",
+		data: {
+			profileUID: profileUID,
+			valores: valores_importados,
+			nrItens: arrayOFX.statement.transactions.length
+			},
+		dataType:'JSON'
+	}).done(function (response, textStatus, jqXHR){
+		for (i=0;i<+response.nrItens;i++) {
+			if (typeof response[i] !== 'undefined') {
+				$('#acao'+i).val('no');
+				var insere = `<tr id="rss`+i+`" data-toggle="tooltip" title="Encontramos uma transação semelhante já incluída no sistema.<br>Verifique!" data-container="body" data-html="true">
+								<td><span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span></td>
+								<td>`+response[i].data+`</td>
+								<td>`+response[i].sacado+`</td>
+								<td>`+response[i].memo+`</td>
+								<td>`+response[i].valor+`</td>
+							  </tr>`;
+				$('#impOFX #r'+i).after(insere);
+			}
+		}
+		$('[data-toggle="tooltip"]').tooltip({placement: 'right'});
+		$('#OFX_Carregando').fadeOut(20);
+		$('#OFX_Resultado').fadeIn(20);
+	});
+		
+	/*sHTML = `<p><b>Importar de</b>: `+arrayOFX.accountNumber[0]+`<br />
 			 <b>Início:</b> `+ arrayOFX.statement.startDate.date +` <b>Término:</b> `+ arrayOFX.statement.endDate.date +`</p>`;
 	sHTML += `<br /><strong>Importar em:</strong><br />`;
 	sHTML += geraListaContas();
@@ -137,7 +236,8 @@ function lerPreviaOFX(arrayOFX,arrayOFX_unparse) {
 	sHTML += `<textarea rows="4" cols="50" name="OFX" style="display:none">`+arrayOFX_unparse+`</textarea>`
 	sHTML += `<input type="text" style="display:none" name="old_url" value="`+window.location.href+`">`;
 	sHTML += `<br /><br /><p><strong>Deseja continuar a importação?</strong></p>`;
-	$('#OFX_Resultado').append(sHTML);
+	*/
+	$('#OFX_Resultado tbody').append(sHTML);
 	if (contaNome!='') {
 		$('#importarNaConta').val(contaID);
 	}
@@ -180,9 +280,14 @@ $(document).on('click', function(evt) {
 		importaArquivo();
 	} else if($(evt.target).is('#btImport')) {
 		$('#OFX_Inicio').fadeIn(20);
+		$('#OFX_Carregando').fadeOut(20);
 		$('#OFX_Resultado').fadeOut(20);
 	} else if($(evt.target).is('#btImportarFinal')) {
 		importaArquivoFinal(ofx_resultado);
+	} else if ($(evt.target).is('#btConcSel')) {
+		marcaConciliados('1');
+	} else if ($(evt.target).is('#btNConcSel')) {
+		marcaConciliados('0');
 	} 
 });
 
@@ -211,13 +316,26 @@ document.onkeydown = function(evt) {
 
 
 function deletarTransacoesSelecionadas() {
-		
+	var trid = [];
+	var i=0;
 	$('#tbTransacoes .selected').each(function(index) {
-		trid = $(this).attr('data-tid');
+		trid[i] = $(this).attr('data-tid');
 		$(this).remove();
-		$.post(base_url+"deletaTransacao", { trid: trid });
+		i++;
 	});
-	calculaSaldoGlobal();
+	$.post(base_url+"deletaTransacao", { trid: trid });
+}
+
+function marcaConciliados(nivel) {
+	var i=0;
+	var trid = [];
+	var conciliado = [];
+	$('#tbTransacoes .selected').each(function(index) {
+		trid[i] = $(this).attr('data-tid');
+		conciliado[i] = nivel;
+		i++;
+	});
+	editaConciliado(trid,conciliado);
 }
 
 
@@ -234,7 +352,9 @@ function adicionaTransacao() {
 			contaNome='';
 		}
 		proxNr = +$('#tbTransacoes tr:last').attr('data-index')+1;
-		
+		if(isNaN(proxNr)) {
+			var proxNr = 0;
+		}
 		htmlSum = `<tr id="r`+rID+`" data-indice="`+proxNr+`" data-index="`+proxNr+`" data-tid="" data-editavel="1" style="display:none">
 					<td><input id="ck`+proxNr+`" data-indice="`+proxNr+`" type="checkbox"></td>
 					<td id="col_conta_nome"></td>
@@ -312,6 +432,9 @@ function adicionaTransacao() {
 		
 		$('#tbTransacoes').find('#countTr').val(1);
 		ligaCompletar();
+		$('html, body').animate({
+			scrollTop: $("#rNew").offset().top
+		}, 2000);
 		if (contaNome=='') {
 			$('#tbTransacoes #conta').focus();
 		} else {
@@ -448,11 +571,38 @@ function removeSelect2() {
 }
 
 function editaConciliado(tid,conciliado) {
-	// Abort any pending request
-    if (request) {
-        request.abort();
-    }
+	var request;
 	
+	for (i=0;i<tid.length;i++) {
+		var saida = +$('#tbTransacoes tr[data-tid="'+tid[i]+'"]').find('#col_saida').text().replace('$','').replace(',','').replace('.','')/100;;
+		var entrada = +$('#tbTransacoes tr[data-tid="'+tid[i]+'"]').find('#col_entrada').text().replace('$','').replace(',','').replace('.','')/100;;
+		var saldo = entrada-saida;
+		var saldoNC = +$('#saldoNConciliado').text().replace('$','').replace(',','').replace('.','')/100;
+		var saldoC = +$('#saldoConciliado').text().replace('$','').replace(',','').replace('.','')/100;
+		
+		
+		if (conciliado[i]==0) {
+			if ($('#btConciliar[data-tid="'+tid[i]+'"]').attr('data-conciliado')==0) {
+				return;
+			}
+			$('#btConciliar[data-tid="'+tid[i]+'"]').removeClass('btn-success');
+			$('#btConciliar[data-tid="'+tid[i]+'"]').addClass('btn-secondary');
+			$('#btConciliar[data-tid="'+tid[i]+'"]').attr('data-conciliado',0);
+			saldoNC += saldo;
+			saldoC -= saldo;
+		} else {
+			if ($('#btConciliar[data-tid="'+tid[i]+'"]').attr('data-conciliado')==1) {
+				return;
+			}
+			$('#btConciliar[data-tid="'+tid[i]+'"]').addClass('btn-success');
+			$('#btConciliar[data-tid="'+tid[i]+'"]').removeClass('btn-secondary');
+			$('#btConciliar[data-tid="'+tid[i]+'"]').attr('data-conciliado',1);
+			saldoNC -= saldo;
+			saldoC += saldo;
+		}
+		$('#saldoNConciliado').text(saldoNC.formatMoney());
+		$('#saldoConciliado').text(saldoC.formatMoney());
+	}	
 	// Fire off the request to /form.php
 	request = $.ajax({
         url: base_url+"editaConciliado",
@@ -478,7 +628,6 @@ function editaConciliado(tid,conciliado) {
     // if the request failed or succeeded
     request.always(function () {
     });
-	calculaSaldoGlobal();
 }
 
 function salvaTransacao() {
@@ -490,9 +639,9 @@ function salvaTransacao() {
 	}
 	
 	// Abort any pending request
-    if (request) {
-        request.abort();
-    }
+    //if (request) {
+      //  request.abort();
+    //}
 	// setup some local variables
     var $form = $('#formTransacoes');
 
@@ -515,6 +664,7 @@ function salvaTransacao() {
 		$('#tbTransacoes #main1').attr('data-parent',newIndice);
 		$('#edita_rNew #main1').attr('data-parent',newIndice);
 		$('#edita_rNew').attr('id','edita_r'+newIndice);
+		
 	}
 	
     var Indice = $('#tbTransacoes #main1').attr('data-parent');
@@ -586,24 +736,6 @@ function salvaTransacao() {
 	cancelaEdicao(false);
 	
 	calculaSaldoGlobal();
-}
-
-// constructs the suggestion engine
-var lista_contas = new Bloodhound({
-  queryTokenizer: Bloodhound.tokenizers.whitespace,                                                                                                                                                      
-  datumTokenizer: Bloodhound.tokenizers.obj.whitespace('conta_nome'),  
-  
-  local: contas
-});
-
-function lista_contasWithDefault(q, sync) {
-	  if (q === '') {
-    sync(lista_contas.all()); // This is the only change needed to get 'ALL' items as the defaults
-  }
-
-  else {
-    lista_contas.search(q, sync);
-  }
 }
 
 function ligaCompletar() {
@@ -776,95 +908,4 @@ function calculaDiferenca() {
 		$('#tbTransacoes #faltandoSaida').text('0.00');
 	}
 }
-
-function calculaSaldoGlobal() {
-	var sumSaidaConta = {};
-	var sumEntradaConta = {};
-	var sumSaida = 0;
-	var sumSaidaC = 0;
-	var sumSaidaNC = 0;
-	var sumEntrada = 0;
-	var sumEntradaC = 0;
-	var sumEntradaNC = 0;
-	$('#tbTransacoes #col_saida').each(function () {
-        sumSaida += 1*($(this).text());
-		if ($(this).parent('tr').find('#btConciliar').attr('data-conciliado')==1) {
-			sumSaidaC += 1*($(this).text());
-		} else {
-			sumSaidaNC += 1*($(this).text());
-		}
-		if (!$.isNumeric(sumSaidaConta[$(this).parent('tr').find('#col_conta_nome').text()]))
-			sumSaidaConta[$(this).parent('tr').find('#col_conta_nome').text()]=0;
-		sumSaidaConta[$(this).parent('tr').find('#col_conta_nome').text()]+=1*($(this).text());
-    });
-	$('#tbTransacoes #col_entrada').each(function () {
-        sumEntrada += 1*($(this).text());
-		if ($(this).parent('tr').find('#btConciliar').attr('data-conciliado')==1) {
-			sumEntradaC += 1*($(this).text());
-		} else {
-			sumEntradaNC += 1*($(this).text());
-		}
-		if (!$.isNumeric(sumEntradaConta[$(this).parent('tr').find('#col_conta_nome').text()]))
-			sumEntradaConta[$(this).parent('tr').find('#col_conta_nome').text()]=0;
-		sumEntradaConta[$(this).parent('tr').find('#col_conta_nome').text()]+=1*($(this).text());
-    });
-	var saldoTotal = sumEntrada - sumSaida;
-	var saldoTotalC = sumEntradaC - sumSaidaC;
-	var saldoTotalNC = sumEntradaNC - sumSaidaNC;
-	$('#saldoGeral').text(parseFloat(saldoTotal).formatMoney(2));
-	$('#saldoConciliado').text(parseFloat(saldoTotalC).formatMoney(2));
-	$('#saldoNConciliado').text(parseFloat(saldoTotalNC).formatMoney(2));
-	if (contaID==0) {
-		$('#somaTotal').text(parseFloat(saldoTotal).formatMoney(2));
-		for (var i = 0; i < contas.length; i++) {
-			var entrada = parseFloat(0);
-			var saida = parseFloat(0);
-			if (isNaN(sumEntradaConta[contas[i].conta_nome])) {
-				entrada = 0;
-			} else {
-				entrada = parseFloat(sumEntradaConta[contas[i].conta_nome]);
-			}
-			if (isNaN(sumSaidaConta[contas[i].conta_nome])) {
-				saida = 0;
-			} else {
-				saida = parseFloat(sumSaidaConta[contas[i].conta_nome]);
-			}
-			
-			$("[id='"+ contas[i].conta_nome+"']").text(parseFloat(entrada - saida).formatMoney(2));
-		}
-	} else { //A view atual é de uma conta especifica...
-		var oldAccountValue = parseFloat($('#menu_saldo_'+contaNome).text().replace('$','').replace(',','')).toFixed(2);
-		var deltaTotal = (parseFloat(saldoTotal).toFixed(2)-oldAccountValue);
-		var newTotalValue = parseFloat($('#somaTotal').text().replace('$','').replace(',','')).toFixed(2);
-		newTotalValue = parseFloat(newTotalValue) + parseFloat(deltaTotal);
-		$("[id='"+contaNome+"']").text(parseFloat(saldoTotal).formatMoney(2));
-		$('#somaTotal').text(parseFloat(newTotalValue).formatMoney(2));
-	}
-	if (saldoTotal>=0) {
-		$('#saldoGeral').removeClass('SaldoNeg');
-		$('#saldoGeral').addClass('SaldoPos');
-	} else {
-		$('#saldoGeral').addClass('SaldoNeg');
-		$('#saldoGeral').removeClass('SaldoPos');
-	}
-	if (saldoTotalC>=0) {
-		$('#saldoConciliado').removeClass('SaldoNeg');
-		$('#saldoConciliado').addClass('SaldoPos');
-	} else {
-		$('#saldoConciliado').addClass('SaldoNeg');
-		$('#saldoConciliado').removeClass('SaldoPos');
-	}
-	if (saldoTotalNC>=0) {
-		$('#saldoNConciliado').removeClass('SaldoNeg');
-		$('#saldoNConciliado').addClass('SaldoPos');
-	} else {
-		$('#saldoNConciliado').addClass('SaldoNeg');
-		$('#saldoNConciliado').removeClass('SaldoPos');
-	}
-	$(document).find('[id^=menu_saldo_]').each(function () {
-			var nomeConta = $(this).attr('id');
-			nomeConta = nomeConta.substr(11,nomeConta.length-11);
-			if ($.isNumeric(sumEntradaConta[nomeConta]))
-				$(this).text(parseFloat(+sumEntradaConta[nomeConta]-sumSaidaConta[nomeConta]).formatMoney(2));
-	});
-}
+	

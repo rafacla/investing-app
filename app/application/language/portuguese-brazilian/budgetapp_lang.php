@@ -6,11 +6,14 @@ $lang['sidemenu_profile_newbegin'] 	= 'Novo começo';
 $lang['sidemenu_profile_edit'] 		= 'Idioma/senha';
 $lang['sidemenu_profile_logout'] 	= 'Logout';
 
-$lang['sidemenu_links_accounts'] 	= 'Todas contas';
-$lang['sidemenu_links_budgets'] 	= 'Orçamento e gastos';
+$lang['sidemenu_links_accounts'] 	= 'Contas e Cartões';
+$lang['sidemenu_links_statement'] 	= 'Extrato de transações';
+$lang['sidemenu_links_budgets'] 	= 'Orçamento mensal';
+$lang['sidemenu_links_reports'] 	= 'Relatórios';
+$lang['sidemenu_links_budget_report'] 	= 'Gráfico de Gastos';
 
 $lang['sidemenu_accounts_summary'] 	= 'Contas correntes:';
-$lang['sidemenu_accounts_add'] 		= 'Adicionar';
+$lang['sidemenu_accounts_add'] 		= 'Adicionar nova conta';
 
 //Profiles open
 $lang['profiles_select_heading'] 		= 'Seja bem vindo ao MIMV - Meus Investimentos';
@@ -22,10 +25,17 @@ $lang['profiles_create_placeholder'] 	= 'Nome do perfil';
 $lang['profiles_create_submit']		 	= 'Criar novo!';
 
 //Accounts controller
+$lang['accounts_early_value']							= 'Saldo anterior';
 $lang['accounts_name_all']								= 'Todas as contas';
 $lang['accounts_value_cleared']							= 'Saldo conciliado';
 $lang['accounts_value_not_cleared']						= 'Saldo não conciliado';
 $lang['accounts_value_working']							= 'Saldo atual';
+$lang['accounts_select_history']						= 'Selecione o período:';
+$lang['accounts_select_account']						= 'Selecione uma conta:';
+$lang['accounts_select_cleared_or_not']					= 'Mostrar transações:';
+$lang['accounts_select_cleared_yes']					= 'Já conciliadas';
+$lang['accounts_select_cleared_not']					= 'Não conciliadas';
+$lang['accounts_select_cleared_all']					= 'Todas transações';
 $lang['accounts_errors_subtransaction']					= 'Esta é uma subtransação de transferência e não pode ser editada diretamente.';
 $lang['accounts_list_addtransaction']					= 'Adicionar transação';
 $lang['accounts_list_edittransaction']					= 'Editar';

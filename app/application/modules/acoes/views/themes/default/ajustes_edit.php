@@ -1,5 +1,4 @@
 <!-- #page-wrapper -->
-<div id="page-wrapper" style="width:100%;">
 	<div class="conteudo">
 		<div class="row">
 			<div class="col-md-12">
@@ -162,7 +161,6 @@
 		</div>
 		<!-- /.row -->
 	</div>
-</div>
 <!-- /#page-wrapper -->
 <script>
 	$(function () {

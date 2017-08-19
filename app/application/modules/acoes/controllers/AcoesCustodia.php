@@ -18,6 +18,10 @@ class AcoesCustodia extends Admin_Controller {
 			$data['custodia'] = $custodia;
 			$data['custodia_vendida'] = $custodia_vendida;
 			$data['page'] = $this->config->item('ci_acoes_template_dir') . "acoes_custodia";
+			
+			$data['modulo'] = "investimentos";
+			$data['title'] = "Custódia de Ações";
+			
 			$this->load->view($this->_container, $data);
 		}
     }

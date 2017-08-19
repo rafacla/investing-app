@@ -1,6 +1,6 @@
 <?php
 require_once 'excel_reader2.php';
-include_once('../Database.php');
+include_once(realpath(dirname(__FILE__).'/../Database.php'));
 
 //Esta funçao atualiza a lista de arquivos (URLs) do site do Tesouro para atualizar o BD:
 function atualizaListaArquivos() {
@@ -90,6 +90,8 @@ function atualizaArquivo($url, $atualizaExistente = false, $verbose=false) {
 			}
 			logMsg(" - Executando SQL de insercao/atualizacao...",$verbose);
 			$db->query($dados);
+			$sql = "INSERT INTO `appinv_tesouro_tipotitulos` VALUES (NULL,'".$tipo_titulo."','".$tipo_titulo." ".$vencimento->format('d/m/Y')."','".$vencimento->format('Y-m-d')."')";
+			$db->query($sql);
 			if ($db->error()) {
 				logMsg(" - Erro de banco de dados: ".$db->error());
 			} else {
@@ -100,7 +102,6 @@ function atualizaArquivo($url, $atualizaExistente = false, $verbose=false) {
 		logMsg("Arquivo nao encontrado.",$verbose);
 	}
 };
-
 $verbose = true;
 
 if ($verbose) {

@@ -71,12 +71,18 @@ $route['profiles/deletaProfile/(:any)'] = 'budget/profiles/deletaprofile/$1';
 //criaConta
 $route['criaConta'] = 'budget/contas/criaConta/$1';
 //classe accounts
+$route['(:any)/accountslist'] = 'budget/accounts/list_accounts/$1';
 $route['(:any)/accounts'] = 'budget/accounts/index/$1';
 $route['editaTransacao'] = 'budget/accounts/editaTransacao';
 $route['editaConciliado'] = 'budget/accounts/editaConciliado';
 $route['importaOFX'] = 'budget/accounts/importaOFX';
+$route['getTransacoes'] = 'budget/accounts/getTransacoes';
+$route['importaOFX_final'] = 'budget/accounts/importaOFX_final';
 $route['deletaTransacao'] = 'budget/accounts/deletaTransacao';
 $route['(:any)/accounts/(:any)'] = 'budget/accounts/index/$1/$2';
+$route['(:any)/accounts/(:any)/(:any)'] = 'budget/accounts/index/$1/$2/$3';
+$route['(:any)/accounts/(:any)/(:any)/(:any)'] = 'budget/accounts/index/$1/$2/$3/$4';
+
 //budget:
 $route['(:any)/budget/editaCategoriaGrupo'] = 'budget/budgets/editaCategoriaGrupo';
 $route['(:any)/budget/adicionaCategoriaGrupo'] = 'budget/budgets/adicionaCategoriaGrupo';
@@ -109,6 +115,7 @@ $route['(:any)/acoes/cotas'] = 'acoes/AcoesCotas/index/$1';
   
   //ordens
   $route['(:any)/acoes/notas/deletaOrdem/(:any)'] = 'acoes/AcoesNotas/deletaOrdem/$2';
+  
 /*
 $route['budget'] = 'budget/admin';
 $route['budget/dashboard'] = 'budget/admin';

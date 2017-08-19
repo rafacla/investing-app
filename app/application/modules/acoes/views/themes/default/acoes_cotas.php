@@ -2,7 +2,6 @@
 <script type="text/javascript" src="<?= base_url() ?>assets/fusioncharts/js/fusioncharts.js"></script>
 <script type="text/javascript" src="<?= base_url() ?>assets/fusioncharts/js/themes/fusioncharts.theme.fint.js"></script>
 <!-- #page-wrapper -->
-<div id="page-wrapper">
 	<div class="conteudo">
 		<div class="row">
 			<div class="page-header users-header">
@@ -112,7 +111,7 @@ EOT;
 										$resultado_d = 0;
 									}
 								}
-								if (is_array($ibov_datas)) {
+								if (isset($ibov_datas) && is_array($ibov_datas)) {
 									if (is_numeric(array_search($item["data"],$ibov_datas))) {
 										$ibov_d = $ibov_valores[array_search($item["data"],$ibov_datas)];
 										$ibov_u = $ibov_d;
@@ -156,13 +155,14 @@ EOT;
 								<td><?=number_format($resultado_d,2)?></td>
 								<td><?=number_format($compra_d,2)?></td>
 								<td><?=number_format($venda_d,2)?></td>
-								<td><?=($ibov_zero <> 0) ? number_format(100*$ibov_d/$ibov_zero,2) : 'NA'?></td>
+								<td><?=(isset($ibov_zero) && $ibov_zero <> 0) ? number_format(100*$ibov_d/$ibov_zero,2) : 'NA'?></td>
 								<td><?=number_format($cdi_valor,2)?></td>
 							</tr>
 							<?php
 								$categorias = $categorias . '<category label="'.date_format(date_create($item["data"]),'d/m/Y').'" />';
 								$valor_fundo = $valor_fundo . '<set value="'.number_format($cota_valor,2).'" showValue="0"/>';
-								$ibov_fundo = $ibov_fundo . '<set value="'.number_format(100*$ibov_d/$ibov_zero,2).'" showValue="0"/>';
+								if (isset($ibov_zero) && $ibov_zero <> 0) 
+									$ibov_fundo = $ibov_fundo . '<set value="'.number_format(100*$ibov_d/$ibov_zero,2).'" showValue="0"/>';
 								$cdi_fundo = $cdi_fundo. '<set value="'.number_format($cdi_valor,2).'" showValue="0"/>';
 							?>
 						<?php endforeach;?>
@@ -175,19 +175,29 @@ EOT;
 						?>
 						<?php
 							$lFundo_i = sizeof($aCotas);
-							$lIbov_i = sizeof($ibov_datas);
+							if (isset($ibov_datas)) {
+								$lIbov_i = sizeof($ibov_datas);
+								$Ibov_v = $ibov_valores[$lIbov_i-1];	
+								$Ibov7_v =	 number_format(100*($Ibov_v/$ibov_valores[$lIbov_i-min(5+1,$lIbov_i-1)]-1),2);
+								$Ibov30_v =  number_format(100*($Ibov_v/$ibov_valores[$lIbov_i-min(21+1,$lIbov_i-1)]-1),2);
+								$Ibov365_v =  number_format(100*($Ibov_v/$ibov_valores[$lIbov_i-min(252,$lIbov_i-1)]-1),2);
+							} else {
+								$Ibov7_v =	 0;
+								$Ibov30_v =  0;
+								$Ibov365_v =  0;
+							}
 							$lCDI_i = sizeof($cdi_datas);	
 							$Fundo_v = $aCotas[$lFundo_i-1];
-							$Ibov_v = $ibov_valores[$lIbov_i-1];
+							
 							$CDI_v = $aCDI[$lCDI_i-1];
 							$Fundo7_v =  number_format(100*($Fundo_v/$aCotas[$lFundo_i-min(5+1,$lFundo_i-1)]-1),2);
-							$Ibov7_v =	 number_format(100*($Ibov_v/$ibov_valores[$lIbov_i-min(5+1,$lIbov_i-1)]-1),2);
+							
 							$CDI7_v = 	 number_format(100*($CDI_v/$aCDI[$lCDI_i-min(5+1,$lCDI_i-1)]-1),2);
 							$Fundo30_v = number_format(100*($Fundo_v/$aCotas[$lFundo_i-min(21+1,$lFundo_i-1)]-1),2);
-							$Ibov30_v =  number_format(100*($Ibov_v/$ibov_valores[$lIbov_i-min(21+1,$lIbov_i-1)]-1),2);
+							
 							$CDI30_v = 	  number_format(100*($CDI_v/$aCDI[$lCDI_i-min(21+1,$lCDI_i-1)]-1),2);
 							$Fundo365_v = number_format(100*($Fundo_v/$aCotas[$lFundo_i-min(252,$lFundo_i-1)]-1),2);
-							$Ibov365_v =  number_format(100*($Ibov_v/$ibov_valores[$lIbov_i-min(252,$lIbov_i-1)]-1),2);
+							
 							$CDI365_v =	  number_format(100*($CDI_v/$aCDI[$lCDI_i-min(252,$lCDI_i-1)]-1),2);
 							
 							$grafico7d = <<<EOT
@@ -326,5 +336,4 @@ EOT;
 			</div>
 		</div>
 	</div>
-</div>
 <!-- /#page-wrapper -->

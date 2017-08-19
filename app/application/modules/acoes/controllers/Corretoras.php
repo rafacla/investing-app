@@ -22,6 +22,8 @@ class Corretoras extends Admin_Controller {
 			$data['corretoras'] = $query;
 			$data['nrCorretoras'] = sizeof($query);
 			
+			$data['modulo'] = "investimentos";
+			$data['title'] = "Lista de Corretoras";
 			$data['page'] = $this->config->item('ci_acoes_template_dir') . "corretoras_list";
 			
 			$this->load->view($this->_container, $data);
@@ -56,7 +58,8 @@ class Corretoras extends Admin_Controller {
 				}
 			}
         }
-		
+		$data['modulo'] = "investimentos";
+		$data['title'] = "Cadastro de Corretoras";
 		$data['page'] = $this->config->item('ci_acoes_template_dir') . "corretoras_create";
         $this->load->view($this->_container, $data);
     }
@@ -83,6 +86,8 @@ class Corretoras extends Admin_Controller {
         $data['user'] = $this->ion_auth->user($id)->row();
         $data['user_group'] = $this->ion_auth->get_users_groups($id)->row();
         $data['page'] = $this->config->item('ci_budget_template_dir_admin') . "users_edit";
+		$data['modulo'] = "investimentos";
+		$data['title'] = "Cadastro de Corretoras";
         $this->load->view($this->_container, $data);
     }
 

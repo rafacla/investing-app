@@ -1,8 +1,7 @@
 <!-- scripts para os gráficos -->
 <script type="text/javascript" src="<?= base_url() ?>assets/fusioncharts/js/fusioncharts.js"></script>
 <script type="text/javascript" src="<?= base_url() ?>assets/fusioncharts/js/themes/fusioncharts.theme.fint.js"></script>
-<!-- #page-wrapper -->
-<div id="page-wrapper">
+
 	<?php 
 
 		$grafico = <<<EOT
@@ -43,7 +42,7 @@
 EOT;
 	?>
 	<div id="chartContainer">FusionCharts XT will load here!</div>
-</div>
+
 
 <script type="text/javascript">
 FusionCharts.ready(function(){

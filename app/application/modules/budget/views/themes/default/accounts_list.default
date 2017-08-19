@@ -7,7 +7,6 @@
 	var contaNome = <?php echo json_encode($contaNome); ?>;
 	var lang_btSave = <?=json_encode(lang('accounts_button_save'));?>;
 	var lang_btCancel = <?=json_encode(lang('accounts_button_cancel'));?>;
-	var btEditar_text = <?=json_encode(lang('accounts_list_edittransaction'));?>;
 	var lang_labelSubtransaction = <?=json_encode(lang('accounts_add_subtransaction'));?>;
 	var lang_error_noaccounts = <?=json_encode(lang('accountsJS_error_noaccounts'));?>;
 	var lang_remaining_value = <?=json_encode(lang('accounts_value_left'));?>;
@@ -20,6 +19,24 @@
 	var lang_error_account_notfound = <?=json_encode(lang('accountsJS_error_noaccounts_found'));?>;
 	var lang_no_category = <?=json_encode(lang('accounts_no_category'));?>;
 	var lang_transferto= <?=json_encode(lang('accounts_add_transferto'));?>;
+	
+	$(function() {
+		
+		function geraEndereco() {
+			var Endereco = base_url + profileUID + '/accounts/' + $('#selConta').val() + '/' + $('#selPeriodo').val() + '/' + $('#selConciliada').val();
+			$(location).attr('href',Endereco);
+		}
+		
+		$('#selPeriodo').change(function() {
+			geraEndereco();
+		});
+		$('#selConta').change(function() {
+			geraEndereco();
+		});
+		$('#selConciliada').change(function() {
+			geraEndereco();
+		});		
+	});
 	
 </script>
 <h3>Transações de <?php echo $contaNome; ?></h3>
@@ -67,10 +84,10 @@
 			<div class="tabelaLinks">
 				<a id="btAddTransacao" href="#" class=""><i class="fa fa-plus-circle fa-fw"></i><?=lang('accounts_list_addtransaction');?></a>
 				<div class="dropdown" style="display: inline-block;">
-					<a href="#" class="dropdown-toggle not-active" data-toggle="dropdown" id="abtEditar"><i class="fa fa-pencil-square-o fa-fw"></i><span id="btEditar"><?=lang('accounts_list_edittransaction');?></span><span class="caret"></span></a>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-pencil-square-o fa-fw"></i><span id="btEditar"><?=lang('accounts_list_edittransaction');?></span><span class="caret"></span></a>
 					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="font-size:0.8em;">
-						<li><a href="#" id="btConcSel"><?=lang('accounts_list_edittransaction_markcleared');?></a></li>
-						<li><a href="#" id="btNConcSel"><?=lang('accounts_list_edittransaction_marknotcleared');?></a></li>
+						<li><a href="#"><?=lang('accounts_list_edittransaction_markcleared');?></a></li>
+						<li><a href="#"><?=lang('accounts_list_edittransaction_marknotcleared');?></a></li>
 						<li role="separator" class="divider"></li>
 						<li><a href="#" id="btExcluirSel"><?=lang('accounts_list_edittransaction_delete');?></a></li>
 					</ul>
@@ -85,17 +102,18 @@
 			data-show-refresh="true"
 			data-show-columns="false"
 			data-click-to-select="false"
-			data-locale="pt-BR">
+			data-locale="pt-BR"
+			data-height="100%">
 				<thead>
 					<tr><th id="thckAll"><input type="checkbox" id="ckbAll" data-indice="todas"></th>
-						<th class="col-xs-1" data-filed="conta"><?=lang('accounts_heads_account');?></th>
-						<th class="col-xs-1" data-field="date"><?=lang('accounts_heads_date');?></th>
-						<th class="col-xs-4" data-field="sacado"><?=lang('accounts_heads_payee');?></th>
-						<th class="col-xs-2" data-field="categoria"><?=lang('accounts_heads_category');?></th>
-						<th class="col-xs-1" data-field="memo"><?=lang('accounts_heads_memo');?></th>
-						<th class="col-xs-1 valores" data-field="saida"><?=lang('accounts_heads_outflow');?></th>
-						<th class="col-xs-1 valores" data-field="entrada"><?=lang('accounts_heads_inflow');?></th>
-						<th class="col-xs-1 valores" data-field="saldo"><?=lang('accounts_heads_balance');?></th>
+						<th data-sortable="false" class="col-xs-1" data-filed="conta"><?=lang('accounts_heads_account');?></th>
+						<th data-sortable="false" class="col-xs-1" data-field="date" data-sort-name="_date_data" data-sorter="monthSorter"><?=lang('accounts_heads_date');?></th>
+						<th data-sortable="false" class="col-xs-4" data-field="sacado"><?=lang('accounts_heads_payee');?></th>
+						<th data-sortable="false" class="col-xs-2" data-field="categoria"><?=lang('accounts_heads_category');?></th>
+						<th data-sortable="false" class="col-xs-1" data-field="memo"><?=lang('accounts_heads_memo');?></th>
+						<th data-sortable="false" class="col-xs-1 valores" data-field="saida"><?=lang('accounts_heads_outflow');?></th>
+						<th data-sortable="false" class="col-xs-1 valores" data-field="entrada"><?=lang('accounts_heads_inflow');?></th>
+						<th data-sortable="false" class="col-xs-1 valores" data-field="saldo"><?=lang('accounts_heads_balance');?></th>
 						<th></th>
 					</tr>
 				</thead>
@@ -107,29 +125,6 @@
 						$tIDs=false;
 						$saldo = array();
 					?>
-					<?php if (is_numeric($periodo)): ?>
-						<?php $saldo['geral'] = $saldoAnterior;
-							  $i =1;
-							  $haSaldoAnterior = true;
-						?>
-						<tr data-indice="0" data-editavel="0">
-							<td><input data-indice="0" type="checkbox" id="ck0"></td>
-							<td></td>
-							<td></td>
-							<td><?=lang('accounts_early_value')?></td>
-							<td></td>
-							<td></td>
-							<td class="valores"><?=($saldoAnterior<0) ? number_format((-1)*$saldoAnterior, 2, '.', '') : "0.00"?></td>
-							<td class="valores"><?=($saldoAnterior>=0) ? number_format($saldoAnterior, 2, '.', '') : "0.00"?></td>
-							<td class="valores"><?php 
-								if(!isset($saldo['geral']))
-									$saldo['geral']=0;
-								$saldo['geral'] = $saldo['geral'];
-								echo number_format($saldo['geral'],2,'.','');
-							?></td>	
-							<td></td>
-						</tr>
-					<?php endif; ?>
 					<?php if (count($accounts)): ?>
 						<?php foreach ($accounts as $key => $list): ?>
 							<?php if (($tID != $list['transacao_id']) || ($contaID!=$list['conta_id'])): ?>
@@ -207,13 +202,7 @@
 			?>
 			<div style="display: none;">
 				<table id="tbEdicao">
-				
 				<?php $i=0; $ultLinha=0; $intTr=0; if (count($accounts)): ?>
-					<?php 
-						if ($haSaldoAnterior) {
-							$i =1;
-						}
-					?>
 					<?php foreach ($accounts as $key => $list): ?>
 						<?php if ((($tID != $list['transacao_id']) || ($contaID!=$list['conta_id'])) && $tID!=0): ?>
 							<tr class="editaTransacao selected">
@@ -323,9 +312,6 @@
 							</tbody>
 					
 					<?php endif;?>
-				<?php else: ?>
-					<tbody>
-					</tbody>
 				<?php endif;?>
 				</table>
 				<div style="display:none">
@@ -334,7 +320,7 @@
 			</div>
 			<!-- Modal -->
 				<div id="importaTransacoes" class="modal fade">
-				  <div class="modal-dialog modal-lg">
+				  <div class="modal-dialog">
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -350,66 +336,17 @@
 									<span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> <?=lang('accounts_ofx_button');?>
 								</button>
 							</div>
-						</form>
-						<div id="OFX_Carregando" class="modal-body" style="width:100%;text-align:center;">
-							<div class="loader">
-							</div>
-						</div>
-						<form action="<?=base_url('importaOFX_final')?>" method="post" enctype="multipart/form-data">
 							<div id="OFX_Resultado" class="modal-body">
-								<div>
-									<div>
-									<strong>Importar em: <strong>
-									<br />
-									<select name="conta" id="importarNaConta" class="form-control">
-										<?php foreach ($contas as $conta): ?>
-											<option value="<?=$conta['id']?>" <?=($contaID == $conta['id'] ? "selected" : "")?>><?=$conta['conta_nome']?></option>
-										<?php endforeach;?>
-									</select>
-									</div>
-									<br />
-									<strong>Marque as transações que deseja importar:</strong>
-									<table class="table table-condensed" id="impOFX">
-										<thead>
-											<tr>
-												<th class="col-xs-2">Data</th>
-												<th class="col-xs-3">Sacado</th>
-												<th class="col-xs-3">Memo</th>
-												<th class="col-xs-2">Valor</th>
-												<th class="col-xs-2">Ação</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td colspan="5">Nada para importar!</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-								<input type="hidden" name="old_url" value="<?= base_url().$profileUID."/accounts" ?>">
+							</div>
+							<div class="modal-footer">
 								<button type="button" class="btn btn-default" data-dismiss="modal"><?=lang('accounts_button_close');?></button>
 								<button type="submit" type="button" class="btn btn-primary" id="btImportarFinal" disabled><?=lang('accounts_button_import');?></button>
 							</div>
 						</form>
-							<div class="modal-footer">
-								
-							</div>
-						
 					</div>
-					
 				</div>	
 		</div>	
 	</div>
 <!-- /#page-wrapper -->
 <!-- Script do APP -->
 <script src="<?= base_url() ?>assets/budget/js/account_lists.js"></script>
-<!-- Script Bootstrap Tables -->
-<script src="<?= base_url() ?>assets/budget/js/bootstrap-table.min.js"></script>
-<script src="<?= base_url() ?>assets/budget/js/bootstrap-table-locale-all.min.js"></script>
-<?php if (isset($search)) : ?>
-<script>
-$(document).ready(function(){
-    $('table').bootstrapTable('resetSearch','<?=$search?>')
-});
-</script>
-<?php endif; ?>
